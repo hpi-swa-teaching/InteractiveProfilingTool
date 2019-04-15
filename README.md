@@ -1,3 +1,1 @@
-# SWT19-Demo
-
-a demo
+# InteractiveProfilingTool [![Build Status](https://travis-ci.org/hpi-swa-teaching/InteractiveProfilingTool.svg?branch=master)](https://travis-ci.org/hpi-swa-teaching/InteractiveProfilingTool)\nGroup 17
