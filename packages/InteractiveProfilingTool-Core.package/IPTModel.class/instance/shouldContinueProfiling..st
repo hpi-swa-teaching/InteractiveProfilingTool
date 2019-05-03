@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 shouldContinueProfiling: aBoolean
 	shouldContinueProfiling := aBoolean
