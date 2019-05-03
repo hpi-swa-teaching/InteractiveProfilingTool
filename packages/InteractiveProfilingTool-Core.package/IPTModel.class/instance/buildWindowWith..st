@@ -6,5 +6,6 @@ buildWindowWith: aBuilder
 		model: self;
 		label: 'Profiler';
 		extent: 200@100;
+		closeAction: #stopProfiling;
 		yourself
 
