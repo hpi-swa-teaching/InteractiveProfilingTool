@@ -7,5 +7,9 @@
 		"setUp" : "TP 5/3/2019 23:58",
 		"testBuildButton" : "TP 5/4/2019 00:06",
 		"testBuildWindow" : "TP 5/4/2019 00:06",
-		"testButtonLabel" : "TP 5/4/2019 00:12",
+		"testButtonLabelWhenNotProfiling" : "TP 5/4/2019 00:29",
+		"testButtonLabelWhenProfiling" : "TP 5/4/2019 00:29",
+		"testStartProfiling" : "TP 5/4/2019 00:31",
+		"testStopProfiling" : "TP 5/4/2019 00:30",
+		"testToggleProfilingWhenNotProfiling" : "TP 5/4/2019 00:32",
 		"testWindowTitle" : "TP 5/4/2019 00:07" } }
