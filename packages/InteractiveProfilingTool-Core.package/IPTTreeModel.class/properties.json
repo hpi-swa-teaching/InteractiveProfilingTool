@@ -1,0 +1,14 @@
+{
+	"category" : "InteractiveProfilingTool-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"rootMessageTally" ],
+	"name" : "IPTTreeModel",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }
