@@ -1,5 +1,5 @@
 as yet unclassified
 testButtonLabelWhenProfiling
 	
-	model shouldContinueProfiling: true.
+	model isCurrentlyProfiling: true.
 	self assert: 'Stop Profiling' equals: model buttonLabel

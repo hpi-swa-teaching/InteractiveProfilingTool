@@ -1,6 +1,6 @@
 as yet unclassified
 testStopProfiling
 
-	model shouldContinueProfiling: true.
+	model isCurrentlyProfiling: true.
 	model stopProfiling.
-	self assert: false equals: model shouldContinueProfiling
+	self assert: false equals: model isCurrentlyProfiling
