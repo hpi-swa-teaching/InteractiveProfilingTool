@@ -1,6 +1,6 @@
-as yet unclassified
+user interface
 buildWindowWith: aBuilder
-	"comment stating purpose of message"
+	"Basis Window. Stops running profiling when closed."
 	
 	^ aBuilder pluggableWindowSpec new
 		model: self;

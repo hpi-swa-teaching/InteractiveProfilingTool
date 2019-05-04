@@ -1,6 +1,6 @@
-as yet unclassified
+user interface
 buildButtonWith: aBuilder
-	"comment stating purpose of message"
+	"Button that runs toggleProfiling when clicked with variable label."
 	
 	| frame |
 
