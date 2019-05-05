@@ -51,6 +51,13 @@ extrasMenuOn: aDockingBar
 						selector: #startMessageTally].
 				menu addItem:[:item|
 					item
+						contents: 'Open Profilerv2' translated;
+						help: 'Opens the Profiler' translated;
+						icon: MenuIcons smallTimerIcon;
+						target: IPTModel;
+						selector: #open].	
+				menu addItem:[:item|
+					item
 						contents: 'Collect Garbage' translated;
 						help: 'Run the garbage collector and report space usage' translated;
 						target: Utilities;
