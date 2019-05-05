@@ -2,12 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildWith:" : "A 5/4/2019 17:45",
-		"getChildrenOf:" : "A 5/4/2019 17:49",
-		"getLabelOf:" : "A 5/4/2019 17:51",
-		"getRoot" : "A 5/4/2019 17:56",
-		"hasChildren:" : "A 5/4/2019 17:51",
-		"initialize" : "A 5/4/2019 17:54",
-		"makeTreeSpec" : "A 5/4/2019 17:55",
-		"rootMessageTally" : "A 5/4/2019 17:48",
-		"rootMessageTally:" : "A 5/4/2019 17:48" } }
+		"buildTreeWith:" : "A 5/5/2019 11:36",
+		"buildWindowWith:" : "A 5/5/2019 11:36",
+		"buildWith:" : "A 5/5/2019 11:36",
+		"getChildren:" : "A 5/5/2019 11:37",
+		"hasChildren:" : "A 5/5/2019 11:37",
+		"label:" : "A 5/5/2019 11:37",
+		"roots" : "A 5/5/2019 11:37",
+		"roots:" : "A 5/5/2019 11:37" } }

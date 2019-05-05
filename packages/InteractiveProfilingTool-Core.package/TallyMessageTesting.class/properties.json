@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"roots" ],
-	"name" : "IPTTreeModel",
+		"isCurrentlyProfiling" ],
+	"name" : "TallyMessageTesting",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "Object",
 	"type" : "normal" }
