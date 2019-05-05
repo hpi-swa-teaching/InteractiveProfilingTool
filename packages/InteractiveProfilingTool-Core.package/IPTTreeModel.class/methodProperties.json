@@ -1,6 +1,7 @@
 {
 	"class" : {
-		 },
+		"open" : "A 5/5/2019 15:21",
+		"open:" : "A 5/5/2019 15:25" },
 	"instance" : {
 		"buildTreeWith:" : "A 5/5/2019 11:36",
 		"buildWindowWith:" : "A 5/5/2019 11:36",

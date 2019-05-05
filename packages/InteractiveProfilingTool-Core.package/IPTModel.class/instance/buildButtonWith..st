@@ -14,6 +14,7 @@ buildButtonWith: aBuilder
 	^ aBuilder pluggableButtonSpec new
 		model: self;
 		frame: frame;
-		label: 'Start Profiling';
+		label: #buttonLabel;
+		action: #toggleProfiling;
 		yourself
 
