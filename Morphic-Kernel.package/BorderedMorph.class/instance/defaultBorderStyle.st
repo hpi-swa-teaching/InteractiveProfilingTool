@@ -1,0 +1,3 @@
+initialization
+defaultBorderStyle
+	^ BorderStyle simple

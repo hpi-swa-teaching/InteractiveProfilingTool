@@ -1,0 +1,23 @@
+{
+	"category" : "Morphic-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"HaloForAll",
+		"IndicateKeyboardFocus",
+		"MetaMenuForAll",
+		"PreferredCornerRadius",
+		"UseSoftDropShadow" ],
+	"commentStamp" : "klc 3/14/2017 11:30",
+	"instvars" : [
+		"bounds",
+		"owner",
+		"submorphs",
+		"fullBounds",
+		"color",
+		"extension" ],
+	"name" : "Morph",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
