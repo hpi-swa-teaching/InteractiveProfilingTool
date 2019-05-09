@@ -1,4 +1,4 @@
 as yet unclassified
 testBuildWindow
 
-	self assert: 'PluggableWindowSpec' equals: self buildWindow className
+	self ensure: (self buildWindow) isValidSpec: 'PluggableWindowSpec'
