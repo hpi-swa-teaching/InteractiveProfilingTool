@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 ensure: aToolBuilderSpec isValidSpec: aSpecClass
 
 	self assert: aSpecClass equals: aToolBuilderSpec className.
