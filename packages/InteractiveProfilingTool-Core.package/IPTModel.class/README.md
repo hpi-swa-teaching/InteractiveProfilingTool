@@ -1,0 +1,1 @@
+An IPTModel is used to build the main user interface for the interactive profiling tool.

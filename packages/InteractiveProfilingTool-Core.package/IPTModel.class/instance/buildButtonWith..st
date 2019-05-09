@@ -1,6 +1,5 @@
-as yet unclassified
+user interface
 buildButtonWith: aBuilder
-	"comment stating purpose of message"
 	
 	| frame |
 

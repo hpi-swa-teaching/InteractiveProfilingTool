@@ -1,6 +1,5 @@
-as yet unclassified
+user interface
 buildWindowWith: aBuilder
-	"comment stating purpose of message"
 	
 	^ aBuilder pluggableWindowSpec new
 		model: self;

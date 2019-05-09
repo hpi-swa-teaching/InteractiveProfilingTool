@@ -1,6 +1,5 @@
-as yet unclassified
+user interface
 buildWith: aBuilder
-	"comment stating purpose of message"
 	| windowSpec buttonSpec |
 
 	windowSpec := self buildWindowWith: aBuilder.
