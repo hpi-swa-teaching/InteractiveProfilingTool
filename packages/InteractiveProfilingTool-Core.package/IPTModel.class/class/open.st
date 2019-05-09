@@ -1,5 +1,4 @@
 user interface
-open 
-	"comment stating purpose of message"
+open
 
 	ToolBuilder open: self new
