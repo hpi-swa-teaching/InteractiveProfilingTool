@@ -1,6 +1,5 @@
 user interface
 buildWindowWith: aBuilder
-	"Basis Window. Stops running profiling when closed."
 	
 	^ aBuilder pluggableWindowSpec new
 		model: self;

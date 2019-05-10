@@ -1,6 +1,7 @@
 profiling
 startProfiling
-	"Start Profiling of the whole world and indicate so in the View. Shows the report of the created MessageTally object when 	interrupted."
+	"Start Profiling of the whole world and indicate so in the View. Shows the report of
+	the created MessageTally object when interrupted."
 	| model messageTally |
 	
 	model := self.
