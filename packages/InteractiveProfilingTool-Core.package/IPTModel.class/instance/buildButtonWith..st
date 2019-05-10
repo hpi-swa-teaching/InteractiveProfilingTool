@@ -1,6 +1,5 @@
 user interface
 buildButtonWith: aBuilder
-	"Button that runs toggleProfiling when clicked with variable label."
 	
 	| frame |
 

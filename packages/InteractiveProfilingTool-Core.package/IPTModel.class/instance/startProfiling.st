@@ -2,17 +2,11 @@ profiling
 startProfiling
 	"Start Profiling of the whole world and indicate so in the View. Shows the report of
 	the created MessageTally object when interrupted."
-	| model messageTally |
 	
-	model := self.
+	| profilingResult |
 	
-	model isCurrentlyProfiling:  true.
-	model changed: #buttonLabel.
-
-	messageTally := MessageTally new.
-	messageTally 
-		spyEvery: MessageTally
-		defaultPollPeriod on:  [[model isCurrentlyProfiling] whileTrue: [Project current world doOneCycle]].
+	self isCurrentlyProfiling:  true.
+	self changed: #buttonLabel.
 	
-	MessageTally showReport: messageTally.
-	
+	profilingResult := self getMessageTally
+	"Implement functionality to display the report here."

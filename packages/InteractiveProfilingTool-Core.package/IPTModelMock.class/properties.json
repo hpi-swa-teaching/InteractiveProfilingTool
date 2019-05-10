@@ -1,0 +1,14 @@
+{
+	"category" : "InteractiveProfilingTool-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "LH 5/10/2019 20:04",
+	"instvars" : [
+		 ],
+	"name" : "IPTModelMock",
+	"pools" : [
+		 ],
+	"super" : "IPTModel",
+	"type" : "normal" }
