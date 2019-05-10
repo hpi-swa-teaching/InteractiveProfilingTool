@@ -1,10 +1,9 @@
 user interface
 buildWith: aBuilder
-	
-	| window button |
+	| windowSpec buttonSpec |
 
-	window := self buildWindowWith: aBuilder.
-	button := self buildButtonWith: aBuilder.
-	window children: { button }.
+	windowSpec := self buildWindowWith: aBuilder.
+	buttonSpec := self buildButtonWith: aBuilder.
+	windowSpec children: { buttonSpec }.
 
-	^ aBuilder build: window 
+	^ aBuilder build: windowSpec 

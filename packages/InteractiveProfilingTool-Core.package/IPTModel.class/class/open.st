@@ -1,4 +1,4 @@
 user interface
-open 
+open
 
 	ToolBuilder open: self new
