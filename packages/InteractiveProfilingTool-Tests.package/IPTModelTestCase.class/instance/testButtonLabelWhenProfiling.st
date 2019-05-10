@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testButtonLabelWhenProfiling
 	
 	model isCurrentlyProfiling: true.

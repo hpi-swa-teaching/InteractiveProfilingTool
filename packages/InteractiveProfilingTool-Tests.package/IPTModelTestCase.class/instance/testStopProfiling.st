@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testStopProfiling
 
 	model isCurrentlyProfiling: true.
