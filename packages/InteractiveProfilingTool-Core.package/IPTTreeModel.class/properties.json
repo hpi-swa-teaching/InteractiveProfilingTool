@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"roots" ],
+		"roots",
+		"total",
+		"totalTime" ],
 	"name" : "IPTTreeModel",
 	"pools" : [
 		 ],

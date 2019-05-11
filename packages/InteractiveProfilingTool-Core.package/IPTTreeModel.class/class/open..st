@@ -5,4 +5,6 @@ open: aTally
 	array at: 1 put: aTally.
 	tree := self new. 
 	tree roots: array.
+	tree total: aTally tally.
+	tree totalTime: aTally time.
 	ToolBuilder open: tree.
