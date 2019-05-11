@@ -1,3 +1,4 @@
-as yet unclassified
-totalTime: aTallyAttribute
-	totalTime := aTallyAttribute
+accessing
+totalTime: aMillisecondTimeValue
+
+	totalTime := aMillisecondTimeValue

@@ -1,3 +1,4 @@
-as yet unclassified
-getChildren: aTally
-	^aTally receivers
+model_access
+getChildren: aMessageTally
+
+	^ aMessageTally receivers

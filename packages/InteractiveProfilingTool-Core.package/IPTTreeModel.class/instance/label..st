@@ -1,9 +1,13 @@
-as yet unclassified
-label: aTully
-	|aSelector aClass percentage time|
+model_access
+label: aMessageTally
 
-	aSelector := (aTully method selector) asString.
-	aClass := (aTully method methodClass) asString.
-	percentage := aTully tally asFloat / total * 100.0.
-	time := (percentage printShowingDecimalPlaces: 1) asString , '% {' , ((percentage * totalTime / 100) rounded) asString, 'ms} '. 
-	^(time, aClass, ' >> ', aSelector)
+	|selector class absoluteTime percentageOfTotalTime timeFormattedForOutput |
+
+	selector := (aMessageTally method selector) asString.
+	class := (aMessageTally method methodClass) asString.
+	absoluteTime := aMessageTally tally asFloat.
+	percentageOfTotalTime := absoluteTime / self total * 100.0.
+	
+	timeFormattedForOutput := (percentageOfTotalTime printShowingDecimalPlaces: 1) asString , ' % {' , absoluteTime asString, ' ms} '. 
+
+	^(timeFormattedForOutput, class, ' >> ', selector)

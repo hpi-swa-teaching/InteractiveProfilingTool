@@ -1,3 +1,4 @@
-as yet unclassified
-total: aTullyAttribute
-	total := aTullyAttribute
+accessing
+total: aMillisecondTimeValue
+
+	total := aMillisecondTimeValue

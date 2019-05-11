@@ -1,3 +1,4 @@
-as yet unclassified
-roots: aArray
-	roots := aArray
+accessing
+roots: aCollection
+
+	roots := aCollection

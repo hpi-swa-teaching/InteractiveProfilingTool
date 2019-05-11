@@ -1,10 +1,12 @@
-as yet unclassified
-open: aTally
-	|array tree|
-	array := Array new: 1.
-	array at: 1 put: aTally.
+opening
+open: aMessageTally
+	
+	| tree |
+	
 	tree := self new. 
-	tree roots: array.
-	tree total: aTally tally.
-	tree totalTime: aTally time.
+	tree 
+		roots: (OrderedCollection with: aMessageTally);
+		total: aMessageTally tally;
+		totalTime: aMessageTally time.
+	
 	ToolBuilder open: tree.

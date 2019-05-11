@@ -1,17 +1,17 @@
 {
 	"class" : {
-		"open" : "A 5/5/2019 15:21",
-		"open:" : "A 5/11/2019 10:45" },
+		"open" : "twk 5/11/2019 11:27",
+		"open:" : "twk 5/11/2019 11:27" },
 	"instance" : {
-		"buildTreeWith:" : "A 5/5/2019 11:36",
-		"buildWindowWith:" : "A 5/5/2019 11:36",
-		"buildWith:" : "A 5/5/2019 11:36",
-		"getChildren:" : "A 5/5/2019 11:37",
-		"hasChildren:" : "A 5/5/2019 11:37",
-		"label:" : "A 5/11/2019 10:45",
-		"roots" : "A 5/5/2019 11:37",
-		"roots:" : "A 5/5/2019 11:37",
-		"total" : "A 5/11/2019 10:34",
-		"total:" : "A 5/11/2019 10:34",
-		"totalTime" : "A 5/11/2019 10:44",
-		"totalTime:" : "A 5/11/2019 10:47" } }
+		"buildTreeWith:" : "twk 5/11/2019 11:24",
+		"buildWindowWith:" : "twk 5/11/2019 11:24",
+		"buildWith:" : "twk 5/11/2019 11:25",
+		"getChildren:" : "twk 5/11/2019 11:38",
+		"hasChildren:" : "twk 5/11/2019 11:38",
+		"label:" : "twk 5/11/2019 11:43",
+		"roots" : "twk 5/11/2019 11:37",
+		"roots:" : "twk 5/11/2019 11:37",
+		"total" : "twk 5/11/2019 11:37",
+		"total:" : "twk 5/11/2019 11:38",
+		"totalTime" : "twk 5/11/2019 11:38",
+		"totalTime:" : "twk 5/11/2019 11:38" } }

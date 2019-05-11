@@ -1,3 +1,4 @@
-as yet unclassified
-hasChildren: aTully
-	^((aTully receivers) isEmpty not)
+model_access
+hasChildren: aMessageTally
+
+	^(aMessageTally receivers) isEmpty not

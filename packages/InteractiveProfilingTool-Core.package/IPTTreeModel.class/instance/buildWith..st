@@ -1,6 +1,6 @@
-as yet unclassified
+toolbuilder
 buildWith: aBuilder
-	"comment stating purpose of message"
+
 	| window tree |
 
 	window := self buildWindowWith: aBuilder.

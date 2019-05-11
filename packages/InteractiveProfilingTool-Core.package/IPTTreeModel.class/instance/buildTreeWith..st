@@ -1,5 +1,6 @@
-as yet unclassified
+toolbuilder
 buildTreeWith: aBuilder
+
 	^aBuilder pluggableTreeSpec new
 					model: self; 
 					roots: #roots;
