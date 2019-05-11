@@ -1,15 +1,14 @@
 {
-	"category" : "InteractiveProfilingTool-Core",
+	"category" : "InteractiveProfilingTool-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"roots",
-		"totalTime" ],
-	"name" : "IPTTreeModel",
+		"tallyObject" ],
+	"name" : "IPTTreeModelTestCase",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "TestCase",
 	"type" : "normal" }

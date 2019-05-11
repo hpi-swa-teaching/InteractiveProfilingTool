@@ -6,7 +6,9 @@ label: aMessageTally
 	selector := (aMessageTally method selector) asString.
 	class := (aMessageTally method methodClass) asString.
 	absoluteTime := aMessageTally tally asFloat.
-	percentageOfTotalTime := absoluteTime / self total * 100.0.
+	
+	self totalTime ifNil: [self totalTime: aMessageTally tally].
+	percentageOfTotalTime := absoluteTime / self totalTime * 100.0.
 	
 	timeFormattedForOutput := (percentageOfTotalTime printShowingDecimalPlaces: 1) asString , ' % {' , absoluteTime asString, ' ms} '. 
 

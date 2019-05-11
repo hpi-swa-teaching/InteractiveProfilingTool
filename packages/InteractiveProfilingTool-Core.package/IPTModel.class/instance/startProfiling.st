@@ -10,10 +10,9 @@ startProfiling
 
 	messageTally := MessageTally new.
 	messageTally 
-		spyEvery: MessageTally
-		defaultPollPeriod on:  [[model shouldContinueProfiling] whileTrue: [Project current world doOneCycle]].
+		spyEvery: MessageTally defaultPollPeriod 
+		on:  [[model shouldContinueProfiling] whileTrue: [Project current world doOneCycle]].
 	
-	self halt.
-	MessageTally showReport: messageTally.
+	"MessageTally showReport: messageTally."
 	IPTTreeModel open: messageTally.
 	
