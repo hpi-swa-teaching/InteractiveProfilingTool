@@ -1,4 +1,4 @@
 model_access
 hasChildren: aMessageTally
 
-	^(aMessageTally receivers) isEmpty not
+	^(self filterRelevantTimeNodes: (aMessageTally receivers)) isEmpty not

@@ -1,4 +1,4 @@
 model_access
 getChildren: aMessageTally
 
-	^ aMessageTally receivers
+	^ self filterRelevantTimeNodes: (aMessageTally receivers)

@@ -1,13 +1,15 @@
 {
 	"class" : {
+		"findRoot:" : "A 5/11/2019 19:38",
 		"open" : "twk 5/11/2019 11:27",
-		"open:" : "A 5/11/2019 13:58" },
+		"open:" : "A 5/11/2019 19:39" },
 	"instance" : {
 		"buildTreeWith:" : "twk 5/11/2019 11:24",
 		"buildWindowWith:" : "A 5/11/2019 14:43",
 		"buildWith:" : "twk 5/11/2019 11:25",
-		"getChildren:" : "twk 5/11/2019 11:38",
-		"hasChildren:" : "twk 5/11/2019 11:38",
+		"filterRelevantTimeNodes:" : "A 5/11/2019 19:56",
+		"getChildren:" : "A 5/11/2019 19:57",
+		"hasChildren:" : "A 5/11/2019 19:57",
 		"label:" : "A 5/11/2019 14:06",
 		"roots" : "twk 5/11/2019 11:37",
 		"roots:" : "twk 5/11/2019 11:37",

@@ -5,7 +5,7 @@ open: aMessageTally
 	
 	tree := self new. 
 	tree 
-		roots: (OrderedCollection with: aMessageTally);
+		roots: (OrderedCollection with: (self findRoot: aMessageTally));
 		totalTime: aMessageTally tally.
 	
 	ToolBuilder open: tree
