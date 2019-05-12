@@ -1,4 +1,7 @@
 tests
 testWindowTitle
 
-	self assert: 'Profiler' equals: self buildWindow label
+	| spec |
+	
+	spec := model buildWindowWith: builder.
+	self assert: 'Profiler' equals: spec label
