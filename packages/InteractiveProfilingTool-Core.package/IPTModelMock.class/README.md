@@ -1,1 +1,1 @@
-Mocks an `IPTModel` and overwrites the getMessageTally method. This is done because the method implementation in the super class starts an endless loop that cannot be interrupted without user input. Should be used in the test suite instead of an `IPTModel`.
+Mocks an `IPTModel` and overwrites the `getMessageTally` method. The method implementation in the super class starts an endless loop that cannot be interrupted without user input. This class' implementation returns a mocked `MessageTally` object without starting an endless loop for testing purposes.
