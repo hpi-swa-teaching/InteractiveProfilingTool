@@ -1,11 +1,12 @@
 profiling
 startProfiling
-	"Start Profiling of the whole world and indicate so in the View. Shows the report of
-	the created MessageTally object when interrupted."
+	"Start profiling of the whole world and ensure the view is updated
+	accordingly. May only be stopped by an interrupt from the user
+	that triggers `stopProfiling`. Show a report after completion."
 	
 	| profilingResult |
 	
-	self isCurrentlyProfiling:  true.
+	self isCurrentlyProfiling: true.
 	self changed: #buttonLabel.
 	
 	profilingResult := self getMessageTally
