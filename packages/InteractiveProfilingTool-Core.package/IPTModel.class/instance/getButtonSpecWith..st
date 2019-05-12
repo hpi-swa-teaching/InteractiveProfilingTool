@@ -1,5 +1,5 @@
 toolbuilder
-buildButtonWith: aBuilder
+getButtonSpecWith: aBuilder
 	
 	| frame |
 

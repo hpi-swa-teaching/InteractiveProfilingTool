@@ -1,7 +1,7 @@
 tests
-testBuildButton
+testButtonSpec
 
 	| spec |
 	
-	spec := model buildButtonWith: builder.
+	spec := model getButtonSpecWith: builder.
 	self ensure: spec isValidSpec: 'PluggableButtonSpec'

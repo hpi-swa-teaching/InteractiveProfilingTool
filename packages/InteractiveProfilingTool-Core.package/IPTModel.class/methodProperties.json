@@ -2,11 +2,11 @@
 	"class" : {
 		"open" : "TP 5/10/2019 01:52" },
 	"instance" : {
-		"buildButtonWith:" : "LH 5/10/2019 19:45",
-		"buildWindowWith:" : "LH 5/4/2019 22:56",
-		"buildWith:" : "TP 5/12/2019 14:22",
+		"buildWith:" : "TP 5/12/2019 14:46",
 		"buttonLabel" : "TP 5/12/2019 14:18",
+		"getButtonSpecWith:" : "TP 5/12/2019 14:46",
 		"getMessageTally" : "LH 5/10/2019 19:54",
+		"getWindowSpecWith:" : "TP 5/12/2019 14:46",
 		"isCurrentlyProfiling" : "TP 5/12/2019 14:18",
 		"isCurrentlyProfiling:" : "TP 5/12/2019 14:18",
 		"startProfiling" : "TP 5/12/2019 14:28",

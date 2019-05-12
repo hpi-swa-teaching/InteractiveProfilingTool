@@ -1,5 +1,5 @@
 toolbuilder
-buildWindowWith: aBuilder
+getWindowSpecWith: aBuilder
 	
 	^ aBuilder pluggableWindowSpec new
 		model: self;
