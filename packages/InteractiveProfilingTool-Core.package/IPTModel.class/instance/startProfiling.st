@@ -9,5 +9,5 @@ startProfiling
 	self isCurrentlyProfiling: true.
 	self changed: #buttonLabel.
 	
-	profilingResult := self getMessageTally
+	profilingResult := self spyOnWorld
 	"Implement functionality to display the report here."

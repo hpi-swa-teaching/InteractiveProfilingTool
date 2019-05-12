@@ -1,5 +1,5 @@
 profiling
-getMessageTally
+spyOnWorld
 
 	^ MessageTally new 
 		spyEvery: MessageTally defaultPollPeriod on:  [];
