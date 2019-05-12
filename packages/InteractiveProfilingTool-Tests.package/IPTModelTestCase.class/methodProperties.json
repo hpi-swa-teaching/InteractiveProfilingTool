@@ -10,5 +10,6 @@
 		"testStartProfiling" : "LH 5/10/2019 20:31",
 		"testStopProfiling" : "LH 5/4/2019 23:09",
 		"testToggleProfilingWhenNotProfiling" : "LH 5/10/2019 20:36",
+		"testToggleProfilingWhenProfiling" : "TP 5/12/2019 14:52",
 		"testWindowSpec" : "TP 5/12/2019 14:47",
 		"testWindowTitle" : "TP 5/12/2019 14:46" } }
