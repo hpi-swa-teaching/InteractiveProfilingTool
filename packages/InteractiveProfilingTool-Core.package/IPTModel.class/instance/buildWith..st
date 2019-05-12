@@ -1,5 +1,6 @@
-user interface
+toolbuilder
 buildWith: aBuilder
+
 	| windowSpec buttonSpec |
 
 	windowSpec := self buildWindowWith: aBuilder.

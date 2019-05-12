@@ -1,4 +1,7 @@
 tests
 testBuildWindow
 
-	self ensure: (self buildWindow) isValidSpec: 'PluggableWindowSpec'
+	| spec |
+	
+	spec := model buildWindowWith: builder.
+	self ensure: spec isValidSpec: 'PluggableWindowSpec'

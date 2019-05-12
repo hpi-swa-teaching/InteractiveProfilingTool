@@ -1,5 +1,6 @@
 profiling
 stopProfiling
-	"Interrupt a running Profiling and indicate so in the view."
+	"Interrupt a running profiling process"
+	
 	self isCurrentlyProfiling: false.
 	self changed: #buttonLabel
