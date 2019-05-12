@@ -1,5 +1,5 @@
 tests
 testStartProfiling
 
-	model startProfiling.
+	model profile.
 	self assert: true equals: model isCurrentlyProfiling

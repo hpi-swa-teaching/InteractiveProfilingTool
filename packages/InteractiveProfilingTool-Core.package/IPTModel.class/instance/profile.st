@@ -1,5 +1,5 @@
 profiling
-startProfiling
+profile
 	"Start Profiling of the whole world and indicate so in the View. Shows the report of
 	the created MessageTally object when interrupted."
 	
@@ -8,5 +8,6 @@ startProfiling
 	self isCurrentlyProfiling:  true.
 	self changed: #buttonLabel.
 	
-	profilingResult := self getMessageTally
-	"Implement functionality to display the report here."
+	profilingResult := self getMessageTally.
+	IPTTreeModel display: profilingResult
+	
