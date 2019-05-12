@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 buildButton
 
 	^ model buildButtonWith: builder

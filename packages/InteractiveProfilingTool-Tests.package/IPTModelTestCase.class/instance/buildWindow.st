@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 buildWindow
 
 	^ model buildWindowWith: builder

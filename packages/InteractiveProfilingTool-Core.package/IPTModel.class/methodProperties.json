@@ -1,13 +1,16 @@
 {
 	"class" : {
-		"open" : "LH 5/3/2019 10:49" },
+		"open" : "TP 5/10/2019 01:52" },
 	"instance" : {
-		"buildButtonWith:" : "TP 5/3/2019 15:40",
-		"buildWindowWith:" : "TP 5/4/2019 00:08",
-		"buildWith:" : "LH 5/3/2019 14:14",
-		"buttonLabel" : "TP 5/3/2019 23:41",
+		"buildButtonWith:" : "LH 5/10/2019 19:45",
+		"buildWindowWith:" : "LH 5/4/2019 22:56",
+		"buildWith:" : "TP 5/10/2019 01:43",
+		"buttonLabel" : "LH 5/4/2019 22:58",
+		"getMessageTally" : "LH 5/10/2019 19:54",
+		"isCurrentlyProfiling" : "LH 5/4/2019 22:48",
+		"isCurrentlyProfiling:" : "LH 5/4/2019 22:48",
 		"shouldContinueProfiling" : "TP 5/3/2019 15:33",
 		"shouldContinueProfiling:" : "TP 5/3/2019 15:43",
-		"startProfiling" : "twk 5/12/2019 14:27",
-		"stopProfiling" : "TP 5/3/2019 15:45",
-		"toggleProfiling" : "TP 5/3/2019 23:49" } }
+		"startProfiling" : "LH 5/10/2019 20:50",
+		"stopProfiling" : "LH 5/4/2019 22:53",
+		"toggleProfiling" : "LH 5/4/2019 22:49" } }

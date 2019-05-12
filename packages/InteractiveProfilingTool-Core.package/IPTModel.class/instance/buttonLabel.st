@@ -1,6 +1,5 @@
-as yet unclassified
+user interface
 buttonLabel
-
-	^ self shouldContinueProfiling
+	^ self isCurrentlyProfiling
 		ifTrue: [^ 'Stop Profiling']
 		ifFalse: [^ 'Start Profiling']

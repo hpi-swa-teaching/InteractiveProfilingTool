@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testBuildButton
 
-	self assert: 'PluggableButtonSpec' equals: self buildButton className
+	self ensure: (self buildButton) isValidSpec: 'PluggableButtonSpec'

@@ -1,5 +1,5 @@
-as yet unclassified
+running
 setUp
 
-	model := IPTModel new.
+	model := IPTModelMock new.
 	builder := ToolBuilder new

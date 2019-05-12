@@ -1,0 +1,1 @@
+Mocks an IPTModel and overwrites the getMessageTally method. This is done because the  method implementation in the super class starts an endless loop that cannot be interrupted without user input.

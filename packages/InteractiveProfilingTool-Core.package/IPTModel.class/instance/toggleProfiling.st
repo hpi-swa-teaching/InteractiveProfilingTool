@@ -1,6 +1,6 @@
-as yet unclassified
+profiling
 toggleProfiling
 
-	self shouldContinueProfiling
+	self isCurrentlyProfiling
 		ifTrue: [self stopProfiling]
 		ifFalse: [self startProfiling]

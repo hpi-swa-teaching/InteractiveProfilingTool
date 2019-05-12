@@ -1,5 +1,4 @@
-as yet unclassified
-open 
-	"comment stating purpose of message"
+user interface
+open
 
 	ToolBuilder open: self new

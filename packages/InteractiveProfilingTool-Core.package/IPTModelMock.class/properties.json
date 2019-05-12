@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "TP 5/10/2019 01:45",
+	"commentStamp" : "LH 5/10/2019 20:04",
 	"instvars" : [
-		"isCurrentlyProfiling" ],
-	"name" : "IPTModel",
+		 ],
+	"name" : "IPTModelMock",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "IPTModel",
 	"type" : "normal" }

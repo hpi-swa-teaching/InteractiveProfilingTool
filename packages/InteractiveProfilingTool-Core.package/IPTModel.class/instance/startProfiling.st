@@ -1,17 +1,12 @@
-as yet unclassified
+profiling
 startProfiling
+	"Start Profiling of the whole world and indicate so in the View. Shows the report of
+	the created MessageTally object when interrupted."
 	
-	| model messageTally |
+	| profilingResult |
 	
-	model := self.
+	self isCurrentlyProfiling:  true.
+	self changed: #buttonLabel.
 	
-	model shouldContinueProfiling: true.
-	model changed: #buttonLabel.
-
-	messageTally := MessageTally new.
-	messageTally 
-		spyEvery: MessageTally defaultPollPeriod 
-		on:  [[model shouldContinueProfiling] whileTrue: [Project current world doOneCycle]].
-	
-	MessageTally showReport: messageTally.
-	IPTTreeModel display: messageTally.
+	profilingResult := self getMessageTally
+	"Implement functionality to display the report here."
