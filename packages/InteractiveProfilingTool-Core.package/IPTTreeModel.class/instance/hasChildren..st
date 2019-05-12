@@ -1,4 +1,4 @@
-model_access
+model access
 hasChildren: aMessageTally
 
-	^(self filterRelevantTimeNodes: (aMessageTally receivers)) isEmpty not
+	^ (self getChildrenWithRelevantOverallPerformanceImpactFor: aMessageTally) isEmpty not

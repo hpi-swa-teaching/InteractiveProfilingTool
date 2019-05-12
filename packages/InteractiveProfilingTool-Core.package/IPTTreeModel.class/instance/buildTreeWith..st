@@ -1,7 +1,7 @@
 toolbuilder
 buildTreeWith: aBuilder
 
-	^aBuilder pluggableTreeSpec new
+	^ aBuilder pluggableTreeSpec new
 					model: self; 
 					roots: #roots;
 					getChildren: #getChildren:;

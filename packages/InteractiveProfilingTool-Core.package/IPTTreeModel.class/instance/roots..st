@@ -1,4 +1,4 @@
 accessing
-roots: aCollection
+roots: aCollectionOfMessageTallyObjects
 
-	roots := aCollection
+	roots := aCollectionOfMessageTallyObjects

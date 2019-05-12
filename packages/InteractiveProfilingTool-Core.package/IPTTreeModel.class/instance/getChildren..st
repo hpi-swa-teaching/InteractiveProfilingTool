@@ -1,4 +1,4 @@
-model_access
+model access
 getChildren: aMessageTally
 
-	^ self filterRelevantTimeNodes: (aMessageTally receivers)
+	^ self getChildrenWithRelevantOverallPerformanceImpactFor: aMessageTally

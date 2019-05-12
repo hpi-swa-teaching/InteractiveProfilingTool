@@ -1,15 +1,10 @@
-model_access
+model access
 label: aMessageTally
 
-	|selector class absoluteTime percentageOfTotalTime timeFormattedForOutput |
+	| selector class timeString |
 
-	selector := (aMessageTally method selector) asString.
-	class := (aMessageTally method methodClass) asString.
-	absoluteTime := aMessageTally tally asFloat.
-	
-	self totalTime ifNil: [self totalTime: aMessageTally tally].
-	percentageOfTotalTime := absoluteTime / self totalTime * 100.0.
-	
-	timeFormattedForOutput := (percentageOfTotalTime printShowingDecimalPlaces: 1) asString , ' % {' , absoluteTime asString, ' ms} '. 
+	selector := self getSelector: aMessageTally.
+	class := self getClass: aMessageTally.
+	timeString := self getTimeString: aMessageTally.
 
-	^(timeFormattedForOutput, class, ' >> ', selector)
+	^ (timeString, class, ' >> ', selector)

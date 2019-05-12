@@ -14,4 +14,4 @@ startProfiling
 		on:  [[model shouldContinueProfiling] whileTrue: [Project current world doOneCycle]].
 	
 	MessageTally showReport: messageTally.
-	IPTTreeModel open: messageTally.
+	IPTTreeModel display: messageTally.
