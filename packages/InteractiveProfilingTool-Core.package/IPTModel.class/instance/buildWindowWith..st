@@ -1,4 +1,4 @@
-user interface
+toolbuilder
 buildWindowWith: aBuilder
 	
 	^ aBuilder pluggableWindowSpec new
