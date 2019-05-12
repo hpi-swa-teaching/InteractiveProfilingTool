@@ -4,9 +4,8 @@ findRootForUserCalls: aMessageTally
 	"Exclude the calls made by the profiler from the profiling results. 
 	Use breadth first search to find the first function call made by the user."
 	
-	| visited frontier next |
+	| frontier next |
 	
-	visited := Set new. 
 	frontier := Set with: aMessageTally.
 	
 	[frontier isEmpty not] whileTrue: [
@@ -15,11 +14,7 @@ findRootForUserCalls: aMessageTally
 				item receivers do: [:node | 
 						(node method selector asString =  'ensure:')
 							ifTrue: [^ node].
-						(visited includes: node) 
-							ifFalse: [visited add: node. next add: node]
-					]
-			 ].
-		frontier := next
-	]
+						next add: node]].
+		frontier := next]
 	
 	
