@@ -1,4 +1,4 @@
-user interface
+toolbuilder
 buttonLabel
 	^ self isCurrentlyProfiling
 		ifTrue: [^ 'Stop Profiling']

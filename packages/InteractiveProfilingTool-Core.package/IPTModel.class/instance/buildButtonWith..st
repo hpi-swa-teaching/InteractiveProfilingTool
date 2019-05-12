@@ -1,4 +1,4 @@
-user interface
+toolbuilder
 buildButtonWith: aBuilder
 	
 	| frame |

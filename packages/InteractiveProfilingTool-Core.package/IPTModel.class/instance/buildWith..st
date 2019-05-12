@@ -1,4 +1,4 @@
-user interface
+toolbuilder
 buildWith: aBuilder
 	| windowSpec buttonSpec |
 
