@@ -1,12 +1,12 @@
 display profiling results
 display: aMessageTally
 	
-	| tree messageTallyForUserCalls |
+	| tree rootMessageTallyForUserCalls |
 	
-	messageTallyForUserCalls := self findRootForUserCalls: aMessageTally.
+	rootMessageTallyForUserCalls := self findRootForUserCalls: aMessageTally.
 	
 	tree := self new
-		roots: (OrderedCollection with: messageTallyForUserCalls);
-		totalTime: messageTallyForUserCalls tally.
+		roots: (OrderedCollection with: rootMessageTallyForUserCalls);
+		totalTime: rootMessageTallyForUserCalls tally.
 	
 	ToolBuilder open: tree
