@@ -1,0 +1,4 @@
+tests
+testDisplayWithoutUserCalls
+
+	IPTTreeModel display: self getMessageTallyWithoutUserCalls

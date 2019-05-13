@@ -2,5 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"getMessageTallyWithoutUserCalls" : "A 5/13/2019 18:12",
 		"setUp" : "A 5/13/2019 17:21",
+		"testDisplayWithoutUserCalls" : "A 5/13/2019 18:13",
+		"testFindRootWithoutUserCalls" : "A 5/13/2019 18:15",
 		"testLabel" : "twk 5/12/2019 14:43" } }

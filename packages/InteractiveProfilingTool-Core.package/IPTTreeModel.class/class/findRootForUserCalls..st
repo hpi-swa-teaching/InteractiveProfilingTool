@@ -17,5 +17,5 @@ findRootForUserCalls: aMessageTally
 						next add: node]].
 		frontier := next].
 	
-	NotFound signal: 'The root node for user calls could not be found.'	
+	^ nil
 	
