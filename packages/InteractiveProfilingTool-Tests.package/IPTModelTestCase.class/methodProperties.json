@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"ensure:isValidSpec:" : "TP 5/10/2019 01:33",
+		"setUp" : "LH 5/10/2019 20:13",
+		"testButtonLabelWhenNotProfiling" : "TP 5/4/2019 00:29",
+		"testButtonLabelWhenProfiling" : "LH 5/4/2019 23:08",
+		"testButtonSpec" : "TP 5/12/2019 14:47",
+		"testStartProfiling" : "LH 5/10/2019 20:31",
+		"testStopProfiling" : "LH 5/4/2019 23:09",
+		"testToggleProfilingWhenNotProfiling" : "LH 5/10/2019 20:36",
+		"testToggleProfilingWhenProfiling" : "TP 5/12/2019 14:52",
+		"testWindowSpec" : "TP 5/12/2019 14:47",
+		"testWindowTitle" : "TP 5/12/2019 14:46" } }

@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"open" : "TP 5/10/2019 01:52" },
+	"instance" : {
+		"buildWith:" : "TP 5/12/2019 14:46",
+		"buttonLabel" : "TP 5/12/2019 14:18",
+		"getButtonSpecWith:" : "TP 5/12/2019 14:46",
+		"getWindowSpecWith:" : "TP 5/12/2019 14:46",
+		"isCurrentlyProfiling" : "TP 5/12/2019 14:18",
+		"isCurrentlyProfiling:" : "TP 5/12/2019 14:18",
+		"spyOnWorld" : "TP 5/12/2019 14:59",
+		"startProfiling" : "TP 5/12/2019 14:45",
+		"stopProfiling" : "TP 5/12/2019 14:19",
+		"toggleProfiling" : "LH 5/4/2019 22:49" } }

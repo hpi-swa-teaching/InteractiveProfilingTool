@@ -1,0 +1,1 @@
+`IPTModelMock` overwrites the `spyOnWorld` method. The method implementation in the super class starts an endless loop that cannot be interrupted without user input. This class' implementation returns a mocked `MessageTally` object for testing purposes, without actually spying on the world (and thus without the need for an endless loop.)
