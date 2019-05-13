@@ -4,7 +4,7 @@
 		"findRootForUserCalls:" : "twk 5/13/2019 13:27",
 		"open" : "twk 5/11/2019 11:27" },
 	"instance" : {
-		"buildTreeWith:" : "twk 5/13/2019 13:29",
+		"buildTreeWith:" : "twk 5/13/2019 13:33",
 		"buildWindowWith:" : "A 5/11/2019 14:43",
 		"buildWith:" : "twk 5/11/2019 11:25",
 		"callRelevancePercentage" : "twk 5/12/2019 13:51",
@@ -12,7 +12,7 @@
 		"getChildrenWithRelevantOverallPerformanceImpactFor:" : "twk 5/12/2019 13:52",
 		"getClass:" : "twk 5/12/2019 14:08",
 		"getRelativeTimeOf:" : "twk 5/12/2019 14:08",
-		"getReleveantChildren:" : "twk 5/13/2019 13:29",
+		"getRelevantChildren:" : "twk 5/13/2019 13:33",
 		"getSelector:" : "twk 5/12/2019 14:08",
 		"getTimeString:" : "twk 5/12/2019 14:08",
 		"hasRelevantChildren:" : "twk 5/13/2019 13:29",

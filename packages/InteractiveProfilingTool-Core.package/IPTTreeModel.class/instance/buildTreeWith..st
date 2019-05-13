@@ -4,7 +4,7 @@ buildTreeWith: aBuilder
 	^ aBuilder pluggableTreeSpec new
 					model: self; 
 					roots: #roots;
-					getReleveantChildren: #getReleveantChildren:;
+					getRelevantChildren: #getRelevantChildren:;
 					hasRelevantChildren: #hasRelevantChildren:;
 					label: #label:;
 					frame: ( LayoutFrame new 
