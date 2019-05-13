@@ -15,6 +15,7 @@ findRootForUserCalls: aMessageTally
 						(node method selector asString =  'ensure:')
 							ifTrue: [^ node].
 						next add: node]].
-		frontier := next]
+		frontier := next].
 	
+	NotFound signal: 'The root node for user calls could not be found.'	
 	
