@@ -4,8 +4,8 @@ buildTreeWith: aBuilder
 	^ aBuilder pluggableTreeSpec new
 					model: self; 
 					roots: #roots;
-					getChildrenWithRelevantPerformanceImpact: #getChildrenWithRelevantPerformanceImpact:;
-					hasChildrenWithRelevantPerformanceImpact: #hasChildrenWithRelevantPerformanceImpact:;
+					getChildren: #getChildrenWithRelevantPerformanceImpact:;
+					hasChildren: #hasChildrenWithRelevantPerformanceImpact:;
 					label: #label:;
 					frame: ( LayoutFrame new 
 								leftFraction: 0 offset: 0;
