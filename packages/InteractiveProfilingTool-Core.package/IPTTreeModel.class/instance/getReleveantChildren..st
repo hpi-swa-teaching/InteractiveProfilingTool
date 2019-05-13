@@ -1,4 +1,4 @@
 model access
-getChildren: aMessageTally
+getReleveantChildren: aMessageTally
 
 	^ self getChildrenWithRelevantOverallPerformanceImpactFor: aMessageTally

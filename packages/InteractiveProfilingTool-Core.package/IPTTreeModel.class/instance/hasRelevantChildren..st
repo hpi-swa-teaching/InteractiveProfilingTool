@@ -1,4 +1,4 @@
 model access
-hasChildren: aMessageTally
+hasRelevantChildren: aMessageTally
 
 	^ (self getChildrenWithRelevantOverallPerformanceImpactFor: aMessageTally) isEmpty not
