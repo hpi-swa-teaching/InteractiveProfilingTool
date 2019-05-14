@@ -1,4 +1,4 @@
 tests
 testDisplayWithoutUserCalls
 
-	IPTTreeModel display: self getMessageTallyWithoutUserCalls
+	self shouldnt: (IPTTreeModel display: self getMessageTallyWithoutUserCalls) raise: Error

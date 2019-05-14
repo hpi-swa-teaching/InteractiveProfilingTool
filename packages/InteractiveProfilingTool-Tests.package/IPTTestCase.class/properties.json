@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"tallyObject",
-		"tallyObjectTimeZero" ],
-	"name" : "IPTTreeModelTestCase",
+		 ],
+	"name" : "IPTTestCase",
 	"pools" : [
 		 ],
-	"super" : "IPTTestCase",
+	"super" : "TestCase",
 	"type" : "normal" }

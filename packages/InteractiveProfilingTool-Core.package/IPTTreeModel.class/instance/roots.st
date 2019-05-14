@@ -1,4 +1,4 @@
 accessing
 roots
 
-	^ roots
+	^ roots ifNil: [roots := OrderedCollection new]

@@ -7,4 +7,4 @@ label: aMessageTally
 	class := self getClass: aMessageTally.
 	timeString := self getTimeString: aMessageTally.
 
-	^ (timeString, class, ' >> ', selector)
+	^ (timeString, ' ', class, ' >> ', selector)

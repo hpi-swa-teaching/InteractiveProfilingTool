@@ -11,5 +11,5 @@
 	"name" : "IPTModelTestCase",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "IPTTestCase",
 	"type" : "normal" }

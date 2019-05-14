@@ -6,5 +6,4 @@ buildWith: aBuilder
 	window := self buildWindowWith: aBuilder.
 	tree := self buildTreeWith:  aBuilder.
 	window children: { tree }.
-
 	^ aBuilder build: window 

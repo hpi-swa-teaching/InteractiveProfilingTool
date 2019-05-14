@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"ensure:isValidSpec:" : "TP 5/10/2019 01:33",
 		"setUp" : "LH 5/10/2019 20:13",
 		"testButtonLabelWhenNotProfiling" : "TP 5/4/2019 00:29",
 		"testButtonLabelWhenProfiling" : "LH 5/4/2019 23:08",

@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"tallyObject",
-		"tallyObjectTimeZero" ],
-	"name" : "IPTTreeModelTestCase",
+		 ],
+	"name" : "InteractiveProfilingToolTestsServiceProvider",
 	"pools" : [
 		 ],
-	"super" : "IPTTestCase",
+	"super" : "ServiceProvider",
 	"type" : "normal" }

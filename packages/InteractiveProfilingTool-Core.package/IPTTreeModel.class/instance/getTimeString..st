@@ -5,6 +5,6 @@ getTimeString: aMessageTally
 	| absoluteTime relativeTime | 
 	
 	absoluteTime := self getAbsoluteTime: aMessageTally.
-	relativeTime := self getRelativeTimeOf: aMessageTally.
+	relativeTime := self getRelativeTime: aMessageTally.
 
-	^ (relativeTime printShowingDecimalPlaces: 1) asString , ' % {' , absoluteTime asString, ' ms} '. 
+	^ (relativeTime printShowingDecimalPlaces: 1) asString , ' % {' , absoluteTime asString, ' ms}'. 
