@@ -1,0 +1,4 @@
+baseline
+postLoad
+		
+	IPTModel registerInWorldMenu
