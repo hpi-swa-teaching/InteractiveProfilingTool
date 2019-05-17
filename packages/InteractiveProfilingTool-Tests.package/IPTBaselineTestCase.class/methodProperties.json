@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"isRegisteredToWorldMenu" : "LH 5/16/2019 13:19",
+		"testPostLoad" : "LH 5/16/2019 13:11",
+		"testRegisterInWorldMenu" : "LH 5/16/2019 13:07",
+		"unregisterFromWorlMenu" : "LH 5/16/2019 13:02" } }
