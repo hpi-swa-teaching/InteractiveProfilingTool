@@ -9,13 +9,13 @@ testHasChildrenWithRelevantPerformanceImpact
 	mockTallyChildB := MessageTallyMock new tally: 100.
 	mockTallyChildC := MessageTallyMock new tally: 0.
 	
-	mockTally := MessageTallyMock new recievers: {mockTallyChildA. mockTallyChildB. mockTallyChildC}.
+	mockTally := MessageTallyMock new receivers: {mockTallyChildA. mockTallyChildB. mockTallyChildC}.
 	self assert: (tree hasChildrenWithRelevantPerformanceImpact: mockTally).
 	
-	mockTally := MessageTallyMock new recievers: {mockTallyChildC}.
+	mockTally := MessageTallyMock new receivers: {mockTallyChildC}.
 	self deny: (tree hasChildrenWithRelevantPerformanceImpact: mockTally).
 	
-	mockTally := MessageTallyMock new recievers: {}.
+	mockTally := MessageTallyMock new receivers: {}.
 	self deny: (tree hasChildrenWithRelevantPerformanceImpact: mockTally)
 
 	

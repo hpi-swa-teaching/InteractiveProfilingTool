@@ -7,7 +7,7 @@ testGetChildrenWithRelevantPerformanceImpact
 	mockTallyChildB := MessageTallyMock new tally: 100.
 	mockTallyChildC := MessageTallyMock new tally: 0.
 	
-	mockTally := MessageTallyMock new recievers: {mockTallyChildA. mockTallyChildB. mockTallyChildC}.
+	mockTally := MessageTallyMock new receivers: {mockTallyChildA. mockTallyChildB. mockTallyChildC}.
 	
 	relevantChildrenExpected := {mockTallyChildA. mockTallyChildB}.
 	relevantChildrenActual := describedClass new getChildrenWithRelevantPerformanceImpact: mockTally.
