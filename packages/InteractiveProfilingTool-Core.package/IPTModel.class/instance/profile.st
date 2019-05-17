@@ -10,5 +10,5 @@ profile
 	self changed: #buttonLabel.
 	
 	profilingResult := self spyOnWorld.
-	IPTTreeModel display: profilingResult
+	self showReport: profilingResult
 	

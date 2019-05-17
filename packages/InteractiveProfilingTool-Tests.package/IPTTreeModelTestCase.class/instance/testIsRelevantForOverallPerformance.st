@@ -3,7 +3,7 @@ testIsRelevantForOverallPerformance
 
 	| mockTally tree |
 	
-	tree := IPTTreeModel new totalTime: 100.
+	tree := describedClass new totalTime: 100.
 	
 	mockTally := MessageTallyMock new tally: 5.
 	self assert: (tree isRelevantForOverallPerformance: mockTally).

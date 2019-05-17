@@ -3,5 +3,5 @@ testBuildWindowWith
 
 	| pluggableWindowSpecActual |
 	
-	pluggableWindowSpecActual := IPTTreeModel new buildWindowWith: ToolBuilder new.
+	pluggableWindowSpecActual := describedClass new buildWindowWith: ToolBuilder new.
 	self ensure: pluggableWindowSpecActual isValidSpec: 'PluggableWindowSpec'

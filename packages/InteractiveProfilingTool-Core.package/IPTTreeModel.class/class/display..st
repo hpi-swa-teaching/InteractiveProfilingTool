@@ -17,4 +17,4 @@ display: aMessageTally
 		roots: roots;
 		totalTime: totalTime.
 	
-	ToolBuilder open: tree
+	 self show: tree

@@ -3,7 +3,7 @@ testInitializeTotalTimeIfNecessary
 
 	| tree |
 	
-	tree := IPTTreeModel new.
+	tree := describedClass new.
 	
 	"case total time not set in tree"
 	tree initializeTotalTimeIfNecessaryUsing: tallyObjectTimeZero.
