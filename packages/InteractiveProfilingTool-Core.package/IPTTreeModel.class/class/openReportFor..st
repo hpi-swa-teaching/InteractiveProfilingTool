@@ -5,14 +5,14 @@ openReportFor: aMessageTally
 	
 	rootMessageTallyForUserCalls := self findRootForUserCalls: aMessageTally.
 	
-	roots := rootMessageTallyForUserCalls
-		ifNotNil: [{rootMessageTallyForUserCalls}]
-		ifNil: [{}].
-	
-	totalTime := rootMessageTallyForUserCalls
-		ifNotNil: [rootMessageTallyForUserCalls tally]
-		ifNil: [0].
-	
+	rootMessageTallyForUserCalls
+		ifNotNil: [
+			roots := {rootMessageTallyForUserCalls}.
+			totalTime := rootMessageTallyForUserCalls tally]
+		ifNil: [
+			roots := {}.
+			totalTime := 0].
+			
 	tree := self new
 		roots: roots;
 		totalTime: totalTime.

@@ -6,7 +6,7 @@ profile
 	
 	| messageTally |
 	
-	self isCurrentlyProfiling:  true.
+	self isCurrentlyProfiling: true.
 	self changed: #buttonLabel.
 	
 	messageTally := self spyOnWorld.
