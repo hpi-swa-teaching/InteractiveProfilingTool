@@ -1,4 +1,4 @@
 as yet unclassified
-show: aTree
+open: aTree
 
 	 ToolBuilder open: aTree

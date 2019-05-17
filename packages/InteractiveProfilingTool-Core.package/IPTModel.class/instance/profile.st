@@ -4,11 +4,10 @@ profile
 	accordingly. May only be stopped by an interrupt from the user
 	that triggers `stopProfiling`. Show a report after completion."
 	
-	| profilingResult |
+	| messageTally |
 	
 	self isCurrentlyProfiling:  true.
 	self changed: #buttonLabel.
 	
-	profilingResult := self spyOnWorld.
-	self showReport: profilingResult
-	
+	messageTally := self spyOnWorld.
+	self showReportFor: messageTally	

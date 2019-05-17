@@ -1,5 +1,5 @@
 display profiling results
-display: aMessageTally
+openReportFor: aMessageTally
 	
 	| tree rootMessageTallyForUserCalls roots totalTime |
 	
@@ -17,4 +17,4 @@ display: aMessageTally
 		roots: roots;
 		totalTime: totalTime.
 	
-	 self show: tree
+	 self open: tree
