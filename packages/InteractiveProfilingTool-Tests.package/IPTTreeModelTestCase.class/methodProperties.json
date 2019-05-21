@@ -2,13 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"getMessageTallyWithoutUserCalls" : "A 5/13/2019 18:12",
 		"setUp" : "LH 5/17/2019 10:11",
 		"testBuildTreeWith" : "LH 5/17/2019 10:16",
 		"testBuildWindowWith" : "LH 5/17/2019 10:11",
 		"testBuildWith" : "LH 5/17/2019 10:12",
-		"testDisplayWithoutUserCalls" : "LH 5/17/2019 14:18",
-		"testFindRootWithoutUserCalls" : "LH 5/17/2019 10:12",
+		"testDisplayWithoutUserCalls" : "LH 5/21/2019 14:29",
+		"testFindRootWithoutUserCalls" : "LH 5/21/2019 14:30",
 		"testGetAbsoluteTime" : "LH 5/17/2019 10:12",
 		"testGetChildrenWithRelevantPerformanceImpact" : "LH 5/17/2019 14:09",
 		"testGetClass" : "LH 5/17/2019 10:13",

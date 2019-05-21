@@ -1,4 +1,4 @@
 tests
 testDisplayWithoutUserCalls
 
-	self shouldnt: (describedClass openReportFor: self getMessageTallyWithoutUserCalls) raise: Error
+	self shouldnt: (describedClass openReportFor: tallyObjectTimeZero) raise: Error

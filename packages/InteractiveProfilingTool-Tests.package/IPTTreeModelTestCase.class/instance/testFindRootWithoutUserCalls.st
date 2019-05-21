@@ -3,5 +3,5 @@ testFindRootWithoutUserCalls
 	
 	| root |
 	
-	root := describedClass findRootForUserCalls: self getMessageTallyWithoutUserCalls.
+	root := describedClass findRootForUserCalls: tallyObjectTimeZero.
 	self assert: nil equals: root
