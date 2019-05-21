@@ -7,8 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"tallyObject",
-		"tallyObjectTimeZero",
-		"describedClass" ],
+		"tallyObjectNoCalls" ],
 	"name" : "IPTTreeModelTestCase",
 	"pools" : [
 		 ],

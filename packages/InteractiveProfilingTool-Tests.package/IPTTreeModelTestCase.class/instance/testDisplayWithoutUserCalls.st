@@ -1,4 +1,4 @@
 tests
 testDisplayWithoutUserCalls
 
-	self shouldnt: (describedClass openReportFor: tallyObjectTimeZero) raise: Error
+	self shouldnt: (IPTTreeModelMock openReportFor: tallyObjectNoCalls) raise: Error

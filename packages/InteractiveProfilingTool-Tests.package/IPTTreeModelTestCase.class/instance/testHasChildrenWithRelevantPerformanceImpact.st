@@ -3,7 +3,7 @@ testHasChildrenWithRelevantPerformanceImpact
 
 	| mockTally mockTallyChildA mockTallyChildB mockTallyChildC tree |
 	
-	tree := describedClass new totalTime: 100.
+	tree := IPTTreeModelMock new totalTime: 100.
 	
 	mockTallyChildA := MessageTallyMock new tally: 4.
 	mockTallyChildB := MessageTallyMock new tally: 100.

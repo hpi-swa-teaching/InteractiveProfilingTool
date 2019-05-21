@@ -3,5 +3,5 @@ testBuildTreeWith
 	
 	| pluggableTreeSpecActual |
 	
-	pluggableTreeSpecActual := describedClass new buildTreeWith: ToolBuilder new.
+	pluggableTreeSpecActual := IPTTreeModelMock new buildTreeWith: ToolBuilder new.
 	self ensure: pluggableTreeSpecActual isValidSpec: 'PluggableTreeSpec'

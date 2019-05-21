@@ -10,7 +10,7 @@ testGetChildrenWithRelevantPerformanceImpact
 	mockTally := MessageTallyMock new receivers: {mockTallyChildA. mockTallyChildB. mockTallyChildC}.
 	
 	relevantChildrenExpected := {mockTallyChildA. mockTallyChildB}.
-	relevantChildrenActual := describedClass new getChildrenWithRelevantPerformanceImpact: mockTally.
+	relevantChildrenActual := IPTTreeModelMock new getChildrenWithRelevantPerformanceImpact: mockTally.
 	
 	self assert: relevantChildrenExpected = relevantChildrenActual
 	
