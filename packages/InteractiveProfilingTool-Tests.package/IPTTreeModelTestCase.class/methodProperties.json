@@ -18,4 +18,5 @@
 		"testHasChildrenWithRelevantPerformanceImpact" : "LH 5/17/2019 14:09",
 		"testInitializeTotalTimeIfNecessary" : "LH 5/17/2019 10:14",
 		"testIsRelevantForOverallPerformance" : "LH 5/17/2019 10:14",
-		"testLabel" : "twk 5/21/2019 14:20" } }
+		"testLabelFormat" : "twk 5/21/2019 14:24",
+		"testLabelMethodCallNameExtractedCorrectly" : "twk 5/21/2019 14:25" } }
