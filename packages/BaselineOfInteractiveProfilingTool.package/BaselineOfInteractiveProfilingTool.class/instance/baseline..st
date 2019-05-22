@@ -16,5 +16,6 @@ baseline: spec
 			spec
 				group: 'default' with: #('InteractiveProfilingTool-Core');
 				group: 'tests' with: #('InteractiveProfilingTool-Tests')];
-				yourself
-				
+				yourself.
+	spec
+		postLoadDoIt: #postLoad
