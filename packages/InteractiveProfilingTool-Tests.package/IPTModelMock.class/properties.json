@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "TP 5/12/2019 14:55",
 	"instvars" : [
-		"model",
-		"builder" ],
-	"name" : "IPTModelTestCase",
+		 ],
+	"name" : "IPTModelMock",
 	"pools" : [
 		 ],
-	"super" : "IPTTestCase",
+	"super" : "IPTModel",
 	"type" : "normal" }

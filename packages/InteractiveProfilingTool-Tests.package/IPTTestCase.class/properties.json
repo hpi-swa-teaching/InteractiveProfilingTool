@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"model",
-		"builder" ],
-	"name" : "IPTModelTestCase",
+		 ],
+	"name" : "IPTTestCase",
 	"pools" : [
 		 ],
-	"super" : "IPTTestCase",
+	"super" : "TestCase",
 	"type" : "normal" }

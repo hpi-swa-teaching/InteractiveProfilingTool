@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"model",
-		"builder" ],
-	"name" : "IPTModelTestCase",
+		"tallyObject",
+		"tallyObjectNoCalls" ],
+	"name" : "IPTTreeModelTestCase",
 	"pools" : [
 		 ],
 	"super" : "IPTTestCase",

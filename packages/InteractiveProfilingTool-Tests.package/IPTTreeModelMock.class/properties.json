@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"model",
-		"builder" ],
-	"name" : "IPTModelTestCase",
+		 ],
+	"name" : "IPTTreeModelMock",
 	"pools" : [
 		 ],
-	"super" : "IPTTestCase",
+	"super" : "IPTTreeModel",
 	"type" : "normal" }

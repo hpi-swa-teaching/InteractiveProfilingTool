@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"model",
-		"builder" ],
-	"name" : "IPTModelTestCase",
+		 ],
+	"name" : "MessageTallyMock",
 	"pools" : [
 		 ],
-	"super" : "IPTTestCase",
+	"super" : "MessageTally",
 	"type" : "normal" }
