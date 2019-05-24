@@ -1,4 +1,4 @@
 accessing
 messageTallyRoot: anObject
 
-	messageTallyRoot := anObject.
+	messageTally := anObject.

@@ -1,4 +1,4 @@
 accessing
 messageTallyRoot
 
-	^ messageTallyRoot
+	^ messageTally

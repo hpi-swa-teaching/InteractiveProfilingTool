@@ -2,5 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"messageTallyRoot" : "twk 5/24/2019 11:30",
-		"messageTallyRoot:" : "twk 5/24/2019 11:30" } }
+		"getAbsoluteTime" : "twk 5/24/2019 11:38",
+		"getChildrenWithRelevantPerformanceImpact:" : "twk 5/24/2019 11:35",
+		"getClass" : "twk 5/24/2019 11:33",
+		"getLabel" : "twk 5/24/2019 11:39",
+		"getRelativeTimeRegarding:" : "twk 5/24/2019 11:37",
+		"getSelector" : "twk 5/24/2019 11:34",
+		"getTimeString" : "twk 5/24/2019 11:34",
+		"hasChildrenWithRelevantPerformanceImpact:" : "twk 5/24/2019 11:39",
+		"messageTallyRoot" : "twk 5/24/2019 11:41",
+		"messageTallyRoot:" : "twk 5/24/2019 11:41" } }

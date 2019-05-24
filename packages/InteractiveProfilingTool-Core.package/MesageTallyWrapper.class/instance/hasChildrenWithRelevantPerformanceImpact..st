@@ -1,0 +1,4 @@
+information extraction
+hasChildrenWithRelevantPerformanceImpact: aNumericalPerformanceRelevanceLimit
+
+	^ (self getChildrenWithRelevantPerformanceImpact: aNumericalPerformanceRelevanceLimit) isEmpty not

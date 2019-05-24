@@ -1,10 +1,10 @@
-time calculations
-getTimeString: aMessageTally
+information extraction
+getTimeString
 	"Example return value: '10.0 % {3 ms}'"
 
 	| absoluteTime relativeTime | 
 	
-	absoluteTime := self getAbsoluteTime: aMessageTally.
-	relativeTime := self getRelativeTime: aMessageTally.
+	absoluteTime := self getAbsoluteTime: self messageTallyRoot.
+	relativeTime := self getRelativeTime: self. messageTallyRoot.
 
 	^ (relativeTime printShowingDecimalPlaces: 1) asString , ' % {' , absoluteTime asString, ' ms}'. 
