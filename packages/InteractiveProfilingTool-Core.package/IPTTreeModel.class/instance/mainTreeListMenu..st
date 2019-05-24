@@ -8,5 +8,5 @@ mainTreeListMenu: aMenu
 
 	aMenu addList: #(
 		"add keyboard shortcut"
-		('browse it' browseFull )).
+		('browse it' browseMethodCall )).
 	^ aMenu
