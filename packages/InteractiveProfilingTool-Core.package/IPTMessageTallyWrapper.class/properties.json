@@ -10,7 +10,7 @@
 		"receivers",
 		"totalTimeOfOverallTree",
 		"callRelevancePercentage" ],
-	"name" : "MessageTallyWrapper",
+	"name" : "IPTMessageTallyWrapper",
 	"pools" : [
 		 ],
 	"super" : "Object",

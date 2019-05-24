@@ -7,7 +7,7 @@ constructWrappedTreeWithRoot: aMessageTally
 	callRelevancePercentage := self new callRelevancePercentage.
 	
 	roots := {
-		MessageTallyWrapper constructTreeOfWrappedMessageTallys: aMessageTally 
+		IPTMessageTallyWrapper constructTreeOfWrappedMessageTallys: aMessageTally 
 			withTotalTime: totalTime 
 			andCallRelevanceLimit: callRelevancePercentage}.
 			
