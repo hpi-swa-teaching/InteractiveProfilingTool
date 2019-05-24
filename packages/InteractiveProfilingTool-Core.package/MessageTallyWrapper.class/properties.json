@@ -6,8 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"messageTally" ],
-	"name" : "MesageTallyWrapper",
+		"messageTally",
+		"receivers" ],
+	"name" : "MessageTallyWrapper",
 	"pools" : [
 		 ],
 	"super" : "Object",
