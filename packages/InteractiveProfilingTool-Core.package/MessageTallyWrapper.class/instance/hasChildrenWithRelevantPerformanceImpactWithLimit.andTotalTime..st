@@ -1,5 +1,0 @@
-information extraction
-hasChildrenWithRelevantPerformanceImpactWithLimit: aNumericalPerformanceRelevanceLimit andTotalTime: aTotalTimeValue
-
-	^ (self getChildrenWithRelevantPerformanceImpactWithLimit: aNumericalPerformanceRelevanceLimit andTotalTime: aTotalTimeValue) 
-		isEmpty not

@@ -1,10 +1,10 @@
 information extraction
-getLabel: aTotalTimeValue
+getLabel
 
 	| selector class timeString |
 
 	selector := self getSelector.
 	class := self getClass.
-	timeString := self getTimeString: aTotalTimeValue.
+	timeString := self getTimeString.
 
 	^ (timeString, ' ', class, ' >> ', selector)

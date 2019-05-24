@@ -7,8 +7,11 @@ openReportFor: aMessageTally
 	
 	rootMessageTallyForUserCalls
 		ifNotNil: [
-			roots := {MessageTallyWrapper constructTreeOfWrappedMessageTallys: rootMessageTallyForUserCalls}.
-			totalTime := roots first getAbsoluteTime]
+			totalTime := rootMessageTallyForUserCalls tally.
+			roots := {
+				MessageTallyWrapper constructTreeOfWrappedMessageTallys: rootMessageTallyForUserCalls 
+					withTotalTime: totalTime 
+					andCallRelevanceLimit: self new callRelevancePercentage}]
 		ifNil: [
 			roots := {}.
 			totalTime := 0].
