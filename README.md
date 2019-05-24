@@ -11,3 +11,4 @@ Metacello new
     repository: 'github://hpi-swa-teaching/InteractiveProfilingTool:master/packages';
     load.
 ```
+ 
