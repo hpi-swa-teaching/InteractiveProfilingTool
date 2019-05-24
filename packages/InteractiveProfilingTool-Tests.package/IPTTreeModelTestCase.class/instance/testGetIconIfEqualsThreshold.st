@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testGetIconIfEqualsThreshold
 
 	| model messageTally actual expected |
