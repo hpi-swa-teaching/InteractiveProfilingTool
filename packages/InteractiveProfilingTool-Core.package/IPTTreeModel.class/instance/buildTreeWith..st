@@ -8,4 +8,7 @@ buildTreeWith: aBuilder
 					hasChildren: #hasChildrenWithRelevantPerformanceImpact:;
 					label: #label:;
 					frame: self getFrame;
+					menu: #genericMenu:;
+					getSelected: #currentSelection;
+					setSelected: #currentSelection:;
 					yourself
