@@ -9,6 +9,6 @@ testGetIconIfEqualsThreshold
 	messageTally tally: 50.
 	model totalTime: 100.
 	
-	expected := ToolIcons testRedIcon bits.
+	expected := model runtimeIcon bits.
 	actual := (model getIcon: messageTally) bits.
 	self assert: expected equals: actual
