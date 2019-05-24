@@ -1,13 +1,13 @@
 tests
 testBrowseClassMethod
 	
-	| tally browser tree |
+	| tally browser tree tallyForClassMethodCall |
 	
 	tally := IPTTreeModelMock constructMessageTallyFrom: [IPTTreeModelMock computeSomething].
+	tallyForClassMethodCall := tally receivers first.
 	
 	tree := IPTTreeModelMock new 
-		currentSelection: tally receivers first.
-	
+		currentSelection: tallyForClassMethodCall.
 	browser := tree browseMethodCall.
 	
 	[self assert: browser selectedMessageName = #constructMessageTallyFrom:. 
