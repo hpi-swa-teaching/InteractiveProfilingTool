@@ -3,12 +3,7 @@ testInitializeTotalTimeIfNecessary
 
 	| tree |
 	
-	tree := IPTTreeModel new.
+	tree := IPTTreeModelMock new.
 	
-	"case total time not set in tree"
-	tree initializeTotalTimeIfNecessaryUsing: tallyObjectTimeZero.
-	self assert: tree totalTime = 0.
-	
-	"case toatal time already set in tree"
-	tree initializeTotalTimeIfNecessaryUsing: tallyObject.
+	tree initializeTotalTimeIfNecessaryUsing: tallyObjectNoCalls.
 	self assert: tree totalTime = 0

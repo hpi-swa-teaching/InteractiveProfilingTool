@@ -11,11 +11,10 @@ findRootForUserCalls: aMessageTally
 	[frontier isEmpty not] whileTrue: [
 		next := Set new.
 		frontier do: [:item |
-				item receivers do: [:node | 
-						(node method selector asString =  'ensure:')
-							ifTrue: [^ node].
-						next add: node]].
+			item receivers do: [:node | 
+				(node method selector asString =  'ensure:')
+					ifTrue: [^ node].
+				next add: node]].
 		frontier := next].
-	
 	^ nil
 	

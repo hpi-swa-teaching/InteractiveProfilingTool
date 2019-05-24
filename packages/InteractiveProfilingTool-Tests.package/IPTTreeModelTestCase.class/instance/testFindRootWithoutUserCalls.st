@@ -3,5 +3,5 @@ testFindRootWithoutUserCalls
 	
 	| root |
 	
-	root := IPTTreeModel findRootForUserCalls: self getMessageTallyWithoutUserCalls.
+	root := IPTTreeModelMock findRootForUserCalls: tallyObjectNoCalls.
 	self assert: nil equals: root

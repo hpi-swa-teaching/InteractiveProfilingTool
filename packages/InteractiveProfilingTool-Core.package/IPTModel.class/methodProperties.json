@@ -1,14 +1,16 @@
 {
 	"class" : {
-		"open" : "TP 5/10/2019 01:52" },
+		"open" : "TP 5/10/2019 01:52",
+		"registerInWorldMenu" : "LH 5/16/2019 11:47" },
 	"instance" : {
 		"buildWith:" : "TP 5/12/2019 14:46",
 		"buttonLabel" : "TP 5/12/2019 14:18",
 		"getButtonSpecWith:" : "TP 5/12/2019 14:46",
-		"getWindowSpecWith:" : "TP 5/12/2019 14:46",
+		"getWindowSpecWith:" : "LH 5/21/2019 14:58",
 		"isCurrentlyProfiling" : "TP 5/12/2019 14:18",
 		"isCurrentlyProfiling:" : "TP 5/12/2019 14:18",
-		"profile" : "twk 5/13/2019 13:48",
+		"profile" : "twk 5/17/2019 18:46",
+		"showReportFor:" : "LH 5/17/2019 14:48",
 		"spyOnWorld" : "TP 5/12/2019 14:59",
 		"stopProfiling" : "TP 5/12/2019 14:19",
 		"toggleProfiling" : "twk 5/12/2019 14:36" } }

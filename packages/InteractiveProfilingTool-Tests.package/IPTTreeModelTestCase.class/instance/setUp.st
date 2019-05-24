@@ -9,6 +9,6 @@ setUp
 	
 	node := MessageTally new.
 	result := node spyEvery: MessageTally defaultPollPeriod on: [].
-	tallyObjectTimeZero := node.
+	tallyObjectNoCalls := node.
 
 	

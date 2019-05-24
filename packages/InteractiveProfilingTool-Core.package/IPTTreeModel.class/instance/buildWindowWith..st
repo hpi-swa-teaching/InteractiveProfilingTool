@@ -3,6 +3,6 @@ buildWindowWith: aBuilder
 	
 	^ aBuilder pluggableWindowSpec new
 		model: self;
-		extent: 500@500;
-		label: 'Interactive Profiler';
+		extent: self defaultWindowExtent;
+		label: self defaultWindowLabel;
 		yourself

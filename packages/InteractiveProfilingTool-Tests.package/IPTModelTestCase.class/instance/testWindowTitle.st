@@ -4,4 +4,4 @@ testWindowTitle
 	| spec |
 	
 	spec := model getWindowSpecWith: builder.
-	self assert: 'Profiler' equals: spec label
+	self assert: 'Interactive Profiler' equals: spec label
