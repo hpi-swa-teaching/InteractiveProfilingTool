@@ -1,4 +1,4 @@
 information extraction
 getClass
 
-		^ (self messageTallyRoot method methodClass) asString.
+	^ (self messageTallyRoot method methodClass) asString.

@@ -1,23 +1,15 @@
 display profiling results
 openReportFor: aMessageTally
 	
-	| tree rootMessageTallyForUserCalls roots totalTime |
+	| tree rootMessageTallyForUserCalls roots |
 	
 	rootMessageTallyForUserCalls := self findRootForUserCalls: aMessageTally.
 	
 	rootMessageTallyForUserCalls
 		ifNotNil: [
-			totalTime := rootMessageTallyForUserCalls tally.
-			roots := {
-				MessageTallyWrapper constructTreeOfWrappedMessageTallys: rootMessageTallyForUserCalls 
-					withTotalTime: totalTime 
-					andCallRelevanceLimit: self new callRelevancePercentage}]
+			roots := self constructWrappedTreeWithRoot: rootMessageTallyForUserCalls]
 		ifNil: [
-			roots := {}.
-			totalTime := 0].
+			roots := {}].
 	
-	tree := self new
-		roots: roots;
-		totalTime: totalTime.
-	
+	tree := self new roots: roots.
 	 self open: tree

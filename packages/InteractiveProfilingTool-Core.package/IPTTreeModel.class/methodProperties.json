@@ -1,8 +1,9 @@
 {
 	"class" : {
+		"constructWrappedTreeWithRoot:" : "twk 5/24/2019 12:25",
 		"findRootForUserCalls:" : "twk 5/17/2019 18:46",
 		"open:" : "LH 5/17/2019 14:16",
-		"openReportFor:" : "twk 5/24/2019 12:15" },
+		"openReportFor:" : "twk 5/24/2019 12:23" },
 	"instance" : {
 		"buildTreeWith:" : "twk 5/17/2019 18:52",
 		"buildWindowWith:" : "twk 5/17/2019 18:54",
@@ -13,9 +14,6 @@
 		"getChildrenWithRelevantPerformanceImpact:" : "twk 5/24/2019 12:08",
 		"getFrame" : "twk 5/17/2019 18:52",
 		"hasChildrenWithRelevantPerformanceImpact:" : "twk 5/24/2019 12:08",
-		"initializeTotalTimeIfNecessaryUsing:" : "twk 5/12/2019 13:56",
 		"label:" : "twk 5/24/2019 12:08",
 		"roots" : "twk 5/14/2019 15:41",
-		"roots:" : "twk 5/12/2019 14:10",
-		"totalTime" : "twk 5/12/2019 14:09",
-		"totalTime:" : "twk 5/11/2019 11:38" } }
+		"roots:" : "twk 5/12/2019 14:10" } }

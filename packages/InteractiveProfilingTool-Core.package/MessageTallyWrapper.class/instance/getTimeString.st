@@ -7,4 +7,4 @@ getTimeString
 	absoluteTime := self getAbsoluteTime.
 	relativeTime := self getRelativeTime.
 
-	^ (relativeTime printShowingDecimalPlaces: 1) asString , ' % {' , absoluteTime asString, ' ms}'. 
+	^ self formatTimeStringWithAbsoluteTime: absoluteTime andRelativeTime: relativeTime. 
