@@ -1,0 +1,14 @@
+{
+	"category" : "InteractiveProfilingTool-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"messageTallyRoot" ],
+	"name" : "MesageTallyWrapper",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
