@@ -1,4 +1,4 @@
 information extraction
 getChildrenWithRelevantPerformanceImpact
 
-	^ self receivers select: [:node | node getRelativeTime > self callRelevancePercentage]
+	^ self receivers select: [:node | node isRelevantForPerformance]

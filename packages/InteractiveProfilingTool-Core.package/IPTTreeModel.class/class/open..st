@@ -1,4 +1,4 @@
-as yet unclassified
+display profiling results
 open: aTree
 
 	 ToolBuilder open: aTree
