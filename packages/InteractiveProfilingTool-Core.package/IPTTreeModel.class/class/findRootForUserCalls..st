@@ -1,4 +1,4 @@
-display profiling results
+helpers
 findRootForUserCalls: aMessageTally
 
 	"Exclude the calls made by the profiler from the profiling results. 

@@ -1,4 +1,4 @@
-display profiling results
+helpers
 constructWrappedTreeWithRoot: aMessageTally
 
 	| totalTime callRelevancePercentage roots |
