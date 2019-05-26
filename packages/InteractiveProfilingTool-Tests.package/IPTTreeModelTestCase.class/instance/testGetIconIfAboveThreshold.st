@@ -3,12 +3,15 @@ testGetIconIfAboveThreshold
 
 	| model messageTally expected actual |
 	
-	model := IPTTreeModelMock new. 
-	messageTally := MessageTallyMock new. 
-
-	messageTally tally: 51.
-	model totalTime: 100.
+	model := IPTTreeModelMock new
+		totalTime: 100;
+		yourself.
+		 
+	messageTally := MessageTallyMock new
+		tally: 51;
+		yourself. 
 	
-	expected := model runtimeIcon bits.
+	expected := model class highRuntimeIcon bits.
 	actual := (model getIcon: messageTally) bits.
+	
 	self assert: expected equals: actual

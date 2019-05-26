@@ -1,5 +1,5 @@
 icons
-runtimeIcon
+highRuntimeIcon
 
 	^ Form
 		extent: 12@12

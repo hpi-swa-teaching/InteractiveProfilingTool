@@ -1,6 +1,7 @@
 model access
 getIcon: aMessageTally
-	self highlightingThreshold <= (self getRelativeTime: aMessageTally) 
-		ifTrue: [^ self runtimeIcon]
+
+	(self shouldBeHighlighted: aMessageTally)
+		ifTrue: [^ self class highRuntimeIcon]
 		ifFalse: [^ nil]
 	
