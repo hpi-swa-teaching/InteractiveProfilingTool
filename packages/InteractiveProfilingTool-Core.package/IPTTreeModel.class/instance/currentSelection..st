@@ -1,6 +1,6 @@
 accessing
-currentSelection: anObject
+currentSelection: aNode
 
-	currentSelection := anObject.
+	currentSelection := aNode.
 	
 	self changed: #currentSelection
