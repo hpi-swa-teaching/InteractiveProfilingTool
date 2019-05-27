@@ -6,6 +6,7 @@ buildTreeWith: aBuilder
 					roots: #roots;
 					getChildren: #getChildrenWithRelevantPerformanceImpact:;
 					hasChildren: #hasChildrenWithRelevantPerformanceImpact:;
+					icon: #getIcon:;
 					label: #label:;
 					frame: self getFrame;
 					menu: #genericMenu:;
