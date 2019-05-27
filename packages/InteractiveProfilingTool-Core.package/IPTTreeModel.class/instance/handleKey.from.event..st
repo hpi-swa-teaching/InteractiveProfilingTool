@@ -1,5 +1,5 @@
 key handling
-explorerKey: aChar from: view event: event
+handleKey: aChar from: view event: event
 
 	event anyModifierKeyPressed ifFalse: [^ false].
 

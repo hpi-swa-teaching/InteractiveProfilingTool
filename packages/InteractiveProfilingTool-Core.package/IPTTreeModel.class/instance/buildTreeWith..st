@@ -11,5 +11,5 @@ buildTreeWith: aBuilder
 					menu: #genericMenu:;
 					getSelected: #currentSelection;
 					setSelected: #currentSelection:;
-					keyPress: #explorerKey:from:event:;
+					keyPress: #handleKey:from:event:;
 					yourself
