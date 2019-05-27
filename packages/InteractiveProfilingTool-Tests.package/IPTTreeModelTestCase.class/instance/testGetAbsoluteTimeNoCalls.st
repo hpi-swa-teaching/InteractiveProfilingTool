@@ -4,6 +4,6 @@ testGetAbsoluteTimeNoCalls
 	| timeActual |
 	
 	timeActual := IPTTreeModelMock new getAbsoluteTime: tallyObjectNoCalls.
-	self assert: timeActual = 0
+	self assert: timeActual equals: 0
 		
 	

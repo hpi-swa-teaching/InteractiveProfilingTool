@@ -7,4 +7,4 @@ testInitializeTotalTimeIfNecessaryTimeAlreadyInitialized
 	tree totalTime: -1.
 	
 	tree initializeTotalTimeIfNecessaryUsing: tallyObject.
-	self assert: tree totalTime = -1
+	self assert: (tree totalTime) equals: -1

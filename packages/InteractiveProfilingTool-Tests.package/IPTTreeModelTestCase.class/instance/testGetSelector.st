@@ -6,4 +6,4 @@ testGetSelector
 	selectorExpected := 'setUp'.
 	selectorActual := IPTTreeModelMock new getSelector: tallyObject.
 	
-	self assert: selectorActual = selectorExpected
+	self assert: selectorActual equals: selectorExpected

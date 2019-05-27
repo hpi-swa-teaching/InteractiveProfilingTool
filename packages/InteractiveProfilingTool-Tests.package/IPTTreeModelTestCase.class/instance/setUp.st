@@ -1,8 +1,8 @@
 running
 setUp
 
-	tallyObject := IPTTreeModelMock constructMessageTallyFrom: [5 timesRepeat: [Project current world doOneCycle]].
+	tallyObject := IPTTreeModelTestCase constructMessageTallyFrom: [5 timesRepeat: [Project current world doOneCycle]].
 
-	tallyObjectNoCalls := IPTTreeModelMock constructMessageTallyFrom: []
+	tallyObjectNoCalls := IPTTreeModelTestCase constructMessageTallyFrom: []
 
 	

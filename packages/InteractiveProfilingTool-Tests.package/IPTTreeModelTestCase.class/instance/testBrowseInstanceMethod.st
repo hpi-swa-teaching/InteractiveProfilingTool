@@ -9,6 +9,6 @@ testBrowseInstanceMethod
 		
 	browser := tree browseMethodCall.
 	
-	[self assert: browser selectedMessageName = #setUp.
-	self assert: browser selectedClassName = #IPTTreeModelTestCase.]
+	[self assert: (browser selectedMessageName) equals: #setUp.
+	self assert: (browser selectedClassName) equals: #IPTTreeModelTestCase.]
 		ensure: [browser dependents first delete]
