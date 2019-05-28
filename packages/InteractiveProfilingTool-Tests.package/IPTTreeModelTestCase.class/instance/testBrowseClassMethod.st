@@ -3,8 +3,8 @@ testBrowseClassMethod
 	
 	| tally browser tree tallyForClassMethodCall |
 	
-	tally := IPTTreeModelTestCase constructMessageTallyFrom: [IPTTreeModelTestCase computeSomething].
-	tallyForClassMethodCall := tally receivers first.
+	tally := IPTTreeModelTestCase constructMessageTallyFrom: [IPTTreeModelTestCase waitOneSecond].
+	tallyForClassMethodCall := tally receivers last.
 	
 	tree := IPTTreeModelMock new 
 		currentSelection: tallyForClassMethodCall.

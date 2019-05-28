@@ -1,10 +1,10 @@
 {
 	"class" : {
-		"computeSomething" : "twk 5/27/2019 10:44",
-		"constructMessageTallyFrom:" : "twk 5/27/2019 10:43" },
+		"constructMessageTallyFrom:" : "twk 5/27/2019 10:43",
+		"waitOneSecond" : "twk 5/28/2019 11:42" },
 	"instance" : {
 		"setUp" : "twk 5/27/2019 10:55",
-		"testBrowseClassMethod" : "twk 5/27/2019 10:56",
+		"testBrowseClassMethod" : "twk 5/28/2019 11:41",
 		"testBrowseInstanceMethod" : "twk 5/27/2019 10:51",
 		"testBrowseMethodCall" : "twk 5/24/2019 14:55",
 		"testBuildTreeWith" : "LH 5/21/2019 14:33",
@@ -16,11 +16,11 @@
 		"testGetAbsoluteTimeNoCalls" : "twk 5/27/2019 10:51",
 		"testGetChildrenWithRelevantPerformanceImpact" : "twk 5/27/2019 10:51",
 		"testGetClass" : "twk 5/27/2019 10:52",
-		"testGetRelativeTimeCanBeBelowOneHundred" : "twk 5/27/2019 10:52",
-		"testGetSelector" : "twk 5/27/2019 10:52",
 		"testGetIconIfAboveThreshold" : "TP 5/27/2019 00:56",
 		"testGetIconIfBelowThreshold" : "TP 5/27/2019 00:56",
 		"testGetIconIfEqualsThreshold" : "TP 5/27/2019 00:56",
+		"testGetRelativeTimeCanBeBelowOneHundred" : "twk 5/27/2019 10:52",
+		"testGetSelector" : "twk 5/27/2019 10:52",
 		"testGetTimeString" : "LH 5/21/2019 14:48",
 		"testHasChildrenWithRelevantPerformanceImpact" : "LH 5/21/2019 14:49",
 		"testInitializeTotalTimeIfNecessary" : "twk 5/27/2019 10:52",
