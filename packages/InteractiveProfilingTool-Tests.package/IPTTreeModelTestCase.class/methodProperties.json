@@ -1,10 +1,10 @@
 {
 	"class" : {
 		"constructMessageTallyFrom:" : "twk 5/27/2019 10:43",
-		"waitOneSecond" : "twk 5/28/2019 11:42" },
+		"doNothing" : "twk 5/28/2019 14:30" },
 	"instance" : {
 		"setUp" : "twk 5/27/2019 10:55",
-		"testBrowseClassMethod" : "twk 5/28/2019 11:41",
+		"testBrowseClassMethod" : "twk 5/28/2019 14:31",
 		"testBrowseInstanceMethod" : "twk 5/27/2019 10:51",
 		"testBrowseMethodCall" : "twk 5/24/2019 14:55",
 		"testBuildTreeWith" : "LH 5/21/2019 14:33",
