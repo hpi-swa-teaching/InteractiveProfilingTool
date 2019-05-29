@@ -1,4 +1,4 @@
 helpers
 getClass: aMessageTally
 
-	^ (aMessageTally method methodClass) asString.
+	^ aMessageTally method methodClass

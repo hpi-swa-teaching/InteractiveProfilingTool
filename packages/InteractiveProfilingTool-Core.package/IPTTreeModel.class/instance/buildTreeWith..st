@@ -9,4 +9,8 @@ buildTreeWith: aBuilder
 					icon: #getIcon:;
 					label: #label:;
 					frame: self getFrame;
+					menu: #genericMenu:;
+					getSelected: #currentSelection;
+					setSelected: #currentSelection:;
+					keyPress: #handleKey:from:event:;
 					yourself

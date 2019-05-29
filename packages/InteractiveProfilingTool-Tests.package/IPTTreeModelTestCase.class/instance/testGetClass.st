@@ -3,7 +3,7 @@ testGetClass
 
 	| classActual classExpected |
 	
-	classExpected := 'IPTTreeModelTestCase'.
+	classExpected := IPTTreeModelTestCase.
 	classActual := IPTTreeModelMock new getClass: tallyObject.
 	
-	self assert: classActual = classExpected
+	self assert: classActual equals: classExpected

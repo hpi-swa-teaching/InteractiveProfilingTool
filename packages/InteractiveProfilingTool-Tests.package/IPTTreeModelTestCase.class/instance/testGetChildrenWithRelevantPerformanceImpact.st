@@ -12,5 +12,5 @@ testGetChildrenWithRelevantPerformanceImpact
 	relevantChildrenExpected := {mockTallyChildA. mockTallyChildB}.
 	relevantChildrenActual := IPTTreeModelMock new getChildrenWithRelevantPerformanceImpact: mockTally.
 	
-	self assert: relevantChildrenExpected = relevantChildrenActual
+	self assert: relevantChildrenExpected equals: relevantChildrenActual
 	
