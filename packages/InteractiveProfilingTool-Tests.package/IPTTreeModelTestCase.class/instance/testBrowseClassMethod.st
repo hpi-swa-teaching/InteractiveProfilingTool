@@ -3,7 +3,7 @@ testBrowseClassMethod
 	
 	| browser tree method |
 
-	method := IPTTreeModelTestCase metaclass compiledMethodAt: #doNothing.
+	method := IPTTreeModelTestCase theMetaClass compiledMethodAt: #doNothing.
 	tree := IPTTreeModel new currentSelection: (MessageTallyMock new method: method).
 
 	browser := tree browseMethodCall.
