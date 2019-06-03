@@ -4,9 +4,9 @@ constructTreeOfWrappedMessageTallys: aRootMessageTally withTotalTime: aTotalTime
 	| wrappedNode |
 	
 	wrappedNode := IPTMessageTallyWrapper new 
-		messageTallyRoot: aRootMessageTally;
+		messageTally: aRootMessageTally;
 		totalTimeOfOverallTree: aTotalTimeValue;
 		callRelevancePercentage: aCallRelevancePercentage.
-	wrappedNode wrapRecievers.
+	wrappedNode wrapReceivers.
 
 	^ wrappedNode

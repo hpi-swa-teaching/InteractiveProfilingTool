@@ -1,4 +1,4 @@
 accessing
-totalTimeOfOverallTree: anObject
+totalTimeOfOverallTree: aNumber
 
-	totalTimeOfOverallTree := anObject.
+	totalTimeOfOverallTree := aNumber

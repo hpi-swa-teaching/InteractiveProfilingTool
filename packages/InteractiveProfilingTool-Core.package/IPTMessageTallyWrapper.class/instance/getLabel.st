@@ -3,8 +3,8 @@ getLabel
 
 	| selector class timeString |
 
-	selector := self getSelector.
-	class := self getClass.
+	selector := self getSelectorName.
+	class := self getClassName.
 	timeString := self getTimeString.
 
 	^ (timeString, ' ', class, ' >> ', selector)

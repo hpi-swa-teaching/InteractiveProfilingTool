@@ -1,4 +1,4 @@
 accessing
-callRelevancePercentage: anObject
+callRelevancePercentage: aNumber
 
-	callRelevancePercentage := anObject.
+	callRelevancePercentage := aNumber

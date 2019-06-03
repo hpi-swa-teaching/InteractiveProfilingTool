@@ -1,4 +1,4 @@
 information extraction
 getSelector
 
-	^ self messageTallyRoot method selector asString
+	^ self messageTally method selector

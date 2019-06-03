@@ -1,9 +1,9 @@
 wrapping
-wrapRecievers
+wrapReceivers
 	
 	| wrappedReceivers |
 	
-	wrappedReceivers := self messageTallyRoot receivers collect: [:node | 
+	wrappedReceivers := self messageTally receivers collect: [:node | 
 		IPTMessageTallyWrapper constructTreeOfWrappedMessageTallys: node 
 				withTotalTime: self totalTimeOfOverallTree 
 				andCallRelevanceLimit: self callRelevancePercentage].

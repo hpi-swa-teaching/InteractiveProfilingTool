@@ -1,4 +1,4 @@
 information extraction
 getAbsoluteTime
 
-	^ self messageTallyRoot tally asFloat
+	^ self messageTally tally asFloat

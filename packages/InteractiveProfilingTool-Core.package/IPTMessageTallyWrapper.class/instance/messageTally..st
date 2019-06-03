@@ -1,4 +1,4 @@
 accessing
-messageTally: anObject
+messageTally: aMessageTally
 
-	messageTally := anObject.
+	messageTally := aMessageTally

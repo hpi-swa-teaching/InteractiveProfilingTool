@@ -1,4 +1,4 @@
 accessing
-receivers: anObject
+receivers: aCollection
 
-	receivers := anObject.
+	receivers := aCollection
