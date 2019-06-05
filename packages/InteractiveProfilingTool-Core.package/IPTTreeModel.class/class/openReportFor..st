@@ -12,9 +12,12 @@ openReportFor: aMessageTally
 		ifNil: [
 			roots := {}.
 			totalTime := 0].
-			
+
 	tree := self new
 		roots: roots;
-		totalTime: totalTime.
+		totalTime: totalTime;
+		currentSelection: (roots at:1).
+		
+		
 	
 	 self open: tree

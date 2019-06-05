@@ -1,14 +1,8 @@
 running
 setUp
 
-	| node result |
+	tallyObject := IPTTreeModelTestCase constructMessageTallyFrom: [5 timesRepeat: [Project current world doOneCycle]].
 
-	node := MessageTally new.
-	result := node spyEvery: MessageTally defaultPollPeriod on: [5 timesRepeat: [Project current world doOneCycle]].
-	tallyObject := node.
-	
-	node := MessageTally new.
-	result := node spyEvery: MessageTally defaultPollPeriod on: [].
-	tallyObjectNoCalls := node.
+	tallyObjectNoCalls := IPTTreeModelTestCase constructMessageTallyFrom: []
 
 	
