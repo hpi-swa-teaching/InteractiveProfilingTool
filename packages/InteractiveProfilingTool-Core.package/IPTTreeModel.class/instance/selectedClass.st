@@ -1,4 +1,6 @@
 as yet unclassified
 selectedClass
 
-	^ self currentSelection method methodClass
+	self currentSelection
+	ifNotNil: [^ self currentSelection method methodClass]
+	ifNil: [^ nil]. 

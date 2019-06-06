@@ -15,9 +15,11 @@ openReportFor: aMessageTally
 
 	tree := self new
 		roots: roots;
-		totalTime: totalTime;
-		currentSelection: (roots at:1).
-		
-		
+		totalTime: totalTime.
 	
+	roots isEmpty
+		ifTrue: [tree currentSelection: nil]
+		ifFalse: [tree currentSelection: (roots at:1)].	
+		
+		
 	 self open: tree
