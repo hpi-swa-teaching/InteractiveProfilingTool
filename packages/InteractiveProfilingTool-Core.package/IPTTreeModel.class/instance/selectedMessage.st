@@ -1,4 +1,4 @@
-as yet unclassified
+code browser
 selectedMessage
 
 	self currentSelection

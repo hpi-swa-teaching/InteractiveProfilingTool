@@ -1,3 +1,3 @@
-as yet unclassified
+code browser
 windowTitle
 	^ 'Interactive Profiler'

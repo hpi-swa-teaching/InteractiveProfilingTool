@@ -1,4 +1,4 @@
-as yet unclassified
+code browser
 contents: aString notifying: aController 
 	"(This message is derived from MessageSet)
 	Compile the code in aString. Notify aController of any syntax errors. 

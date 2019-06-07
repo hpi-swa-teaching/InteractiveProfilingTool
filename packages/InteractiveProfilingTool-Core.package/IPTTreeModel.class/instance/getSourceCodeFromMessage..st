@@ -1,4 +1,4 @@
-as yet unclassified
+code browser
 getSourceCodeFromMessage: aMessageTally
 
 	| source class selector|

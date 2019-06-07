@@ -1,4 +1,0 @@
-constants
-defaultWindowLabel
-
-	^ 'Interactive Profiler'
