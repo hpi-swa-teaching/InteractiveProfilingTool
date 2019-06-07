@@ -1,6 +1,12 @@
 as yet unclassified
 selectedClass
 
-	self currentSelection
-	ifNotNil: [^ self currentSelection method methodClass]
-	ifNil: [^ nil]. 
+	self currentSelection 
+	ifNotNil: [
+		(self checkIfClassExists: self currentSelection )
+		ifTrue: 
+			[^ self currentSelection method methodClass theNonMetaClass]
+	]. 
+
+	^ nil
+	
