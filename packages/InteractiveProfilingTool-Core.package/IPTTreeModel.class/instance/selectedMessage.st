@@ -1,4 +1,9 @@
 as yet unclassified
 selectedMessage
 
-	^ self currentSelection method methodReference source
+	self currentSelection
+	ifNil: [^ nil].
+	
+	^ self getSourceCodeFromMessage: self currentSelection
+	
+	 

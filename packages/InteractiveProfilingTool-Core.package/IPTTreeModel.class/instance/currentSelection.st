@@ -2,3 +2,4 @@ accessing
 currentSelection
 
 	^ currentSelection
+	

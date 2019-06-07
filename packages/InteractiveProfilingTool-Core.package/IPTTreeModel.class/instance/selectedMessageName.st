@@ -1,4 +1,7 @@
 as yet unclassified
 selectedMessageName
 
-	^ self currentSelection method selector.
+	self currentSelection
+	ifNil: [^ nil].
+	
+	^ self currentSelection method selector

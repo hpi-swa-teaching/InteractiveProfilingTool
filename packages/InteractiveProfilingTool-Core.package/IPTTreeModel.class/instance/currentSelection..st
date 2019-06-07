@@ -3,4 +3,6 @@ currentSelection: aNode
 
 	currentSelection := aNode.
 	
-	self changed: #currentSelection
+	self changed: #currentSelection.
+	self changed: #style.
+	self contentsChanged.

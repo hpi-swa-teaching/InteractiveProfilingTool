@@ -9,6 +9,7 @@ contents: aString notifying: aController
 	self okayToAccept ifFalse: [^ false].
 	self setClassAndSelectorIn: [:c :os | class := c.  oldSelector := os].
 	class ifNil: [^ false].
+	
 	"Normal method accept"
 	category := class organization categoryOfElement: oldSelector.
 	selector := class compile: aString

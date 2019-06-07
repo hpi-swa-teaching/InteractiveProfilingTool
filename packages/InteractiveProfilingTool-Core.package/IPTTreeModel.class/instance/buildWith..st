@@ -1,13 +1,11 @@
 toolbuilder
 buildWith: aBuilder
 
-	| codePane window tree |
-
-	tree := self buildTreeWith:  aBuilder.
-	codePane := self buildCodePaneWith: aBuilder.
+	| windowSpec result|
 	
-	window := self buildWindowWith: aBuilder specs: {
-		(0@0 corner: 1@400) -> [self buildTreeWith:  aBuilder].
-		(0@400 corner: 1@1) -> [self buildCodePaneWith: aBuilder].
+	windowSpec := self buildWindowWith: aBuilder specs: {
+		(0@0 corner: 1@0.3) -> [self buildTreeWith:  aBuilder].
+		(0@0.3 corner: 1@1) -> [self buildCodePaneWith: aBuilder].
 	}.
-	^ aBuilder build: window 
+	result := aBuilder build: windowSpec.
+	^ result 
