@@ -3,7 +3,7 @@
 		"findRootForUserCalls:" : "twk 5/17/2019 18:46",
 		"highRuntimeIcon" : "TP 5/27/2019 00:53",
 		"open:" : "LH 5/17/2019 14:16",
-		"openReportFor:" : "A 6/8/2019 11:05" },
+		"openReportFor:" : "NP 6/9/2019 01:41" },
 	"instance" : {
 		"aboutToStyle:" : "A 6/8/2019 18:41",
 		"boundsOfLowerWindowHalf" : "A 6/8/2019 18:43",
@@ -36,6 +36,7 @@
 		"hasChildrenWithRelevantPerformanceImpact:" : "twk 5/13/2019 13:39",
 		"highlightingThreshold" : "A 5/24/2019 15:52",
 		"initializeTotalTimeIfNecessaryUsing:" : "twk 5/12/2019 13:56",
+		"initializeWithRootMessageTally:" : "NP 6/9/2019 01:40",
 		"isRelevantForOverallPerformance:" : "twk 5/14/2019 15:22",
 		"isStyleable" : "A 6/8/2019 18:40",
 		"label:" : "twk 5/24/2019 13:35",

@@ -33,6 +33,8 @@
 		"testHasChildrenWithRelevantPerformanceImpact" : "LH 5/21/2019 14:49",
 		"testInitializeTotalTimeIfNecessary" : "twk 5/27/2019 10:52",
 		"testInitializeTotalTimeIfNecessaryTimeAlreadyInitialized" : "twk 5/27/2019 10:53",
+		"testInitializeWithRootMessageTallyMocked" : "NP 6/9/2019 01:54",
+		"testInitializeWithRootMessageTallyNil" : "NP 6/9/2019 01:52",
 		"testIsRelevantForOverallPerformance" : "LH 5/21/2019 14:52",
 		"testLabelFormat" : "LH 5/21/2019 14:52",
 		"testLabelMethodCallNameExtractedCorrectly" : "LH 5/21/2019 14:52",

@@ -1,22 +1,12 @@
 display profiling results
 openReportFor: aMessageTally
 	
-	| tree rootMessageTallyForUserCalls roots totalTime |
+	| tree rootMessageTallyForUserCalls |
 	
 	rootMessageTallyForUserCalls := self findRootForUserCalls: aMessageTally.
-	
-	rootMessageTallyForUserCalls
-		ifNotNil: [
-			roots := {rootMessageTallyForUserCalls}.
-			totalTime := rootMessageTallyForUserCalls tally]
-		ifNil: [
-			roots := {}.
-			totalTime := 0].
 
 	tree := self new
-		roots: roots;
-		totalTime: totalTime.
-	
-	tree setInitialSelection.
+		initializeWithRootMessageTally: rootMessageTallyForUserCalls
+		setInitialSelection.
 			
 	self open: tree
