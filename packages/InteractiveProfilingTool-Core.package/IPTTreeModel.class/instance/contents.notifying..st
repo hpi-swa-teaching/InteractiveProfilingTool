@@ -6,8 +6,10 @@ contents: aString notifying: aController
 
 	| category selector class oldSelector |
 	self okayToAccept ifFalse: [^ false].
-	self setClassAndSelectorIn: [:c :os | class := c.  oldSelector := os].
+	class := self selectedClass.
 	class ifNil: [^ false].
+	
+	oldSelector := self selectedMessageName.
 
 	category := self getCategoryFromSelector: oldSelector inClass: class.
 	selector := self changeSourceCode: aString 
