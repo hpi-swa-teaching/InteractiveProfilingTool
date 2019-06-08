@@ -4,7 +4,7 @@ getSourceCodeFromMessage: aMessageTally
 	| source class selector|
 	
 	(self classExists: aMessageTally)
-	ifFalse: [^ 'Missing'].
+		ifFalse: [^ 'Missing'].
 	
 	class := self getClass: aMessageTally.
 	selector := aMessageTally method selector.
