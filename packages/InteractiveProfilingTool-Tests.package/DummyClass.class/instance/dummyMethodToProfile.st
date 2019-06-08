@@ -1,3 +1,4 @@
 as yet unclassified
 dummyMethodToProfile
-   	^ 1
+
+	^ 1

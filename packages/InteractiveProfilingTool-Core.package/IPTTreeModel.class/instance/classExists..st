@@ -1,7 +1,12 @@
 code browser
 classExists: aMessageTally
 
-	((self getClass: aMessageTally ) = nil)
+	| class |
+	
+	class := self getClass: aMessageTally.
+	
+	(class = nil)
 	ifTrue: [^ false].
-	^ Smalltalk includesKey: ((self getClass: aMessageTally) asString asSymbol) 
+	
+	^ self classExistsInSqueakEnvironment: class.
 	

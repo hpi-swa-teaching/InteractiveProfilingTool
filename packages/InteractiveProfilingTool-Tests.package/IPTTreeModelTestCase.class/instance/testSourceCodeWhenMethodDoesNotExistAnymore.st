@@ -1,20 +1,19 @@
 as yet unclassified
 testSourceCodeWhenMethodDoesNotExistAnymore
 
-	| messageTallyMock compiledMethod tree source |
+	| tallyMock compiledMethod tree source |
 	
 	compiledMethod := (DummyObject >> #dummyMethodToRemove).
 	
-	messageTallyMock := MessageTallyMock new.
-	messageTallyMock method: compiledMethod.
+	tallyMock := MessageTallyMock new.
+	tallyMock method: compiledMethod.
 	 
 	tree := IPTTreeModelMock new.
-	tree currentSelection: messageTallyMock.
+	tree currentSelection: tallyMock.
 		
 	DummyObject removeSelector: #dummyMethodToRemove.
 	source := tree selectedMessage.
 	
-	DummyObject compile: 'dummyMethodToRemove
-   	^ 1'.
+	DummyObject compile: self dummyMethodToRemoveSourceCode.
 	
 	self assert: source equals: 'Missing'

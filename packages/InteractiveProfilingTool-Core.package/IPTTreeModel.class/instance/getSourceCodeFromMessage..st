@@ -8,8 +8,8 @@ getSourceCodeFromMessage: aMessageTally
 	
 	class := self getClass: aMessageTally.
 	selector := aMessageTally method selector.
-	source := (class = UndefinedObject and: [selector = #DoIt]) 
-		ifTrue: ['DoIt', String cr, String cr, 'Missing']
+	source := (self checkIfSelectorIsTypeDoIt: selector inClass: class) 
+		ifTrue: [self defaultSourceCodeForDoITSelector]
 		ifFalse: [class sourceMethodAt: selector ifAbsent:['Missing']].
 	
 	^ source string

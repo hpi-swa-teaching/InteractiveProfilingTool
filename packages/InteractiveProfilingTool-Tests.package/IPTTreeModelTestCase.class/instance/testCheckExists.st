@@ -8,4 +8,4 @@ testCheckExists
 	tree := IPTTreeModelMock new.
 	tallyMock := MessageTallyMock new method: compiledMethod.
 	
-	self assert: (tree classExists: tallyMock).
+	self assert: (tree classExists: tallyMock)
