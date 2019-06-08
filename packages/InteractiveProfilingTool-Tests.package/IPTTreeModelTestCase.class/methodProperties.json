@@ -38,6 +38,7 @@
 		"testLabelMethodCallNameExtractedCorrectly" : "LH 5/21/2019 14:52",
 		"testRelativeTimeAtRoot" : "twk 5/27/2019 10:53",
 		"testSourceCodeWhenClassAndMethodExist" : "A 6/9/2019 00:33",
-		"testSourceCodeWhenClassDoesNotExistAnymore" : "A 6/8/2019 19:57",
+		"testSourceCodeWhenClassDoesNotExistAnymore" : "NP 6/9/2019 01:29",
 		"testSourceCodeWhenCurrentSelectionIsNil" : "A 6/8/2019 12:33",
-		"testSourceCodeWhenMethodDoesNotExistAnymore" : "A 6/8/2019 20:02" } }
+		"testSourceCodeWhenMethodDoesNotExistAnymore" : "NP 6/9/2019 01:28",
+		"treeFromCompiledMethod:" : "NP 6/9/2019 01:27" } }

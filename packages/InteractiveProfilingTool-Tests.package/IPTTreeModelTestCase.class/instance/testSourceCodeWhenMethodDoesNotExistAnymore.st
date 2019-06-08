@@ -1,16 +1,12 @@
 as yet unclassified
 testSourceCodeWhenMethodDoesNotExistAnymore
 
-	| tallyMock compiledMethod tree source |
+	| compiledMethod tree source |
 	
 	compiledMethod := (DummyObject >> #dummyMethodToRemove).
 	
-	tallyMock := MessageTallyMock new.
-	tallyMock method: compiledMethod.
-	 
-	tree := IPTTreeModelMock new.
-	tree currentSelection: tallyMock.
-		
+	tree := self treeFromCompiledMethod: compiledMethod.
+	
 	DummyObject removeSelector: #dummyMethodToRemove.
 	source := tree selectedMessage.
 	
