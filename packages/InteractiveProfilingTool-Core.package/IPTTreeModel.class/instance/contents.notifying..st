@@ -3,7 +3,7 @@ contents: aString notifying: aController
 	"Compile the code in aString. Notify aController of any syntax errors. 
 	Answer false if the compilation fails. Otherwise, if the compilation 
 	created a new method, deselect the current selection. Then answer true."
-
+	
 	| category selector class oldSelector |
 	self okayToAccept ifFalse: [^ false].
 	class := self selectedClass.

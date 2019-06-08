@@ -3,7 +3,7 @@ testSourceCodeWhenClassAndMethodExist
 
 	| compiledMethod tree source |
 	
-	compiledMethod :=  (BlockClosure >> #ensure:).
+	compiledMethod :=  (DummyObject >> #dummyMethod).
 		
 	tree := IPTTreeModelMock new.
 	tree currentSelection: MessageTallyMock new.

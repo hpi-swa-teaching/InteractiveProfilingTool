@@ -3,7 +3,7 @@ testCheckExists
 
 	| tree tallyMock compiledMethod |
 	
-	compiledMethod := (BlockClosure >> #ensure:).
+	compiledMethod := (DummyObject >> #dummyMethod).
 	
 	tree := IPTTreeModelMock new.
 	tallyMock := MessageTallyMock new method: compiledMethod.

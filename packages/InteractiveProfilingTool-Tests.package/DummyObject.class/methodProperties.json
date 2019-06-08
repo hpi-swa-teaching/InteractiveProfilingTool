@@ -2,4 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"dummyMethodToRemove" : "A 6/8/2019 23:36" } }
+		"dummyMethod" : "A 6/9/2019 00:21",
+		"dummyMethodToBeChanged" : "A 6/9/2019 00:33",
+		"dummyMethodToRemove" : "A 6/9/2019 00:33" } }
