@@ -3,9 +3,8 @@ testSourceCodeWhenCurrentSelectionIsNil
 
 	| tree |
 		
-	tree := IPTTreeModelMock new.
-	tree currentSelection: MessageTallyMock new.
+	tree := IPTTreeModelMock new
+		currentSelection: MessageTallyMock new;
+		currentSelection:  nil.		
 	
-	tree currentSelection: nil.
-	
-	self assert: nil equals: tree selectedMessage.
+	self assert: tree selectedMessage isNil

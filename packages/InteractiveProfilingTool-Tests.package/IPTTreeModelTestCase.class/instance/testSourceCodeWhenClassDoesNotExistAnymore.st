@@ -1,15 +1,13 @@
 as yet unclassified
 testSourceCodeWhenClassDoesNotExistAnymore
 
-	| messageTallyMock compiledMethod tree source |
+	| tallyMock compiledMethod tree source |
 	
-	compiledMethod := (DummyClass>>#dummyMethodToProfile).
+	compiledMethod := (DummyClass >> #dummyMethodToProfile).
 	
-	messageTallyMock := MessageTallyMock new.
-	messageTallyMock method: compiledMethod.
+	tallyMock := MessageTallyMock new method: compiledMethod.
 	 
-	tree := IPTTreeModelMock new.
-	tree currentSelection: messageTallyMock.
+	tree := IPTTreeModelMock new currentSelection: tallyMock.
 		
 	DummyClass removeFromSystem.
 	source := tree selectedMessage.
@@ -19,5 +17,4 @@ testSourceCodeWhenClassDoesNotExistAnymore
    	^ 1'.
 	
 	self assert: source equals: 'Missing'
-	
 	

@@ -5,4 +5,4 @@ currentSelection: aNode
 	
 	self changed: #currentSelection.
 	self changed: #style.
-	self contentsChanged.
+	self contentsChanged

@@ -3,9 +3,9 @@ selectedClass
 
 	self currentSelection 
 	ifNotNil: [
-		(self checkIfClassExists: self currentSelection )
+		(self classExists: self currentSelection )
 		ifTrue: 
-			[^ self currentSelection method methodClass theNonMetaClass]
+			[^ self getClass: self currentSelection]
 	]. 
 
 	^ nil

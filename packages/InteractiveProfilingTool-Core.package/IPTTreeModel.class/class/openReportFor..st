@@ -17,9 +17,6 @@ openReportFor: aMessageTally
 		roots: roots;
 		totalTime: totalTime.
 	
-	roots isEmpty
-		ifTrue: [tree currentSelection: nil]
-		ifFalse: [tree currentSelection: (roots at:1)].	
-		
-		
-	 self open: tree
+	tree setInitialSelection.
+			
+	self open: tree

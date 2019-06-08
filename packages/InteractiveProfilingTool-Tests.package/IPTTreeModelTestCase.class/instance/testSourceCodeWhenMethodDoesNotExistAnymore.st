@@ -3,7 +3,7 @@ testSourceCodeWhenMethodDoesNotExistAnymore
 
 	| messageTallyMock compiledMethod tree source |
 	
-	compiledMethod := (DummyObject>>#dummyMethodToRemove).
+	compiledMethod := (DummyObject >> #dummyMethodToRemove).
 	
 	messageTallyMock := MessageTallyMock new.
 	messageTallyMock method: compiledMethod.
@@ -18,5 +18,3 @@ testSourceCodeWhenMethodDoesNotExistAnymore
    	^ 1'.
 	
 	self assert: source equals: 'Missing'
-	
-	
