@@ -7,7 +7,7 @@ testChangeSourceCode
 	tallyMock := MessageTallyMock new method: compiledMethod.
 	tree := IPTTreeModelMock new currentSelection: tallyMock.
 	newSourceCode := self dummyMethodToBeChangedNewSourceCode.
-	pluggableTextMorph := PluggableTextMorph new. 
+	pluggableTextMorph := self createPluggableTextMorphMock. 
 	tree contents: newSourceCode notifying: pluggableTextMorph.
 	
 	sourceCode := compiledMethod methodReference source.

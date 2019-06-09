@@ -3,6 +3,7 @@
 		"constructMessageTallyFrom:" : "twk 5/27/2019 10:43",
 		"doNothing" : "twk 5/28/2019 14:30" },
 	"instance" : {
+		"createPluggableTextMorphMock" : "A 6/9/2019 11:55",
 		"dummyMethodToBeChangedNewSourceCode" : "A 6/9/2019 00:08",
 		"dummyMethodToBeChangedOldSourceCode" : "A 6/9/2019 00:07",
 		"dummyMethodToProfileSourceCode" : "A 6/8/2019 19:56",
@@ -14,7 +15,7 @@
 		"testBuildTreeWith" : "LH 5/21/2019 14:33",
 		"testBuildWindowWith" : "LH 5/21/2019 14:33",
 		"testBuildWith" : "LH 5/21/2019 14:33",
-		"testChangeSourceCode" : "A 6/9/2019 00:50",
+		"testChangeSourceCode" : "A 6/9/2019 11:56",
 		"testCheckExists" : "A 6/9/2019 00:32",
 		"testDisplayWithoutUserCalls" : "LH 5/21/2019 14:36",
 		"testFindRootWithoutUserCalls" : "LH 5/21/2019 14:37",
