@@ -1,4 +1,4 @@
 code browser
 checkIfCompilationFailed: aSelector
 
-	^ (aSelector == nil)
+	^ aSelector isNil

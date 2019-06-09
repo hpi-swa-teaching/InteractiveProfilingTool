@@ -5,8 +5,7 @@ buildWith: aBuilder
 	
 	windowSpec := self buildWindowWith: aBuilder specs: {
 		(self boundsOfUpperWindowHalf) -> [self buildTreeWith:  aBuilder].
-		(self boundsOfLowerWindowHalf) -> [self buildCodePaneWith: aBuilder].
-	}.
+		(self boundsOfLowerWindowHalf) -> [self buildCodePaneWith: aBuilder]}.
 	result := aBuilder build: windowSpec.
 	
 	^ result 

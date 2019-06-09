@@ -1,12 +1,10 @@
 tests
 testInitializeWithRootMessageTallyNil
 	
-	| tree messageTally |
-	
-	messageTally := MessageTallyMock new.
+	| tree |
 	
 	tree := IPTTreeModelMock new
 		initializeWithRootMessageTally: nil.
 	
 	self assert: tree roots equals: {}.
-	self assert: tree totalTime equals: 0.
+	self assert: tree totalTime equals: 0

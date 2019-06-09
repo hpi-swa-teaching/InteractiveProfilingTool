@@ -4,10 +4,10 @@ testSourceCodeWhenClassDoesNotExistAnymore
 	| compiledMethod tree source |
 	
 	compiledMethod := (DummyClass >> #dummyMethodToProfile).
-	
 	tree := self treeFromCompiledMethod: compiledMethod.
 		
 	DummyClass removeFromSystem.
+	
 	source := tree selectedMessage.
 	
 	ClassBuilder new 
@@ -21,4 +21,3 @@ testSourceCodeWhenClassDoesNotExistAnymore
 	DummyClass compile: self dummyMethodToProfileSourceCode.
 	
 	self assert: source equals: 'Missing'
-	

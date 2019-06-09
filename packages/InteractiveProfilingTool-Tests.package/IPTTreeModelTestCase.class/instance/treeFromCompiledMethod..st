@@ -5,7 +5,6 @@ treeFromCompiledMethod: aCompiledMethod
 	
 	tallyMock := MessageTallyMock new 
 		method: aCompiledMethod.
-	 
 	tree := IPTTreeModelMock new
 		currentSelection: tallyMock.
 		

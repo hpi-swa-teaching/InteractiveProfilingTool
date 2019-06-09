@@ -1,13 +1,11 @@
 as yet unclassified
 testSourceCodeWhenClassAndMethodExist
 
-	| compiledMethod tree source |
+	| compiledMethod tallyMock tree source |
 	
 	compiledMethod :=  (DummyObject >> #dummyMethod).
-		
-	tree := IPTTreeModelMock new.
-	tree currentSelection: MessageTallyMock new.
-	tree currentSelection method: compiledMethod.
+	tallyMock := MessageTallyMock new method: compiledMethod.
+	tree := IPTTreeModelMock new currentSelection: tallyMock.
 	
 	source := compiledMethod methodReference source.
 	

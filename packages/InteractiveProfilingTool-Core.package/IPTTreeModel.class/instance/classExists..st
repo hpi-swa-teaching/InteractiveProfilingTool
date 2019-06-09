@@ -4,9 +4,6 @@ classExists: aMessageTally
 	| class |
 	
 	class := self getClass: aMessageTally.
-	
-	(class = nil)
-	ifTrue: [^ false].
-	
+	class ifNil: [^ false].
 	^ self classExistsInSqueakEnvironment: class.
 	

@@ -5,19 +5,22 @@ contents: aString notifying: aController
 	created a new method, deselect the current selection. Then answer true."
 	
 	| category selector class oldSelector |
-	self okayToAccept ifFalse: [^ false].
-	class := self selectedClass.
-	class ifNil: [^ false].
 	
+	self okayToAccept ifFalse: [^ false].
+	
+	class := self selectedClass ifNil: [false].
 	oldSelector := self selectedMessageName.
-
 	category := self getCategoryFromSelector: oldSelector inClass: class.
+
 	selector := self changeSourceCode: aString 
 						inClass: class 
 						inCategory: category 
 						inform: aController.
 
-	(self checkIfCompilationFailed: selector) ifTrue: [^ false].
+	(self checkIfCompilationFailed: selector) 
+		ifTrue: [^ false].
+
 	self setContentInCodeHolder:  aString.
 	self changed: #annotation.
+
 	^ true

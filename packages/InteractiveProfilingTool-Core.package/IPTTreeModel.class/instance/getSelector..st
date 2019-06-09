@@ -1,4 +1,4 @@
 helpers
 getSelector: aMessageTally
 
-	^ (aMessageTally method selector) asString
+	^ aMessageTally method selector

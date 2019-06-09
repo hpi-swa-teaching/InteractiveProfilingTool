@@ -1,14 +1,15 @@
 as yet unclassified
 testChangeSourceCode
 
-	|sourceCode tallyMock tree newSourceCode pluggableTextMorph compiledMethod |
+	|sourceCode tree newSourceCode pluggableTextMorph compiledMethod |
 
 	compiledMethod := (DummyObject >> #dummyMethodToBeChanged).
-	tallyMock := MessageTallyMock new method: compiledMethod.
-	tree := IPTTreeModelMock new currentSelection: tallyMock.
 	newSourceCode := self dummyMethodToBeChangedNewSourceCode.
 	pluggableTextMorph := self createPluggableTextMorphMock. 
-	tree contents: newSourceCode notifying: pluggableTextMorph.
+	
+	tree := IPTTreeModelMock new 
+		currentSelection: (MessageTallyMock new method: compiledMethod);
+		contents: newSourceCode notifying: pluggableTextMorph.
 	
 	sourceCode := compiledMethod methodReference source.
 	

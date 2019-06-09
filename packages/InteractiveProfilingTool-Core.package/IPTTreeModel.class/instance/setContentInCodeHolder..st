@@ -1,5 +1,4 @@
 code browser
 setContentInCodeHolder: aString
 	
-	self contents: aString copy.
-	
+	self contents: aString copy

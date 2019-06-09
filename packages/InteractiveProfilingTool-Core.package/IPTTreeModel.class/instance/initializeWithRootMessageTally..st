@@ -3,10 +3,10 @@ initializeWithRootMessageTally: aMessageTally
 
 	aMessageTally
 		ifNotNil: [
-			self roots: {aMessageTally}.
-			self totalTime: aMessageTally tally]
+			self 
+				roots: {aMessageTally};
+				totalTime: aMessageTally tally]
 		ifNil: [
-			self roots: {}.
-			self totalTime: 0].
-
-	^ self
+			self
+				roots: {};
+				totalTime: 0]

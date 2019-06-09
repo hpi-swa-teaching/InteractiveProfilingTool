@@ -1,4 +1,4 @@
 code browser
 checkIfSelectorIsTypeDoIt: aSelector inClass: aClass
 	
-	^ (aClass = UndefinedObject and: [aSelector = #DoIt]) 
+	^ aClass = UndefinedObject and: [aSelector = #DoIt]
