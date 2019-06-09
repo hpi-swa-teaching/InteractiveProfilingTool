@@ -4,9 +4,9 @@ openReportFor: aMessageTally
 	| tree rootMessageTallyForUserCalls |
 	
 	rootMessageTallyForUserCalls := self findRootForUserCalls: aMessageTally.
-
+	
 	tree := self new
-		initializeWithRootMessageTally: rootMessageTallyForUserCalls
+		initializeWithRootMessageTally: rootMessageTallyForUserCalls;
 		setInitialSelection.
 			
 	self open: tree
