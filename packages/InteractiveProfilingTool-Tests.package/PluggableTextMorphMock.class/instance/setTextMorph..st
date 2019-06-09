@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 setTextMorph: aTextMorph 
 	
 	textMorph := aTextMorph

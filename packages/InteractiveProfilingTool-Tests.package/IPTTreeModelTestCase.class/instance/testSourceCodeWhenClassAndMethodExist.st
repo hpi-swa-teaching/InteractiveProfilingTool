@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testSourceCodeWhenClassAndMethodExist
 
 	| compiledMethod tallyMock tree source |

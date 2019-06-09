@@ -1,4 +1,4 @@
-as yet unclassified
+dummies
 dummyMethod
 	
 	^ 42

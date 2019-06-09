@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testSourceCodeWhenMethodDoesNotExistAnymore
 
 	| compiledMethod tree source |

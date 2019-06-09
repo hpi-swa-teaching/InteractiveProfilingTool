@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testGetSelectedClassWhenClassExist
 	
 	| tallyMock tree  compiledMethod class |

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testChangeSourceCode
 
 	|sourceCode tree newSourceCode pluggableTextMorph compiledMethod |
