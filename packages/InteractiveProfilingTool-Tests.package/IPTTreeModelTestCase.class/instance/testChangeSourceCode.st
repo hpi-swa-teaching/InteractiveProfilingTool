@@ -8,8 +8,8 @@ testChangeSourceCode
 	pluggableTextMorph := self createPluggableTextMorphMock. 
 	
 	tree := IPTTreeModelMock new 
-		currentSelection: (MessageTallyMock new method: compiledMethod);
-		contents: newSourceCode notifying: pluggableTextMorph.
+		currentSelection: (MessageTallyMock new method: compiledMethod).
+	tree contents: newSourceCode notifying: pluggableTextMorph.
 	
 	sourceCode := compiledMethod methodReference source.
 	
