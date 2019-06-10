@@ -1,4 +1,4 @@
 code browser
 defaultSourceCodeForDoITSelector
 
-	^ ('DoIt', String cr, String cr,  String tab,'Missing')
+	^ ('DoIt', String cr, String cr,  String tab, self defaultErrorMessage)
