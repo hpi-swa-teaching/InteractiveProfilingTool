@@ -3,7 +3,7 @@ label: aMessageTally
 
 	| selector class timeString |
 
-	selector := self getSelector: aMessageTally.
+	selector := self getSelectorName: aMessageTally.
 	class := (self getClass: aMessageTally) asString.
 	timeString := self getTimeString: aMessageTally.
 

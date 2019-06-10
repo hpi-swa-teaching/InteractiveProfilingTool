@@ -1,0 +1,4 @@
+code browser
+notifyAboutUpcomingRestyling: aPluggableShoutMorphOrView
+
+	aPluggableShoutMorphOrView classOrMetaClass: self selectedClass

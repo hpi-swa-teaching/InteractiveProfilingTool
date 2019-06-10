@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 tally: aMillisecondTimeValue
 
 	tally := aMillisecondTimeValue
