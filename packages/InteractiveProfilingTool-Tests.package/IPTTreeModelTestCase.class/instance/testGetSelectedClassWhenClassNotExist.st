@@ -1,11 +1,12 @@
 tests
 testGetSelectedClassWhenClassNotExist
 
-	| tallyMock compiledMethod tree class|
+	| tallyMock compiledMethod tree class sourceCode|
 	
 	compiledMethod := (DummyClass >> #dummyMethodToProfile).
 	tallyMock := MessageTallyMock new method: compiledMethod.
 	tree := IPTTreeModelMock new currentSelection: tallyMock.
+	sourceCode := self dummyMethodToProfileSourceCode.
 		
 	DummyClass removeFromSystem.
 	
@@ -19,6 +20,6 @@ testGetSelectedClassWhenClassNotExist
 		poolDictionaries: '' 
 		category: 'InteractiveProfilingTool-Tests'.
 	
-	DummyClass compile: self dummyMethodToProfileSourceCode.
+	DummyClass compile: sourceCode.
 	
 	self assert: class isNil

@@ -1,10 +1,11 @@
 tests
 testChangeSourceCode
 
-	|sourceCode tree newSourceCode pluggableTextMorph compiledMethod |
+	|sourceCode tree newSourceCode pluggableTextMorph compiledMethod oldSourceCode|
 
 	compiledMethod := (DummyObject >> #dummyMethodToBeChanged).
 	newSourceCode := self dummyMethodToBeChangedNewSourceCode.
+	oldSourceCode := self dummyMethodToBeChangedOldSourceCode.
 	pluggableTextMorph := self createPluggableTextMorphMock. 
 	
 	tree := IPTTreeModelMock new 
@@ -13,6 +14,6 @@ testChangeSourceCode
 	
 	sourceCode := compiledMethod methodReference source.
 	
-	DummyObject compile: self dummyMethodToBeChangedOldSourceCode.
+	DummyObject compile: oldSourceCode.
 	
 	self assert: sourceCode equals: newSourceCode

@@ -1,14 +1,15 @@
 tests
 testSourceCodeWhenClassDoesNotExistAnymore
 
-	| compiledMethod tree source |
+	| compiledMethod tree sourceCode sourceCodeFromDeletedMethod |
 	
 	compiledMethod := (DummyClass >> #dummyMethodToProfile).
 	tree := self treeFromCompiledMethod: compiledMethod.
+	sourceCodeFromDeletedMethod := self dummyMethodToProfileSourceCode.
 		
 	DummyClass removeFromSystem.
 	
-	source := tree selectedMessage.
+	sourceCode := tree selectedMessage.
 	
 	ClassBuilder new 
 		superclass: Object 
@@ -18,6 +19,6 @@ testSourceCodeWhenClassDoesNotExistAnymore
 		poolDictionaries: '' 
 		category: 'InteractiveProfilingTool-Tests'.
 	
-	DummyClass compile: self dummyMethodToProfileSourceCode.
+	DummyClass compile: sourceCodeFromDeletedMethod.
 	
-	self assert: source equals: 'Missing'
+	self assert: sourceCode equals: 'Missing'

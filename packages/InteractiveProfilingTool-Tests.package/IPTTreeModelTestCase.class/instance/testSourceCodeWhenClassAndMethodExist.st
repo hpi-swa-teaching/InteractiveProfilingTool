@@ -1,12 +1,12 @@
 tests
 testSourceCodeWhenClassAndMethodExist
 
-	| compiledMethod tallyMock tree source |
+	| compiledMethod tallyMock tree sourceCode |
 	
 	compiledMethod :=  (DummyObject >> #dummyMethod).
 	tallyMock := MessageTallyMock new method: compiledMethod.
 	tree := IPTTreeModelMock new currentSelection: tallyMock.
 	
-	source := compiledMethod methodReference source.
+	sourceCode := self dummyMethodSourceCode.
 	
-	self assert: source equals: tree selectedMessage.
+	self assert: sourceCode equals: tree selectedMessage.

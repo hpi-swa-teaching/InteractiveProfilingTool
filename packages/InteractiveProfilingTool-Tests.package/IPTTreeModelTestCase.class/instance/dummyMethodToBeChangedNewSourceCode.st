@@ -1,4 +1,4 @@
 helpers
 dummyMethodToBeChangedNewSourceCode
 
-	^ ('dummyMethodToBeChanged', String cr, String cr,  String tab, '^ 2')
+	^ ('dummyMethodToBeChanged', String cr,String tab, String cr, String tab, '^ 2')

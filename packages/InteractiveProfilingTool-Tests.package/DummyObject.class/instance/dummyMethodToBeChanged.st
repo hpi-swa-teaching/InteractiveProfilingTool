@@ -1,4 +1,4 @@
 dummies
 dummyMethodToBeChanged
-
+	
 	^ 1
