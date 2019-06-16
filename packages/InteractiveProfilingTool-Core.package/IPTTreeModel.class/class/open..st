@@ -1,4 +1,4 @@
-display profiling results
+user interface
 open: aTree
 
 	 ToolBuilder open: aTree

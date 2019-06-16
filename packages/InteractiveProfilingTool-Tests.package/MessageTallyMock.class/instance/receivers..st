@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 receivers: aCollection
 
 	receivers := aCollection

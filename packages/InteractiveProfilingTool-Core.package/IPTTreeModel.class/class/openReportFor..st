@@ -1,9 +1,12 @@
 display profiling results
 openReportFor: aMessageTally
 	
-	| tree roots |
+	| tree rootMessageTallyForUserCalls |
 	
-	roots := self constructTreeForUserCallsFrom: aMessageTally.
-	tree := self new roots: roots.
-	
-	 self open: tree
+	rootMessageTallyForUserCalls := self findRootForUserCalls: aMessageTally.
+
+	tree := self new
+		initializeWithRootMessageTally: rootMessageTallyForUserCalls;
+		setInitialSelection.
+			
+	self open: tree

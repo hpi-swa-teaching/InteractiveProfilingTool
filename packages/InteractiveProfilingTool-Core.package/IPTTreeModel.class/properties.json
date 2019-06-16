@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"roots" ],
+		"roots",
+		"totalTime",
+		"currentSelection" ],
 	"name" : "IPTTreeModel",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "CodeHolder",
 	"type" : "normal" }
