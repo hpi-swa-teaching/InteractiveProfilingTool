@@ -1,4 +1,4 @@
 accessing
 callRelevancePercentage
 
-	^ callRelevancePercentage
+	^ 1

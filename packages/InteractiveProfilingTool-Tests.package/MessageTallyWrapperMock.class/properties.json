@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"tallyObjectNoCalls",
-		"wrappedTally" ],
-	"name" : "IPTTreeModelTestCase",
+		"wrappedMessageTallyMock" ],
+	"name" : "MessageTallyWrapperMock",
 	"pools" : [
 		 ],
-	"super" : "IPTTestCase",
+	"super" : "IPTMessageTallyWrapper",
 	"type" : "normal" }

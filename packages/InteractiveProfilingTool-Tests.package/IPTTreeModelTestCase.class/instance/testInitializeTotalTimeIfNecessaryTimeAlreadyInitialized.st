@@ -6,5 +6,5 @@ testInitializeTotalTimeIfNecessaryTimeAlreadyInitialized
 	tree := IPTTreeModelMock new.
 	tree totalTime: -1.
 	
-	tree initializeTotalTimeIfNecessaryUsing: tallyObject.
+	tree initializeTotalTimeIfNecessaryUsing: wrappedTally.
 	self assert: (tree totalTime) equals: -1

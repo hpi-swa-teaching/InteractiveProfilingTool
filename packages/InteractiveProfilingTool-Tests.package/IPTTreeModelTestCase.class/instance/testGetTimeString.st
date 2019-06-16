@@ -6,6 +6,6 @@ testGetTimeString
 	"example match: 16.3 % {10.4 ms}"
 	regexTimeStringExpected := '\d+\.\d\s%\s\{\d+\.\d\s?ms\}'.
 	
-	timeStringActual := IPTTreeModelMock new getTimeString: tallyObject.
+	timeStringActual := IPTTreeModelMock new getTimeString: wrappedTally.
 	
 	self assert: (timeStringActual matchesRegex: regexTimeStringExpected)

@@ -3,7 +3,7 @@ testBuildWith
 
 	| tree window |
 	
-	tree := IPTTreeModelMock new roots: {tallyObject}.
+	tree := IPTTreeModelMock new roots: {wrappedTally}.
 	window := tree buildWith: MorphicToolBuilder new.
 	
 	self assert: (window isKindOf: PluggableSystemWindow).

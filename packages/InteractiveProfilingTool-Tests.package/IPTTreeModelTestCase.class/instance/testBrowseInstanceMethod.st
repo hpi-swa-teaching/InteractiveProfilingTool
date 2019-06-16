@@ -4,8 +4,8 @@ testBrowseInstanceMethod
 	| browser tree |
 	
 	tree := IPTTreeModelMock new 
-		roots: {tallyObject};
-		currentSelection: tallyObject.
+		roots: {wrappedTally};
+		currentSelection: wrappedTally.
 		
 	browser := tree browseMethodCall.
 	
