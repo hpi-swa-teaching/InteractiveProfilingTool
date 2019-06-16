@@ -1,7 +1,7 @@
 tests
 testGetSelectedClassWhenClassExist
 	
-	| tallyMock tree  compiledMethod class |
+	| tallyMock tree compiledMethod class |
 
 	compiledMethod := (DummyObject >> #dummyMethod).
 	class := compiledMethod methodClass.
