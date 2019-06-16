@@ -1,4 +1,4 @@
 code browser
 classExistsInSqueakEnvironment: aClass
 
-	^ Smalltalk includesKey: (aClass asString asSymbol) 
+	^ Smalltalk includesKey: aClass asString asSymbol

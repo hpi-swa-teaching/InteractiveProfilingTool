@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"constructTreeOfWrappedMessageTallys:withTotalTime:" : "twk 6/16/2019 12:28" },
+		"constructTreeOfWrappedMessageTallys:withTotalTime:" : "twk 6/16/2019 14:23" },
 	"instance" : {
-		"calculateRelativeTime" : "twk 5/25/2019 21:11",
+		"calculateRelativeTime" : "twk 6/16/2019 14:18",
 		"callRelevancePercentage" : "twk 6/16/2019 11:38",
 		"formatTimeStringWithAbsoluteTime:andRelativeTime:" : "twk 5/24/2019 12:19",
 		"getAbsoluteTime" : "twk 6/3/2019 13:16",
@@ -10,7 +10,7 @@
 		"getClass" : "twk 6/3/2019 13:21",
 		"getClassName" : "twk 6/3/2019 13:23",
 		"getLabel" : "twk 6/3/2019 13:24",
-		"getRelativeTime" : "twk 5/25/2019 21:11",
+		"getRelativeTime" : "twk 6/16/2019 14:19",
 		"getSelector" : "twk 6/3/2019 13:23",
 		"getSelectorName" : "twk 6/3/2019 13:24",
 		"getTimeString" : "twk 5/24/2019 12:18",
@@ -24,4 +24,4 @@
 		"shouldBeHighlighted" : "twk 6/16/2019 10:43",
 		"totalTimeOfOverallTree" : "twk 5/24/2019 12:05",
 		"totalTimeOfOverallTree:" : "twk 6/3/2019 13:18",
-		"wrapReceivers" : "NP 6/16/2019 12:20" } }
+		"wrapReceivers" : "twk 6/16/2019 14:21" } }

@@ -6,7 +6,8 @@ contents: aString notifying: aController
 	
 	| category selector class oldSelector |
 	
-	self okayToAccept ifFalse: [^ false].
+	self okayToAccept 
+		ifFalse: [^ false].
 	
 	class := self selectedClass ifNil: [false].
 	oldSelector := self selectedMessageName.
@@ -20,7 +21,7 @@ contents: aString notifying: aController
 	(self checkIfCompilationFailed: selector) 
 		ifTrue: [^ false].
 
-	self setContentInCodeHolder:  aString.
+	self setContentInCodeHolder: aString.
 	self changed: #annotation.
 
 	^ true

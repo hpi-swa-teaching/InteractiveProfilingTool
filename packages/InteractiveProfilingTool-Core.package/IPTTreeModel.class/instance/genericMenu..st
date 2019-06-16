@@ -1,5 +1,5 @@
 toolbuilder
 genericMenu: aMenu
 
-	^ self menu: aMenu for: #(treeListMenu)
+	^ self menu: aMenu for: {#treeListMenu}
 	

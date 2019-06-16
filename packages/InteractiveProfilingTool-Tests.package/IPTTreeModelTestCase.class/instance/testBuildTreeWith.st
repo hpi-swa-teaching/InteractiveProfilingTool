@@ -1,7 +1,9 @@
 tests
 testBuildTreeWith
 	
-	| pluggableTreeSpecActual |
+	| treeMock pluggableTreeSpecActual |
 	
-	pluggableTreeSpecActual := IPTTreeModelMock new buildTreeWith: ToolBuilder new.
+	treeMock := IPTTreeModelMock new roots: {}.
+	pluggableTreeSpecActual := treeMock  buildTreeWith: ToolBuilder new.
+	
 	self ensure: pluggableTreeSpecActual isValidSpec: 'PluggableTreeSpec'

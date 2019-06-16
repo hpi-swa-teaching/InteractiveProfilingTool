@@ -1,8 +1,10 @@
 code browser
 selectedClass
 
-	self currentSelection ifNotNil: [
-		(self classExists: self currentSelection)
-			ifTrue: [^ self currentSelection getClass]]. 
-	^ nil
-	
+	self currentSelection 
+		ifNil: [^ nil].
+
+	(self classExists: self currentSelection)
+		ifFalse: [^ nil].
+		
+	^ self currentSelection getClass

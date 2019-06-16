@@ -1,4 +1,4 @@
 helpers
 calculateRelativeTime
 
-	^ self getAbsoluteTime / self totalTimeOfOverallTree * 100.0
+	^ (self getAbsoluteTime / self totalTimeOfOverallTree * 100) asFloat

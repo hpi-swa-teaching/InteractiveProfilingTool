@@ -5,5 +5,6 @@ classExists: aNode
 	
 	class := aNode getClass.
 	class ifNil: [^ false].
+	
 	^ self classExistsInSqueakEnvironment: class.
 	

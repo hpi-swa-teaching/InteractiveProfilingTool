@@ -3,6 +3,6 @@ mainTreeListMenu: aMenu
 	<treeListMenu>
 
 	aMenu addList: #(
-		('browse it (b)' browseMethodCall )).
+		('browse it (b)' browseMethodCall)).
 
 	^ aMenu
