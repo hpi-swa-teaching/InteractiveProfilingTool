@@ -2,9 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "twk 6/16/2019 12:18",
+		"setUp" : "twk 6/16/2019 12:23",
 		"testCalculateRelativeTime" : "twk 6/16/2019 12:12",
-		"testConstructTreeOfWrappedMessageTallys" : "twk 6/16/2019 12:21",
+		"testConstructTreeOfWrappedMessageTallysForDeepCallTree" : "twk 6/16/2019 12:39",
+		"testConstructTreeOfWrappedMessageTallysForEmptyTree" : "twk 6/16/2019 12:27",
+		"testConstructTreeOfWrappedMessageTallysForSingleMessageTally" : "twk 6/16/2019 12:39",
+		"testConstructTreeOfWrappedMessageTallysForWideCallTree" : "twk 6/16/2019 12:40",
 		"testGetAbsoluteTime" : "twk 6/16/2019 11:48",
 		"testGetChildrenWithRelevantOverallPerformanceImpact" : "twk 6/16/2019 12:10",
 		"testGetClass" : "twk 6/16/2019 11:55",
