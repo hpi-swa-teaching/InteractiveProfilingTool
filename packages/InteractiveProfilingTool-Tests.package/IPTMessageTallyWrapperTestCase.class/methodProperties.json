@@ -2,5 +2,18 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "twk 6/16/2019 11:48",
-		"testGetAbsoluteTime" : "twk 6/16/2019 11:48" } }
+		"setUp" : "twk 6/16/2019 12:18",
+		"testCalculateRelativeTime" : "twk 6/16/2019 12:12",
+		"testConstructTreeOfWrappedMessageTallys" : "twk 6/16/2019 12:21",
+		"testGetAbsoluteTime" : "twk 6/16/2019 11:48",
+		"testGetChildrenWithRelevantOverallPerformanceImpact" : "twk 6/16/2019 12:10",
+		"testGetClass" : "twk 6/16/2019 11:55",
+		"testGetClassName" : "twk 6/16/2019 12:13",
+		"testGetLabel" : "twk 6/16/2019 11:59",
+		"testGetRelativeTime" : "twk 6/16/2019 11:50",
+		"testGetSelector" : "twk 6/16/2019 11:56",
+		"testGetSelectorName" : "twk 6/16/2019 12:14",
+		"testGetTimeString" : "twk 6/16/2019 11:57",
+		"testHasChildrenWithRelevantOverallPerformanceImpact" : "twk 6/16/2019 12:06",
+		"testIsRelevantForOverallPerformance" : "twk 6/16/2019 12:03",
+		"testShouldBeHighlighted" : "twk 6/16/2019 12:15" } }

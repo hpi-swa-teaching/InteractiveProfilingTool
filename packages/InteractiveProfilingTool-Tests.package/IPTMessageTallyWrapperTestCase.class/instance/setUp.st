@@ -1,7 +1,5 @@
 as yet unclassified
 setUp
-
-	| tallyMock |
 	
 	tallyMock := MessageTallyMock new
 		method: Boolean >> #ifTrue:;
@@ -9,4 +7,8 @@ setUp
 	
 	wrappedTallyMock := MessageTallyWrapperMock new
 		messageTally: tallyMock;
-		totalTimeOfOverallTree: 200
+		totalTimeOfOverallTree: 200.
+		
+	wrappedTallyMockWithLowRuntime := MessageTallyWrapperMock new
+		messageTally: tallyMock;
+		totalTimeOfOverallTree: 100000
