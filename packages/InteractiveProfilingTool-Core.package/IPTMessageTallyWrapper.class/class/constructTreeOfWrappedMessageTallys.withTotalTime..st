@@ -1,5 +1,5 @@
 tree construction
-constructTreeOfWrappedMessageTallys: aRootMessageTally withTotalTime: aTotalTimeValue andCallRelevanceLimit: aCallRelevancePercentage
+constructTreeOfWrappedMessageTallys: aRootMessageTally withTotalTime: aTotalTimeValue
 	
 	| wrappedNode |
 	
