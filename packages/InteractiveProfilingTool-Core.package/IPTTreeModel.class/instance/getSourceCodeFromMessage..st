@@ -1,13 +1,13 @@
 code browser
-getSourceCodeFromMessage: aMessageTally
+getSourceCodeFromMessage: aNode
 
 	| source class selector|
 	
-	(self classExists: aMessageTally)
+	(self classExists: aNode)
 		ifFalse: [^ self defaultErrorMessage].
 	
-	class := self getClass: aMessageTally.
-	selector := self getSelector: aMessageTally.
+	class := aNode getClass.
+	selector := aNode getSelector.
 
 	source := (self checkIfSelectorIsTypeDoIt: selector inClass: class) 
 		ifTrue: [self defaultSourceCodeForDoITSelector]

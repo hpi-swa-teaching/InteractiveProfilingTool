@@ -1,9 +1,9 @@
 code browser
-classExists: aMessageTally
+classExists: aNode
 
 	| class |
 	
-	class := self getClass: aMessageTally.
+	class := aNode getClass.
 	class ifNil: [^ false].
 	^ self classExistsInSqueakEnvironment: class.
 	

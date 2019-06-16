@@ -1,4 +1,4 @@
 constants
 highlightingThreshold
-	
+
 	^ 50

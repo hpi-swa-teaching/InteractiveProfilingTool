@@ -1,7 +1,7 @@
 model access
-getIcon: aMessageTally
+getIcon: aNode
 
-	(self shouldBeHighlighted: aMessageTally)
+	(aNode shouldBeHighlighted)
 		ifTrue: [^ self class highRuntimeIcon]
 		ifFalse: [^ nil]
 	

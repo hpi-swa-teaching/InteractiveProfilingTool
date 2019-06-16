@@ -1,14 +1,13 @@
 helpers
 constructWrappedTreeWithRoot: aMessageTally
 
-	| totalTime callRelevancePercentage roots |
+	| totalTime callRelevancePercentage root |
 	
 	totalTime := aMessageTally tally.
-	callRelevancePercentage := self new callRelevancePercentage.
+	callRelevancePercentage := IPTTreeModel new callRelevancePercentage.
 	
-	roots := {
-		IPTMessageTallyWrapper constructTreeOfWrappedMessageTallys: aMessageTally 
-			withTotalTime: totalTime 
-			andCallRelevanceLimit: callRelevancePercentage}.
+	root := IPTMessageTallyWrapper constructTreeOfWrappedMessageTallys: aMessageTally 
+		withTotalTime: totalTime 
+		andCallRelevanceLimit: callRelevancePercentage.
 			
-	^ roots
+	^ root

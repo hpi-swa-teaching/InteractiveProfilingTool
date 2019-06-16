@@ -1,12 +1,16 @@
 display profiling results
 openReportFor: aMessageTally
 	
-	| tree rootMessageTallyForUserCalls |
+	| tree rootMessageTallyForUserCalls rootNode |
 	
 	rootMessageTallyForUserCalls := self findRootForUserCalls: aMessageTally.
+	
+	rootNode := rootMessageTallyForUserCalls
+		ifNotNil: [self constructWrappedTreeWithRoot: rootMessageTallyForUserCalls]
+		ifNil: [nil].
 
 	tree := self new
-		initializeWithRootMessageTally: rootMessageTallyForUserCalls;
+		initializeWithRootNode: rootNode;
 		setInitialSelection.
 			
 	self open: tree
