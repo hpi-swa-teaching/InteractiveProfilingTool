@@ -7,7 +7,10 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"tallyObjectNoCalls",
-		"wrappedTally" ],
+		"wrappedTally",
+		"tallyMock",
+		"wrappedTallyWithLowRuntime",
+		"wrappedTallyWithHalfRuntime" ],
 	"name" : "IPTTreeModelTestCase",
 	"pools" : [
 		 ],

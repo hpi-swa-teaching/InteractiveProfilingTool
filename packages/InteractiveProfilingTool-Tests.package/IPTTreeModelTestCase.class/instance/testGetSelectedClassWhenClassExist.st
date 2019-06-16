@@ -1,11 +1,8 @@
 tests
 testGetSelectedClassWhenClassExist
 	
-	| tallyMock tree compiledMethod class |
-
-	compiledMethod := (DummyObject >> #dummyMethod).
-	class := compiledMethod methodClass.
-	tallyMock := MessageTallyMock new method: compiledMethod.
-	tree := IPTTreeModelMock new currentSelection: tallyMock.
+	| tree |
 	
-	self assert: class equals: (tree selectedClass)
+	tree := IPTTreeModelMock new currentSelection: wrappedTally.
+	
+	self assert: Boolean equals: (tree selectedClass)
