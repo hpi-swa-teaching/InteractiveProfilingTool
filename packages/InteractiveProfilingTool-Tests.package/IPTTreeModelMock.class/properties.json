@@ -10,5 +10,5 @@
 	"name" : "IPTTreeModelMock",
 	"pools" : [
 		 ],
-	"super" : "IPTTreeModel",
+	"super" : "IPTReport",
 	"type" : "normal" }

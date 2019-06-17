@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "TP 5/10/2019 01:45",
 	"instvars" : [
-		"roots",
-		"currentSelection" ],
-	"name" : "IPTTreeModel",
+		"isCurrentlyProfiling" ],
+	"name" : "IPTToggle",
 	"pools" : [
 		 ],
-	"super" : "CodeHolder",
+	"super" : "Model",
 	"type" : "normal" }

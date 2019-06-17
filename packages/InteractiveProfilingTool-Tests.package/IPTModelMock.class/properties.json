@@ -10,5 +10,5 @@
 	"name" : "IPTModelMock",
 	"pools" : [
 		 ],
-	"super" : "IPTModel",
+	"super" : "IPTToggle",
 	"type" : "normal" }

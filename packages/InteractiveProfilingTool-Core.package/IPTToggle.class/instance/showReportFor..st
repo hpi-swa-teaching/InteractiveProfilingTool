@@ -2,4 +2,4 @@ toolbuilder
 showReportFor: aProfilingResult
 
 	"class method?"
-	IPTTreeModel openReportFor: aProfilingResult
+	IPTReport openReportFor: aProfilingResult
