@@ -31,7 +31,7 @@
 		"testGetSelectedClassWhenClassNotExist" : "A 6/17/2019 14:23",
 		"testHasChildrenWithRelevantPerformanceImpactIfNodeDoesNotHaveRelevantChildren" : "twk 6/16/2019 13:27",
 		"testSourceCodeWhenClassAndMethodExist" : "A 6/17/2019 14:26",
-		"testSourceCodeWhenClassDoesNotExistAnymore" : "A 6/17/2019 14:26",
+		"testSourceCodeWhenClassDoesNotExistAnymore" : "LH 6/17/2019 19:25",
 		"testSourceCodeWhenCurrentSelectionIsNil" : "LH 6/17/2019 16:19",
-		"testSourceCodeWhenMethodDoesNotExistAnymore" : "A 6/17/2019 14:26",
+		"testSourceCodeWhenMethodDoesNotExistAnymore" : "LH 6/17/2019 19:26",
 		"treeFromCompiledMethod:" : "LH 6/17/2019 16:19" } }
