@@ -18,6 +18,11 @@ setUp
 		messageTally: tallyMock;
 		totalTimeOfOverallTree: 140.
 
-	tallyObjectNoCalls := IPTTreeModelTestCase constructMessageTallyFrom: []
+	tallyObjectNoCalls := IPTTreeModelTestCase constructMessageTallyFrom: [].
+	
+	self buildDummyClass. 
+	
+	self compileDummyMethods
+	
 
 	
