@@ -1,4 +1,4 @@
 baseline
 postLoad
 		
-	IPTModel registerInWorldMenu
+	IPTToggle registerInWorldMenu
