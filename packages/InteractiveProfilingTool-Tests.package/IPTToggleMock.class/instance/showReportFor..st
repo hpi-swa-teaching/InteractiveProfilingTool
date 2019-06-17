@@ -1,0 +1,4 @@
+profiling
+showReportFor: aProfilingResult
+
+	IPTReportMock openReportFor: aProfilingResult

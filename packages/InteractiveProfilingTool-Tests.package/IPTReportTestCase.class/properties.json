@@ -1,0 +1,18 @@
+{
+	"category" : "InteractiveProfilingTool-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tallyObjectNoCalls",
+		"wrappedTally",
+		"tallyMock",
+		"wrappedTallyWithLowRuntime",
+		"wrappedTallyWithHalfRuntime" ],
+	"name" : "IPTReportTestCase",
+	"pools" : [
+		 ],
+	"super" : "IPTTestCase",
+	"type" : "normal" }
