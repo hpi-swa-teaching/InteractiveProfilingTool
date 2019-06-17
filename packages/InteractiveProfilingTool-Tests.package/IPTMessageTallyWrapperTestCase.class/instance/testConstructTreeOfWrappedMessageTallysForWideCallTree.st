@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testConstructTreeOfWrappedMessageTallysForWideCallTree
 
 	| tallyMockRoot tallyMockLeftLeaf tallyMockRightLeaf wrappedTally |

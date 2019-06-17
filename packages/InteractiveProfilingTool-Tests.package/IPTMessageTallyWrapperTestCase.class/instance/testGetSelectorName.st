@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testGetSelectorName
 
 	self assert: 'ifTrue:' equals: wrappedTallyMock getSelectorName

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testShouldBeHighlighted
 
 	self assert: wrappedTallyMock shouldBeHighlighted.
