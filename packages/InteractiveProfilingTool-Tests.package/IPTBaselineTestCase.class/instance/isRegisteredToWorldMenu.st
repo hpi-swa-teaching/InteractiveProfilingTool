@@ -1,4 +1,4 @@
 helpers
 isRegisteredToWorldMenu
 
-	^ (TheWorldMenu classPool at: #OpenMenuRegistry) includes: {'Interactive Profiler'. {IPTModel. #open}}
+	^ (TheWorldMenu classPool at: #OpenMenuRegistry) includes: {'Interactive Profiler'. {IPTToggle. #open}}
