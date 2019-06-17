@@ -1,6 +1,5 @@
 as yet unclassified
 testGetAbsoluteTime
-	"comment stating purpose of message"
 
 	| wrappedTallyMock |
 	
