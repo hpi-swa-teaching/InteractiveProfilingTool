@@ -1,4 +1,4 @@
-as yet unclassified
+running
 compileDummyMethods
 	
 	DummyClass compile: self dummyMethodToProfileSourceCode.
