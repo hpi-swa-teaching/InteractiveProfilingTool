@@ -1,4 +1,4 @@
-code browser
+toolbuilder
 windowTitle
 	
 	^ 'Interactive Profiler'
