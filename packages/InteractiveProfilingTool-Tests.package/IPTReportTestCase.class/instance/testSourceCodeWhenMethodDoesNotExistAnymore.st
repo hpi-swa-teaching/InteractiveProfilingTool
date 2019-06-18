@@ -10,5 +10,5 @@ testSourceCodeWhenMethodDoesNotExistAnymore
 	
 	DummyObject compile: self dummyMethodToRemoveSourceCode.
 	
-	self assert: sourceCode equals: 'Missing'
+	self assert: sourceCode equals: 'Method Missing'
 	

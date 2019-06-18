@@ -14,4 +14,4 @@ testSourceCodeWhenClassDoesNotExistAnymore
 	
 	DummyClass compile: sourceCodeFromDeletedMethod.
 	
-	self assert: sourceCode equals: 'Missing'
+	self assert: sourceCode equals: 'Class Missing'
