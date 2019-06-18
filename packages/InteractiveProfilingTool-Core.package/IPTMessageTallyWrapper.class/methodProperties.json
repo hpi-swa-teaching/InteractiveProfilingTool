@@ -1,9 +1,10 @@
 {
 	"class" : {
-		"constructTreeOfWrappedMessageTallys:withTotalTime:" : "twk 6/16/2019 14:23" },
+		"constructTreeOfWrappedMessageTallys:withTotalTime:" : "A 6/18/2019 17:48" },
 	"instance" : {
 		"calculateRelativeTime" : "twk 6/16/2019 14:18",
 		"callRelevancePercentage" : "twk 6/16/2019 11:38",
+		"findRootForUserCalls" : "A 6/18/2019 17:56",
 		"formatTimeStringWithAbsoluteTime:andRelativeTime:" : "twk 5/24/2019 12:19",
 		"getAbsoluteTime" : "twk 6/3/2019 13:16",
 		"getChildrenWithRelevantPerformanceImpact" : "twk 5/25/2019 21:08",

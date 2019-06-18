@@ -3,12 +3,10 @@ constructTreeOfWrappedMessageTallys: aRootMessageTally withTotalTime: aTotalTime
 	
 	| wrappedNode |
 	
-	aRootMessageTally 
-		ifNil: [^ nil].
-	
 	wrappedNode := IPTMessageTallyWrapper new 
 		messageTally: aRootMessageTally;
 		totalTimeOfOverallTree: aTotalTimeValue.
 
 	wrappedNode wrapReceivers.
+	
 	^ wrappedNode

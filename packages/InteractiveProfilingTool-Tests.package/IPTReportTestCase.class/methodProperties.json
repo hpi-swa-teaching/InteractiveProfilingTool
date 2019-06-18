@@ -21,7 +21,6 @@
 		"testCheckExists" : "LH 6/17/2019 16:19",
 		"testConstructWrappedTreeWithRoot" : "LH 6/17/2019 16:20",
 		"testDisplayWithoutUserCalls" : "LH 6/17/2019 16:19",
-		"testFindRootWithoutUserCalls" : "LH 6/17/2019 16:19",
 		"testGetChildrenWithRelevantPerformanceImpactIfNodeDoesNotHaveRelevantChildren" : "twk 6/16/2019 13:23",
 		"testGetChildrenWithRelevantPerformanceImpactIfNodeHasRelevantChildren" : "twk 6/16/2019 13:28",
 		"testGetIconIfAboveThreshold" : "LH 6/17/2019 16:19",
