@@ -1,4 +1,4 @@
 as yet unclassified
 openStats
 	
-	IPTStats openStatsFor: self root
+	IPTStats openStatsForRoot: self root userCallsRoot: self userCallsRoots
