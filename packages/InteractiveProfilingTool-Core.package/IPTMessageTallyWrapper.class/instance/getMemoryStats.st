@@ -3,6 +3,8 @@ getMemoryStats
 
 	| stats memoryEnd oldSpaceEnd youngSpaceEnd |
 	
+	self messageTally gcStats ifNil: [^ nil].
+	
 	stats := Dictionary new.
 	oldSpaceEnd			:= self messageTally gcStats at: 1.
 	youngSpaceEnd		:= self messageTally gcStats at: 2.
