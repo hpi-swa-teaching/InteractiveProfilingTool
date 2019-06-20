@@ -4,4 +4,5 @@ getTextSpecWith: aBuilder
 	^ aBuilder pluggableTextSpec new
 			model: self;
 			getText: #getFormattedStats;
+			readOnly: true;
 			yourself
