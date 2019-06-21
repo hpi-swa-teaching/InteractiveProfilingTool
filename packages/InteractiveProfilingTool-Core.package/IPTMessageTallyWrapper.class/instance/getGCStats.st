@@ -16,15 +16,15 @@ getGCStats
 	incrementalAbsoluteRunningTime := self absoluteRuntimeGCGeneration: incrGCTime.
 			
 	stats 
-		add: #full		-> fullGCs;
-		add: #fullTime		-> fullGCTime;
-		add: #incremental -> incrGCs;
-		add: #incrementalTime -> incrGCTime;
-		add: #fullAbsoluteRunningTime	-> fullAbsoluteRunningTime;		
-		add: #incrementalAbsoluteRunningTime -> incrementalAbsoluteRunningTime; 	
-		add: #numberOfObjectsInOldSpace	-> tenureCount;
-		add: #AvgNumberOfObjectsInOldSpace -> (incrGCs // tenureCount);	
-		add: #rootOverflows		-> rootOverflows.
+		add: #fullGCs											-> fullGCs;
+		add: #fullGCTime										-> fullGCTime;
+		add: #incrementalGCs 								-> incrGCs;
+		add: #incrementalGCTime 						-> incrGCTime;
+		add: #fullGCAbsoluteRunningTime				-> fullAbsoluteRunningTime;		
+		add: #incrementalGCAbsoluteRunningTime 	-> incrementalAbsoluteRunningTime; 	
+		add: #numberOfObjectsInOldSpace				-> tenureCount;
+		"add: #AvgNumberOfObjectsInOldSpace 		-> (incrGCs / tenureCount);"	
+		add: #rootOverflows									-> rootOverflows.
 	
 	^ stats
 	
