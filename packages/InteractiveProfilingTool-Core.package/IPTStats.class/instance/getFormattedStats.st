@@ -1,10 +1,11 @@
 accessing
 getFormattedStats
 
-	| memoryStats gcStats formattedMemory formattedMemoryGC |
+	| memoryStats gcStats formattedMemory formattedMemoryGC leaves formattedLeaves |
 	
 	memoryStats := self root getMemoryStats.
 	gcStats := self root getGCStats.
+	leaves := self getAllLeaves: self userCallsRoot.
 	
 	formattedMemory := self getFormattedSection: 'Memory'
 											with: memoryStats
@@ -12,5 +13,7 @@ getFormattedStats
 											
 	formattedMemoryGC := self getFormattedSectionForGCStats:'GCs' with: gcStats.
 	
-	^ ( formattedMemory append: formattedMemoryGC)
+	formattedLeaves := self getFormattedSectionForLeaves: 'Leaves' with: leaves.
+	
+	^ ((formattedMemory append: formattedMemoryGC) append: formattedLeaves)
 	

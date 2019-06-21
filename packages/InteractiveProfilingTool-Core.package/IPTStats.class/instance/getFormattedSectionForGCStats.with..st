@@ -15,7 +15,8 @@ getFormattedSectionForGCStats: aTitle with: aDictionary
 			append: String cr;
 			append: (self getTenuresFormatted: aDictionary);
 			append: String cr;
-			append: 'root table ',(aDictionary at: #rootOverflows),' overflows'. 
+			append: 'root table ',(aDictionary at: #rootOverflows),' overflows';
+			append: String cr.
 		
 	section := Text new
 		append: title;
