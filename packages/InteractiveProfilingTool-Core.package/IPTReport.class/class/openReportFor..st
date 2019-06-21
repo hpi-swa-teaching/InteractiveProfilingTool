@@ -5,8 +5,6 @@ openReportFor: aMessageTally
 	
 	root := self constructWrappedTreeWithRoot: aMessageTally.
 	
-	"IPTStats openStatsFor: root."
-	
 	userCallsRoot := root findRootForUserCalls.
 	
 	tree := self new
