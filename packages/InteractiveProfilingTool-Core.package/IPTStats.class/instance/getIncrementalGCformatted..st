@@ -1,20 +1,18 @@
 helpers
 getIncrementalGCformatted: aDictionary
 	
-	| incrementalGCInfo avgIncrementalGCInfo |
+	| incrementalGCInfo  |
 	
-	incrementalGCInfo := ((aDictionary at: #incrementalGCs),
+	incrementalGCInfo := ((aDictionary at: #incrementalGCs) asString,
 				 					' totalling ', 
-									aDictionary at: #incrementalGCTime,  
+									(aDictionary at: #incrementalGCTime),  
 									' ms (', 
-									aDictionary at: #incrementalGCAbsoluteRunningTime,  
+									(aDictionary at: #incrementalGCAbsoluteRunningTime),  
 									'% uptime)').
-	
-	avgIncrementalGCInfo :=	', avg ',
-										(aDictionary at: #incrementalGCTime / aDictionary at: #incrementalGCs) roundTo: 0.1,
-										' ms ('.	
 							
-	(aDictionary at: #incrementalGCs = 0) ifFalse: [^incrementalGCInfo, avgIncrementalGCInfo].
+	((aDictionary at: #incrementalGCs) = 0) ifFalse: [^incrementalGCInfo, ', avg ',
+										(((aDictionary at: #incrementalGCTime) / (aDictionary at: #incrementalGCs)) roundTo: 0.1),
+										' ms '].
 	
 	^ incrementalGCInfo 
 

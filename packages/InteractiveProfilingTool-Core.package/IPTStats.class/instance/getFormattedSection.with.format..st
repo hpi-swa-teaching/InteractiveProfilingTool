@@ -19,7 +19,6 @@ getFormattedSection: aTitle with: aDictionary format: aBlock
 		append: title;
 		append: String cr;
 		append: items;
-		append: String cr;
 		append: String cr.
 		
 	^ section

@@ -23,7 +23,6 @@ getGCStats
 		add: #fullGCAbsoluteRunningTime				-> fullAbsoluteRunningTime;		
 		add: #incrementalGCAbsoluteRunningTime 	-> incrementalAbsoluteRunningTime; 	
 		add: #numberOfObjectsInOldSpace				-> tenureCount;
-		"add: #AvgNumberOfObjectsInOldSpace 		-> (incrGCs / tenureCount);"	
 		add: #rootOverflows									-> rootOverflows.
 	
 	^ stats

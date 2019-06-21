@@ -13,15 +13,15 @@ getFormattedSectionForGCStats: aTitle with: aDictionary
 			append: String cr;
 			append: (self getIncrementalGCformatted: aDictionary);
 			append: String cr;
-			append: 'tenures ', (aDictionary at: #numberOfObjectsInOldSpace)", (aDictionary at: #AvgNumberOfObjectsInOldSpace),' GCs/tenure)'";
+			append: (self getTenuresFormatted: aDictionary);
 			append: String cr;
-			append: '	root table ',(aDictionary at: #rootOverflows),' overflows'. 
+			append: 'root table ',(aDictionary at: #rootOverflows),' overflows'. 
 		
 	section := Text new
 		append: title;
 		append: String cr;
 		append: items;
-		append: String cr;
 		append: String cr.
+		
 		
 	^ section
