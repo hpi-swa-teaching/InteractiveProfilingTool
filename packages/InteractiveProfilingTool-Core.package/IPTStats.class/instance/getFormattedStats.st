@@ -9,11 +9,15 @@ getFormattedStats
 	
 	formattedMemory := self getFormattedSection: 'Memory'
 											with: memoryStats
-											format: [ :value | '{1} bytes' format: {value} ].
+											format: [ :stats |self getFormattedItemsForMemoryStats: stats].
 											
-	formattedMemoryGC := self getFormattedSectionForGCStats:'GCs' with: gcStats.
+	formattedMemoryGC := self getFormattedSection: 'GCs'
+											with: gcStats
+											format: [ :stats |self getFormattedItemsForGCStats: stats].
 	
-	formattedLeaves := self getFormattedSectionForLeaves: 'Leaves' with: leaves.
+	formattedLeaves := self getFormattedSection: 'GCs'
+											with: leaves
+											format: [ :items |self getFormattedItemsForLeaves: items].
 	
 	^ ((formattedMemory append: formattedMemoryGC) append: formattedLeaves)
 	

@@ -1,10 +1,7 @@
 accessing
-getFormattedSectionForGCStats: aTitle with: aDictionary
+getFormattedItemsForGCStats: aDictionary
 
-	| title items section |
-	
-	title := Text fromString: aTitle.
-	title allBold.
+	| items |
 	
 	items := Text new.
 	
@@ -18,11 +15,4 @@ getFormattedSectionForGCStats: aTitle with: aDictionary
 			append: 'root table ',(aDictionary at: #rootOverflows),' overflows';
 			append: String cr.
 		
-	section := Text new
-		append: title;
-		append: String cr;
-		append: items;
-		append: String cr.
-		
-		
-	^ section
+	^ items

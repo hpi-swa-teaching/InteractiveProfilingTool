@@ -6,14 +6,7 @@ getFormattedSection: aTitle with: aDictionary format: aBlock
 	title := Text fromString: aTitle.
 	title allBold.
 	
-	items := Text new.
-	
-	aDictionary keysAndValuesDo: [ :statName :statValue |
-		items
-			append: (statName asString);
-			append: ': ';
-			append: (aBlock value: statValue);
-			append: String cr].
+	items := aBlock value: aDictionary.
 		
 	section := Text new
 		append: title;
