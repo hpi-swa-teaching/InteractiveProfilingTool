@@ -2,7 +2,6 @@
 	"class" : {
 		"constructTreeOfWrappedMessageTallys:withTotalTime:" : "A 6/18/2019 17:48" },
 	"instance" : {
-		"absoluteRuntimeGCGeneration:" : "A 6/21/2019 12:57",
 		"calculateRelativeTime" : "twk 6/16/2019 14:18",
 		"callRelevancePercentage" : "twk 6/16/2019 11:38",
 		"findRootForUserCalls" : "A 6/18/2019 17:56",
@@ -11,10 +10,10 @@
 		"getChildrenWithRelevantPerformanceImpact" : "twk 5/25/2019 21:08",
 		"getClass" : "twk 6/3/2019 13:21",
 		"getClassName" : "twk 6/3/2019 13:23",
-		"getGarbageCollectorStats" : "TP 6/21/2019 15:21",
+		"getGarbageCollectorStats" : "TP 6/22/2019 12:14",
 		"getLabel" : "twk 6/3/2019 13:24",
-		"getLeavesWithRelevantPerformance" : "A 6/19/2019 15:46",
-		"getMemoryStats" : "A 6/19/2019 11:45",
+		"getLeaves" : "TP 6/22/2019 12:38",
+		"getMemoryStats" : "TP 6/22/2019 12:22",
 		"getRelativeTime" : "twk 6/16/2019 14:19",
 		"getSelector" : "twk 6/3/2019 13:23",
 		"getSelectorName" : "twk 6/3/2019 13:24",

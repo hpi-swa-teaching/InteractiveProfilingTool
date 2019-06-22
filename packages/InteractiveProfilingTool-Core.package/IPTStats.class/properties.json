@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"root",
-		"userCallsRoot" ],
+		"userCallsRoots" ],
 	"name" : "IPTStats",
 	"pools" : [
 		 ],

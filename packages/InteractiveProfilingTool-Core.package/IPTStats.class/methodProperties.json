@@ -1,17 +1,16 @@
 {
 	"class" : {
-		"openStatsForRoot:userCallsRoot:" : "A 6/19/2019 16:01" },
+		"openStatsForRoot:userCallsRoot:" : "TP 6/23/2019 02:32" },
 	"instance" : {
 		"buildWith:" : "A 6/18/2019 21:48",
-		"formatGarbageCollectorStats" : "TP 6/22/2019 12:06",
-		"formatLeaves" : "TP 6/22/2019 11:58",
-		"formatMemoryStats" : "TP 6/22/2019 11:47",
-		"formatStats:withHeading:" : "TP 6/22/2019 11:36",
-		"getAllLeaves:" : "A 6/21/2019 18:16",
+		"formatGarbageCollectorStats" : "TP 6/22/2019 12:25",
+		"formatLeaves" : "TP 6/22/2019 12:46",
+		"formatMemoryStats" : "TP 6/22/2019 12:20",
+		"formatStats:withHeading:" : "TP 6/22/2019 12:10",
 		"getFormattedStats" : "TP 6/22/2019 12:03",
 		"getTextSpecWith:" : "TP 6/21/2019 15:11",
 		"getWindowSpecWith:" : "A 6/18/2019 21:47",
 		"root" : "A 6/18/2019 21:10",
 		"root:" : "A 6/18/2019 21:10",
-		"userCallsRoot" : "A 6/19/2019 16:01",
-		"userCallsRoot:" : "A 6/19/2019 16:03" } }
+		"userCallsRoots" : "TP 6/22/2019 12:33",
+		"userCallsRoots:" : "TP 6/22/2019 12:33" } }

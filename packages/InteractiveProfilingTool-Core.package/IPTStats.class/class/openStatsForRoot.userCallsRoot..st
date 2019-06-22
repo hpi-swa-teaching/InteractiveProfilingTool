@@ -5,7 +5,7 @@ openStatsForRoot: wrappedRoot userCallsRoot: wrappedUserCallsRoot
 	
 	model := self new
 		root: wrappedRoot;
-		userCallsRoot: wrappedUserCallsRoot;
+		userCallsRoots: wrappedUserCallsRoot;
 		yourself.
 	
 	ToolBuilder open: model

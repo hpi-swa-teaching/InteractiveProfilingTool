@@ -6,9 +6,8 @@ formatStats: aCollection withHeading: aString
 	heading := Text fromString: aString.
 	heading allBold.
 	
-	body := aCollection
-		replace: [ :line | Text fromString: line ];
-		joinSeparatedBy: (String cr).
+	body := aCollection collect: [ :line | Text fromString: line ].
+	body := body joinSeparatedBy: (String cr).
 
 	formattedStats := Text new
 		append: heading;
