@@ -1,4 +1,4 @@
-as yet unclassified
+formatting
 formatGarbageCollectorStats
 
 	| stats lines full incremental |

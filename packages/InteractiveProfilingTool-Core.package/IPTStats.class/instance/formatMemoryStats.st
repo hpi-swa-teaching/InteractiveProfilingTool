@@ -1,4 +1,4 @@
-as yet unclassified
+formatting
 formatMemoryStats
 
 	| stats lines |

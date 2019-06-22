@@ -1,4 +1,4 @@
-as yet unclassified
+information extraction
 getMemoryStats
 
 	| stats memoryEnd oldSpaceEnd youngSpaceEnd |

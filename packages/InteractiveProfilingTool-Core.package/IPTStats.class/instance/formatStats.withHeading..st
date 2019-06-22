@@ -1,4 +1,4 @@
-as yet unclassified
+formatting
 formatStats: aCollection withHeading: aString
 
 	| heading body formattedStats |

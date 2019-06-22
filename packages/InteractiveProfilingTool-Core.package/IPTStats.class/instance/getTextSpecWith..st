@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 getTextSpecWith: aBuilder
 
 	^ aBuilder pluggableTextSpec new

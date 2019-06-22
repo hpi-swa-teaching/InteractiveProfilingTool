@@ -1,4 +1,4 @@
-as yet unclassified
+information extraction
 getGarbageCollectorStats
 
 	| stats fullTime fullCount incrementalTime incrementalCount rootOverflows tenures fullRelativeTime incrementalRelativeTime uptime |
