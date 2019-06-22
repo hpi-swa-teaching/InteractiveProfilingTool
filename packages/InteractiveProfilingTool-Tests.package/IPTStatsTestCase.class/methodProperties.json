@@ -2,5 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "A 6/18/2019 21:15",
-		"testWindowSpec" : "A 6/18/2019 21:15" } }
+		"setUp" : "TP 6/22/2019 14:03",
+		"testFormatGarbageCollectorStats" : "TP 6/22/2019 14:13",
+		"testFormatLeaves" : "TP 6/22/2019 14:08",
+		"testFormatLeavesWithoutLeaves" : "TP 6/22/2019 14:11",
+		"testFormatMemoryStats" : "TP 6/22/2019 14:12",
+		"testFormatStatsBoldTitle" : "TP 6/22/2019 14:52",
+		"testFormatStatsLineBreaks" : "TP 6/22/2019 14:52",
+		"testGetFormattedStats" : "TP 6/22/2019 14:20" } }

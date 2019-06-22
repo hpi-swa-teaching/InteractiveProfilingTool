@@ -22,11 +22,11 @@ getGarbageCollectorStats
 		#full -> (Dictionary newFrom: {
 			#count -> fullCount.
 			#time -> fullTime.
-			#absoluteTime ->fullRelativeTime}).
+			#relativeTime ->fullRelativeTime}).
 		#incremental -> (Dictionary newFrom: {
 			#count -> incrementalCount.
 			#time -> incrementalTime.
-			#absoluteTime -> incrementalRelativeTime}).	
+			#relativeTime -> incrementalRelativeTime}).	
 		#tenures -> tenures.
 		#rootOverflows -> rootOverflows}.
 	

@@ -1,15 +1,16 @@
 {
 	"class" : {
-		"openStatsForRoot:userCallsRoot:" : "TP 6/23/2019 02:32" },
+		"openStatsForRoot:userCallsRoot:" : "TP 6/22/2019 12:34" },
 	"instance" : {
 		"buildWith:" : "A 6/18/2019 21:48",
 		"formatGarbageCollectorStats" : "TP 6/22/2019 12:25",
-		"formatLeaves" : "TP 6/22/2019 12:46",
+		"formatLeaves" : "TP 6/22/2019 13:59",
 		"formatMemoryStats" : "TP 6/22/2019 12:20",
 		"formatStats:withHeading:" : "TP 6/22/2019 12:10",
-		"getFormattedStats" : "TP 6/22/2019 12:03",
+		"getFormattedStats" : "TP 6/22/2019 14:03",
 		"getTextSpecWith:" : "TP 6/21/2019 15:11",
 		"getWindowSpecWith:" : "A 6/18/2019 21:47",
+		"noLeavesMessage" : "TP 6/22/2019 13:01",
 		"root" : "A 6/18/2019 21:10",
 		"root:" : "A 6/18/2019 21:10",
 		"userCallsRoots" : "TP 6/22/2019 12:33",
