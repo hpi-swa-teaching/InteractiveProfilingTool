@@ -10,9 +10,7 @@ getIncrementalGCformatted: aDictionary
 									(aDictionary at: #incrementalGCAbsoluteRunningTime),  
 									'% uptime)').
 							
-	((aDictionary at: #incrementalGCs) = 0) ifFalse: [^incrementalGCInfo, ', avg ',
-										(((aDictionary at: #incrementalGCTime) / (aDictionary at: #incrementalGCs)) roundTo: 0.1),
-										' ms '].
+	((aDictionary at: #incrementalGCs) = 0) ifFalse: [^ incrementalGCInfo, (self getAvgIncrementalGCInfo: aDictionary)].
 	
 	^ incrementalGCInfo 
 

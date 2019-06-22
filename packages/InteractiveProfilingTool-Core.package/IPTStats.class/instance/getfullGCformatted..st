@@ -11,9 +11,7 @@ getfullGCformatted: aDictionary
 						'% uptime)').
 						
 								
-	((aDictionary at: #fullGCs) = 0) ifFalse: [^fullGCInfo, '(avg ', 
-							(((aDictionary at: #fullGCs)	/ (aDictionary at: #fullGCTime)) roundTo: 0.1), 
-							' ms'.].
+	((aDictionary at: #fullGCs) = 0) ifFalse: [^ fullGCInfo, (self getAvgFullGCInfo: aDictionary)].
 	
 	^ fullGCInfo
 

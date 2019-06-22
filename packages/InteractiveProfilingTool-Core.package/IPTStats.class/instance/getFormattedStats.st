@@ -19,5 +19,5 @@ getFormattedStats
 											with: leaves
 											format: [ :items |self getFormattedItemsForLeaves: items].
 	
-	^ ((formattedMemory append: formattedMemoryGC) append: formattedLeaves)
+	^ formattedMemory append: formattedMemoryGC, formattedLeaves
 	

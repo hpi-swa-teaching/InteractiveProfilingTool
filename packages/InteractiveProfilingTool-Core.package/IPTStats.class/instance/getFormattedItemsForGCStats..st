@@ -6,13 +6,9 @@ getFormattedItemsForGCStats: aDictionary
 	items := Text new.
 	
 	items
-			append: (self getfullGCformatted: aDictionary);
-			append: String cr;
-			append: (self getIncrementalGCformatted: aDictionary);
-			append: String cr;
-			append: (self getTenuresFormatted: aDictionary);
-			append: String cr;
-			append: 'root table ',(aDictionary at: #rootOverflows),' overflows';
-			append: String cr.
+			append: (self getfullGCformatted: aDictionary), String cr;
+			append: (self getIncrementalGCformatted: aDictionary), String cr;
+			append: (self getTenuresFormatted: aDictionary), String cr;
+			append: 'root table ',(aDictionary at: #rootOverflows),' overflows', String cr.		
 		
 	^ items
