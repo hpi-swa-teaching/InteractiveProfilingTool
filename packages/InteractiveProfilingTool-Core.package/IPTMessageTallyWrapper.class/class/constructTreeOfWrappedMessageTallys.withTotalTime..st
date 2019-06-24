@@ -9,4 +9,5 @@ constructTreeOfWrappedMessageTallys: aRootMessageTally withTotalTime: aTotalTime
 
 	wrappedNode wrapReceivers.
 	
+
 	^ wrappedNode
