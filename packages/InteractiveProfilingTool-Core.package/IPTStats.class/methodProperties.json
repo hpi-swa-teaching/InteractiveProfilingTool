@@ -3,7 +3,7 @@
 		"openStatsWithRoot:withUserCallsRoots:" : "TP 6/24/2019 13:05" },
 	"instance" : {
 		"buildWith:" : "A 6/18/2019 21:48",
-		"formatGarbageCollectorStats" : "TP 6/24/2019 12:54",
+		"formatGarbageCollectorStats" : "A 6/24/2019 19:18",
 		"formatLeaves" : "A 6/24/2019 18:00",
 		"formatMemoryStats" : "TP 6/24/2019 12:54",
 		"formatStats:withHeading:" : "TP 6/22/2019 12:10",

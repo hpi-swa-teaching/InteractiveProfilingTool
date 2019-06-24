@@ -9,7 +9,10 @@ getGarbageCollectorStats
 	incremental GC collects garbage from the young space only, while a full GC runs in
 	both regions."
 
-	| gcStats uptime fullTime fullCount fullRelativeTime incrementalTime incrementalCount incrementalRelativeTime tenures rootOverflows |
+	| gcStats uptime
+	fullTime fullCount fullRelativeTime fullAverageTime
+	incrementalTime incrementalCount incrementalRelativeTime incrementalAverageTime
+	tenures rootOverflows |
 	
 	self messageTally gcStats ifNil: [^ nil].
 	
@@ -23,10 +26,18 @@ getGarbageCollectorStats
 	fullCount					:= gcStats at: 7.
 	fullTime						:= gcStats at: 8.	
 	fullRelativeTime 			:= (fullTime / uptime * 100) roundTo: 0.01.
+	
+	fullAverageTime := (fullCount = 0)
+		ifTrue: [ nil ]
+		ifFalse: [ (fullTime / fullCount) asFloat rounded ].
 					
 	incrementalCount			:= gcStats at: 9.
 	incrementalTime			:=  gcStats at: 10.
 	incrementalRelativeTime 	:= (incrementalTime / uptime * 100) roundTo: 0.01.
+		
+	incrementalAverageTime := (incrementalCount = 0)
+		ifTrue: [ nil ]
+		ifFalse: [ (incrementalTime / incrementalCount) asFloat rounded ].
 			
 	tenures						:= gcStats at: 11.
 	rootOverflows				:= gcStats at: 22.
@@ -35,11 +46,13 @@ getGarbageCollectorStats
 		#full -> (Dictionary newFrom: {
 			#count -> fullCount.
 			#time -> fullTime.
-			#relativeTime ->fullRelativeTime }).
+			#relativeTime -> fullRelativeTime. 
+			#averageTime -> fullAverageTime }).
 		#incremental -> (Dictionary newFrom: {
 			#count -> incrementalCount.
 			#time -> incrementalTime.
-			#relativeTime -> incrementalRelativeTime }).	
+			#relativeTime -> incrementalRelativeTime.
+			#averageTime -> incrementalAverageTime }).	
 		#tenures -> tenures.
 		#rootOverflows -> rootOverflows }
 	
