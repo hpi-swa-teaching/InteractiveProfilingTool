@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "TP 6/22/2019 14:11",
+		"setUp" : "A 6/24/2019 18:18",
 		"testCalculateRelativeTime" : "twk 6/16/2019 12:12",
 		"testConstructTreeOfWrappedMessageTallysForDeepCallTree" : "twk 6/16/2019 12:39",
 		"testConstructTreeOfWrappedMessageTallysForSingleMessageTally" : "twk 6/16/2019 12:39",

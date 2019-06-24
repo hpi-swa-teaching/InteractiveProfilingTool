@@ -1,12 +1,25 @@
 information extraction
 getGarbageCollectorStats
 
-	| fullTime fullCount incrementalTime incrementalCount rootOverflows tenures fullRelativeTime incrementalRelativeTime uptime |
+	"The Squeak garbage collector follows the Mark-Sweep-Compact GC pattern. Squeak
+	divides the memory into two regions, the young and the old space. The young space
+	contains short-lived objects, the old space contains long-lived objects (tenures).
+	
+	There are two different garbage collection methods: Full GC and Incremental GC. An
+	incremental GC collects garbage from the young space only, while a full GC runs in
+	both regions."
+
+	| gcStats uptime fullTime fullCount fullRelativeTime incrementalTime incrementalCount incrementalRelativeTime tenures rootOverflows |
 	
 	self messageTally gcStats ifNil: [^ nil].
 	
-	uptime := self messageTally time.
+	"For more information on the GC stats array, please refer to the method comment in
+	SmalltalkImage >> vmParameterAt: or the documentation under Squeak Menu >
+	About Squeak > VM Parameters"
+	gcStats := self messageTally gcStats.
 	
+	uptime := self messageTally time.
+		
 	fullCount					:= self messageTally gcStats at: 7.
 	fullTime						:= self messageTally gcStats at: 8.	
 	fullRelativeTime 			:= (fullTime / uptime * 100) roundTo: 0.01.
