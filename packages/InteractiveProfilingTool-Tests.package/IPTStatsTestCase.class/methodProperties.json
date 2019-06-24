@@ -4,8 +4,8 @@
 	"instance" : {
 		"setUp" : "TP 6/22/2019 14:03",
 		"testFormatGarbageCollectorStats" : "TP 6/22/2019 14:13",
-		"testFormatLeaves" : "TP 6/22/2019 14:08",
-		"testFormatLeavesWithoutLeaves" : "TP 6/22/2019 14:11",
+		"testFormatLeaves" : "TP 6/24/2019 12:07",
+		"testFormatLeavesWithoutLeaves" : "TP 6/24/2019 12:07",
 		"testFormatMemoryStats" : "TP 6/22/2019 14:12",
 		"testFormatStatsBoldHeadings" : "TP 6/24/2019 11:28",
 		"testFormatStatsLineBreaks" : "TP 6/22/2019 14:52",
