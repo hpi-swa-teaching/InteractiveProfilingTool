@@ -1,11 +1,11 @@
 as yet unclassified
-openStatsForRoot: wrappedRoot userCallsRoot: wrappedUserCallsRoot
+openStatsWithRoot: wrappedRoot withUserCallsRoots: wrappedUserCallsRoots
 
 	| model |
 	
 	model := self new
 		root: wrappedRoot;
-		userCallsRoots: wrappedUserCallsRoot;
+		userCallsRoots: wrappedUserCallsRoots;
 		yourself.
 	
 	ToolBuilder open: model

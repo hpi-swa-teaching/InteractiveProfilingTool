@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"openStatsForRoot:userCallsRoot:" : "TP 6/22/2019 12:34" },
+		"openStatsWithRoot:withUserCallsRoots:" : "TP 6/24/2019 13:05" },
 	"instance" : {
 		"buildWith:" : "A 6/18/2019 21:48",
 		"formatGarbageCollectorStats" : "TP 6/24/2019 12:54",

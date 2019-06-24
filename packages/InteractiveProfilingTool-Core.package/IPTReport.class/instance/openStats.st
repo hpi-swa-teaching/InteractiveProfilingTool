@@ -1,4 +1,4 @@
 toolbuilder
 openStats
 	
-	IPTStats openStatsForRoot: self root userCallsRoot: self userCallsRoots
+	IPTStats openStatsWithRoot: self root withUserCallsRoots: self userCallsRoots
