@@ -1,7 +1,7 @@
 information extraction
 getMemoryStats
 
-	| stats memoryEnd oldSpaceEnd youngSpaceEnd |
+	| memoryEnd oldSpaceEnd youngSpaceEnd |
 	
 	self messageTally gcStats ifNil: [^ nil].
 	
@@ -9,13 +9,11 @@ getMemoryStats
 	youngSpaceEnd		:= self messageTally gcStats at: 2.
 	memoryEnd			:= self messageTally gcStats at: 3.
 				
-	stats := Dictionary newFrom: { 
+	^ Dictionary newFrom: { 
 		#old		-> oldSpaceEnd.
 		#young	-> (youngSpaceEnd - oldSpaceEnd).
 		#used		-> youngSpaceEnd.
-		#free		-> (memoryEnd - youngSpaceEnd)}.
-				
-	^ stats
+		#free		-> (memoryEnd - youngSpaceEnd) }
 		
 	
 	

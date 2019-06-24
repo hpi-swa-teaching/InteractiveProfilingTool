@@ -1,7 +1,7 @@
 information extraction
 getGarbageCollectorStats
 
-	| stats fullTime fullCount incrementalTime incrementalCount rootOverflows tenures fullRelativeTime incrementalRelativeTime uptime |
+	| fullTime fullCount incrementalTime incrementalCount rootOverflows tenures fullRelativeTime incrementalRelativeTime uptime |
 	
 	self messageTally gcStats ifNil: [^ nil].
 	
@@ -18,17 +18,15 @@ getGarbageCollectorStats
 	tenures						:= self messageTally gcStats at: 11.
 	rootOverflows				:= self messageTally gcStats at: 22.
 					
-	stats := Dictionary newFrom: {
+	^ Dictionary newFrom: {
 		#full -> (Dictionary newFrom: {
 			#count -> fullCount.
 			#time -> fullTime.
-			#relativeTime ->fullRelativeTime}).
+			#relativeTime ->fullRelativeTime }).
 		#incremental -> (Dictionary newFrom: {
 			#count -> incrementalCount.
 			#time -> incrementalTime.
-			#relativeTime -> incrementalRelativeTime}).	
+			#relativeTime -> incrementalRelativeTime }).	
 		#tenures -> tenures.
-		#rootOverflows -> rootOverflows}.
-	
-	^ stats
+		#rootOverflows -> rootOverflows }
 	
