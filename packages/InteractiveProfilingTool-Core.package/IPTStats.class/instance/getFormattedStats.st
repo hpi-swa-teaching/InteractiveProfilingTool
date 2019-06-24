@@ -10,4 +10,4 @@ getFormattedStats
 	
 	^ sections reduce: [ :combined :section |
 		combined append: (String cr, String cr).
-		combined append: section ].
+		combined append: section ]

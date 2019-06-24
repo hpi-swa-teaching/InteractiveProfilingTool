@@ -7,4 +7,4 @@ testFormatLeavesWithoutLeaves
 	formatted := model formatLeaves.
 	message := 'There are no leaves relevant to runtime performance.'.
 
-	self assert: (formatted asString findString: message) > 0.
+	self assert: (formatted asString findString: message) > 0

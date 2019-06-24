@@ -10,4 +10,4 @@ formatMemoryStats
 		('Free {1} bytes' format: {stats at: #free}).
 		('Used: {1} bytes' format: {stats at: #used})}.
 		
-	 ^ self formatStats: lines withHeading: 'Memory'.
+	 ^ self formatStats: lines withHeading: 'Memory'

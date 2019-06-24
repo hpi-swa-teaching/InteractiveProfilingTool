@@ -14,4 +14,4 @@ formatGarbageCollectorStats
 		('Tenures: {1}' format: {stats at: #tenures}).
 		('Root Table: {1} overflows' format: {stats at: #rootOverflows})}.
 		
-	 ^ self formatStats: lines withHeading: 'Garbage Collector'.
+	 ^ self formatStats: lines withHeading: 'Garbage Collector'

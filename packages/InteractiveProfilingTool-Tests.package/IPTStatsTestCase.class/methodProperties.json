@@ -4,10 +4,10 @@
 	"instance" : {
 		"setUp" : "TP 6/22/2019 14:03",
 		"testFormatGarbageCollectorStats" : "TP 6/22/2019 14:13",
-		"testFormatLeaves" : "TP 6/24/2019 12:07",
-		"testFormatLeavesWithoutLeaves" : "TP 6/24/2019 12:07",
+		"testFormatLeaves" : "TP 6/24/2019 12:53",
+		"testFormatLeavesWithoutLeaves" : "TP 6/24/2019 12:53",
 		"testFormatMemoryStats" : "TP 6/22/2019 14:12",
 		"testFormatStatsBoldHeadings" : "TP 6/24/2019 11:28",
 		"testFormatStatsLineBreaks" : "TP 6/22/2019 14:52",
-		"testGetFormattedStats" : "TP 6/22/2019 14:20",
+		"testGetFormattedStats" : "TP 6/24/2019 12:53",
 		"testGetFormattedStatsBoldHeadings" : "TP 6/24/2019 11:52" } }
