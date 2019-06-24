@@ -1,5 +1,5 @@
 tests
-testFormatStatsBoldTitle
+testFormatStatsBoldHeadings
 
 	| lines formatted attribute |
 

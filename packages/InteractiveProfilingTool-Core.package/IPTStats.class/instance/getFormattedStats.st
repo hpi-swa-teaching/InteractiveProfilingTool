@@ -7,6 +7,7 @@ getFormattedStats
 		self formatMemoryStats.
 		self formatGarbageCollectorStats.
 		self formatLeaves}.
-		
-	^ sections joinSeparatedBy: (String cr, String cr).
 	
+	^ sections reduce: [ :combined :section |
+		combined append: (String cr, String cr).
+		combined append: section ].
