@@ -1,16 +1,15 @@
 formatting
 formatGarbageCollectionStats
 
-	| stats lines statsFull statsIncremental |
+	| lines statsFull statsIncremental |
 	
-	stats := self root getGarbageCollectionStats.
 	statsFull := self root getFullGarbageCollectionStats.
 	statsIncremental := self root getIncrementalGarbageCollectionStats.
 
 	lines := {
 		self formatGarbageCollectionGeneration: 'Full' withStats: statsFull.
 		self formatGarbageCollectionGeneration: 'Incremental' withStats: statsIncremental.
-		('Tenures: {1}' format: {stats at: #tenures}).
-		('Root Table: {1} overflows' format: {stats at: #rootOverflows})}.
+		('Tenures: {1}' format: { self root getTenures }).
+		('Root Table: {1} overflows' format: { self root getRootOverflows })}.
 		
 	 ^ self formatStats: lines withHeading: 'Garbage Collector'

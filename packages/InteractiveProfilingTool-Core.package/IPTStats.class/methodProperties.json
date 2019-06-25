@@ -4,10 +4,12 @@
 	"instance" : {
 		"buildWith:" : "A 6/18/2019 21:48",
 		"formatGarbageCollectionGeneration:withStats:" : "A 6/25/2019 18:46",
-		"formatGarbageCollectionStats" : "A 6/25/2019 19:14",
+		"formatGarbageCollectionStats" : "A 6/25/2019 19:41",
 		"formatLeaves" : "A 6/24/2019 18:00",
 		"formatMemoryStats" : "TP 6/24/2019 12:54",
+		"formatRootOverflows" : "A 6/25/2019 19:48",
 		"formatStats:withHeading:" : "TP 6/22/2019 12:10",
+		"formatTenures" : "A 6/25/2019 19:47",
 		"getFormattedStats" : "A 6/25/2019 19:14",
 		"getTextSpecWith:" : "TP 6/21/2019 15:11",
 		"getWindowSpecWith:" : "A 6/18/2019 21:47",
