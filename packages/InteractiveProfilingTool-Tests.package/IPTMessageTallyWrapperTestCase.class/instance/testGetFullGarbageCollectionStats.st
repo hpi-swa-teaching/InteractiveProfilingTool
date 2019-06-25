@@ -1,9 +1,9 @@
 tests
-testGetGarbageCollectorStatsFull
+testGetFullGarbageCollectionStats
 
 	| expected actual |
 	
-	actual := wrappedTallyMock getGarbageCollectorStats at: #full.
+	actual := wrappedTallyMock getFullGarbageCollectionStats.
 	expected := Dictionary newFrom: {
 		#count -> 111.
 		#time -> 222.

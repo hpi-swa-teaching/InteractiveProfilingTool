@@ -1,9 +1,9 @@
 tests
-testGetGarbageCollectorStatsIncremental
+testGetIncrementalGarbageCollectionStats
 
 	| expected actual |
 	
-	actual := wrappedTallyMock getGarbageCollectorStats at: #incremental.
+	actual := wrappedTallyMock getIncrementalGarbageCollectionStats.
 	expected := Dictionary newFrom: {
 		#count -> 333.
 		#time -> 444.

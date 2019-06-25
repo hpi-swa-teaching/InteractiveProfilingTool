@@ -5,7 +5,7 @@ getFormattedStats
 
 	sections := {
 		self formatMemoryStats.
-		self formatGarbageCollectorStats.
+		self formatGarbageCollectionStats.
 		self formatLeaves}.
 	
 	^ sections reduce: [ :combined :section |

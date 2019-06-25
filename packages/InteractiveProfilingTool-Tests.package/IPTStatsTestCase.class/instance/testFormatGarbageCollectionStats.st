@@ -1,8 +1,8 @@
 tests
-testFormatGarbageCollectorStats
+testFormatGarbageCollectionStats
 
 	| formatted |
 	
-	formatted := model formatGarbageCollectorStats.
+	formatted := model formatGarbageCollectionStats.
 	
 	self assert: (formatted asString beginsWith: 'Garbage Collector')
