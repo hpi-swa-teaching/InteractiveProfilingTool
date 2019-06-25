@@ -7,12 +7,12 @@ getFullGarbageCollectionStats
 	uptime := self messageTally time.
 		
 	fullCount				:= gcStats at: 7.
-	fullTime				:= gcStats at: 8.	
-	fullRelativeTime 	:= (fullTime / uptime * 100) roundTo: 0.01.
+	fullTime				:= gcStats at: 8.
+	fullRelativeTime 	:= (fullTime / uptime * 100) roundTo: 1.
 				
 	fullAverageTime := (fullCount = 0)
 		ifTrue: [ nil ]
-		ifFalse: [ (fullTime / fullCount) asFloat roundTo: 0.01 ].
+		ifFalse: [ (fullTime / fullCount) asFloat roundTo: 1 ].
 				
 	^ Dictionary newFrom: {
 		#count 				-> fullCount.

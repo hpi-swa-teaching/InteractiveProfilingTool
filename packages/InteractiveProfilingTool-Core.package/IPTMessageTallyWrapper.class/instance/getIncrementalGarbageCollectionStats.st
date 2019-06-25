@@ -8,11 +8,11 @@ getIncrementalGarbageCollectionStats
 					
 	incrementalCount				:= gcStats at: 9.
 	incrementalTime				:=  gcStats at: 10.
-	incrementalRelativeTime	:= (incrementalTime / uptime * 100) roundTo: 0.01.
+	incrementalRelativeTime	:= (incrementalTime / uptime * 100) roundTo: 1.
 		
 	incrementalAverageTime := (incrementalCount = 0)
 		ifTrue: [ nil ]
-		ifFalse: [ (incrementalTime / incrementalCount) asFloat roundTo: 0.01 ].
+		ifFalse: [ (incrementalTime / incrementalCount) asFloat roundTo: 1 ].
 
 	^ Dictionary newFrom: {
 		#count 				-> incrementalCount.

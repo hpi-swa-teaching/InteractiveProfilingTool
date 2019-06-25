@@ -7,7 +7,7 @@ testGetIncrementalGarbageCollectionStats
 	expected := Dictionary newFrom: {
 		#count -> 333.
 		#time -> 444.
-		#relativeTime -> 66.67.
+		#relativeTime -> 67.
 		#averageTime -> 1 }.
 
 	self assert: expected equals: actual
