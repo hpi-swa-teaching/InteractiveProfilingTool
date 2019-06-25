@@ -9,7 +9,7 @@ formatGarbageCollectionStats
 	lines := {
 		self formatGarbageCollectionGeneration: 'Full' withStats: statsFull.
 		self formatGarbageCollectionGeneration: 'Incremental' withStats: statsIncremental.
-		('Tenures: {1}' format: { self root getTenures }).
-		('Root Table: {1} overflows' format: { self root getRootOverflows })}.
+		self formatTenures.
+		self formatRootOverflows }.
 		
 	 ^ self formatStats: lines withHeading: 'Garbage Collector'
