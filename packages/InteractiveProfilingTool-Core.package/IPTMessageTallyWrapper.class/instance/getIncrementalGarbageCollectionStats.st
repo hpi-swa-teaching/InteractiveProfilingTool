@@ -12,7 +12,7 @@ getIncrementalGarbageCollectionStats
 		
 	incrementalAverageTime := (incrementalCount = 0)
 		ifTrue: [ nil ]
-		ifFalse: [ (incrementalTime / incrementalCount) asFloat rounded ].
+		ifFalse: [ (incrementalTime / incrementalCount) asFloat roundTo: 0.01 ].
 
 	^ Dictionary newFrom: {
 		#count 				-> incrementalCount.

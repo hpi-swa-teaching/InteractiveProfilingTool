@@ -12,7 +12,7 @@ getFullGarbageCollectionStats
 				
 	fullAverageTime := (fullCount = 0)
 		ifTrue: [ nil ]
-		ifFalse: [ (fullTime / fullCount) asFloat rounded ].
+		ifFalse: [ (fullTime / fullCount) asFloat roundTo: 0.01 ].
 				
 	^ Dictionary newFrom: {
 		#count 				-> fullCount.
