@@ -3,7 +3,7 @@ testConstructWrappedTreeWithRoot
 
 	| wrappedTally |
 	
-	wrappedTally := IPTReport constructWrappedTreeWithRoot: tallyMock.
+	wrappedTally := IPTReport constructWrappedTreeWithRoot: tallyMock andTotalTime: 70.
 	
 	self assert: 70  equals: wrappedTally totalTimeOfOverallTree.
 	self assert: tallyMock identical: wrappedTally messageTally.

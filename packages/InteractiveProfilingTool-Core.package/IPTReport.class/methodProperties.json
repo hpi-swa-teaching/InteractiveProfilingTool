@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"calculateTotalTimeForUserCallsWithRoot:andUserRoot:" : "LH 6/28/2019 17:13",
+		"calculateTotalTimeForUserCallsWithRoot:andUserRoot:" : "LH 6/28/2019 17:33",
 		"constructWrappedTreeWithRoot:andTotalTime:" : "LH 6/28/2019 16:53",
 		"emptyIcon" : "twk 6/16/2019 13:53",
 		"findRootForUserCalls:" : "twk 5/17/2019 18:46",
