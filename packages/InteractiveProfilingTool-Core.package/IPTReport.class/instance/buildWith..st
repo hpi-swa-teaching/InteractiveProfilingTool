@@ -1,10 +1,13 @@
 toolbuilder
 buildWith: aBuilder
 
-	| windowSpec |
+	| windowSpec window |
 	
 	windowSpec := self buildWindowWith: aBuilder specs: {
 		(self boundsOfUpperWindowHalf) -> [self buildTreeWith:  aBuilder].
 		(self boundsOfLowerWindowHalf) -> [self buildCodePaneWith: aBuilder]}.
+		
+	window := aBuilder build: windowSpec. 
+	self expandAllNodesForTreeIn: window.
 	
-	^ aBuilder build: windowSpec. 
+	^ window
