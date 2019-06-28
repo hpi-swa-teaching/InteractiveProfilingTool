@@ -7,7 +7,7 @@ testAutoExpand
 		roots: {wrappedTally};
 		setInitialSelection.
 	window := reportForTree buildWith: MorphicToolBuilder new.
-	tree := window submorphNamed: #tree.
+	tree := window submorphNamed: #resultsTree.
 	
 	nodeItems := tree items asOrderedCollection.
 	nodeItems removeLast. "last Node is leaf and therefore cannot be expanded"

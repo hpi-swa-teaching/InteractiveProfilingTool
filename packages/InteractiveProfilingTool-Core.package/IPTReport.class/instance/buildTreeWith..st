@@ -12,5 +12,5 @@ buildTreeWith: aBuilder
 					getSelected: #currentSelection;
 					setSelected: #currentSelection:;
 					keyPress: #handleKey:from:event:;
-					name: #tree;
+					name: #resultsTree;
 					yourself

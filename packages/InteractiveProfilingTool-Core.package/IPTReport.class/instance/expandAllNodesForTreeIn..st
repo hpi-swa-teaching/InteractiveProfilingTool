@@ -3,5 +3,5 @@ expandAllNodesForTreeIn: window
 	
 	| tree |
 	
-	tree := window submorphNamed: 'tree'.
+	tree := window submorphNamed: #resultsTree.
 	tree expandAll
