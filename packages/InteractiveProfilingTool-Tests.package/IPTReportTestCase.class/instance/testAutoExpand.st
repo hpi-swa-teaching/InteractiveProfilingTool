@@ -1,14 +1,15 @@
 tests
 testAutoExpand
-	| window listItems reportForTree |
+	| window tree nodeItems reportForTree |
 	
 	wrappedTally := self getWrappedTallyMockTree.
 	reportForTree := IPTReport new
 		roots: {wrappedTally};
 		setInitialSelection.
 	window := reportForTree buildWith: MorphicToolBuilder new.
+	tree := window submorphNamed: #tree.
 	
-	listItems := self getListItemsFromReportWindow: window.
-	listItems removeLast. "last Node is leaf and therefore cannot be expanded"
+	nodeItems := tree items asOrderedCollection.
+	nodeItems removeLast. "last Node is leaf and therefore cannot be expanded"
 	
-	self assert: (listItems allSatisfy: [ :item | item isExpanded ])
+	self assert: (nodeItems allSatisfy: [ :item | item isExpanded ])
