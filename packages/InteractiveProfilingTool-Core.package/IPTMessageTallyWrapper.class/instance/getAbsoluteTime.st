@@ -1,4 +1,4 @@
 information extraction
 getAbsoluteTime
-
-	^ self messageTally tally asFloat
+	
+	^  self getOwnTallyCount / self totalTallyCountOfOverallTree * self totalTimeOfOverallTree

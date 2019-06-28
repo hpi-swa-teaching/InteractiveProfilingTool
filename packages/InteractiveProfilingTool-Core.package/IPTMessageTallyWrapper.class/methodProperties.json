@@ -1,19 +1,19 @@
 {
 	"class" : {
-		"constructTreeOfWrappedMessageTallys:withTotalTime:" : "twk 6/16/2019 14:23" },
+		"constructTreeOfWrappedMessageTallys:withTotalTime:andTotalTallyCount:" : "LH 6/28/2019 16:24" },
 	"instance" : {
-		"calculateRelativeTime" : "twk 6/16/2019 14:18",
 		"callRelevancePercentage" : "twk 6/16/2019 11:38",
-		"formatTimeStringWithAbsoluteTime:andRelativeTime:" : "twk 5/24/2019 12:19",
-		"getAbsoluteTime" : "twk 6/3/2019 13:16",
+		"formatTimeStringWithAbsoluteTime:andRelativeTime:" : "LH 6/28/2019 16:55",
+		"getAbsoluteTime" : "LH 6/28/2019 16:27",
 		"getChildrenWithRelevantPerformanceImpact" : "twk 5/25/2019 21:08",
 		"getClass" : "twk 6/3/2019 13:21",
 		"getClassName" : "twk 6/3/2019 13:23",
 		"getLabel" : "twk 6/3/2019 13:24",
-		"getRelativeTime" : "twk 6/16/2019 14:19",
+		"getOwnTallyCount" : "LH 6/28/2019 16:28",
+		"getRelativeTime" : "LH 6/28/2019 16:51",
 		"getSelector" : "twk 6/3/2019 13:23",
 		"getSelectorName" : "twk 6/3/2019 13:24",
-		"getTimeString" : "twk 5/24/2019 12:18",
+		"getTimeString" : "LH 6/28/2019 17:00",
 		"hasChildrenWithRelevantPerformanceImpact" : "twk 5/24/2019 12:10",
 		"highlightingThreshold" : "twk 6/16/2019 11:08",
 		"isRelevantForPerformance" : "twk 5/25/2019 21:09",
@@ -22,6 +22,8 @@
 		"receivers" : "twk 5/24/2019 11:53",
 		"receivers:" : "twk 6/3/2019 13:18",
 		"shouldBeHighlighted" : "twk 6/16/2019 10:43",
+		"totalTallyCountOfOverallTree" : "LH 6/28/2019 16:23",
+		"totalTallyCountOfOverallTree:" : "LH 6/28/2019 16:52",
 		"totalTimeOfOverallTree" : "twk 5/24/2019 12:05",
 		"totalTimeOfOverallTree:" : "twk 6/3/2019 13:18",
-		"wrapReceivers" : "twk 6/16/2019 14:21" } }
+		"wrapReceivers" : "LH 6/28/2019 16:31" } }

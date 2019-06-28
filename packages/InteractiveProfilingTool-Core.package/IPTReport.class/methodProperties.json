@@ -1,11 +1,12 @@
 {
 	"class" : {
-		"constructWrappedTreeWithRoot:" : "NP 6/16/2019 12:20",
+		"calculateTotalTimeForUserCallsWithRoot:andUserRoot:" : "LH 6/28/2019 17:13",
+		"constructWrappedTreeWithRoot:andTotalTime:" : "LH 6/28/2019 16:53",
 		"emptyIcon" : "twk 6/16/2019 13:53",
 		"findRootForUserCalls:" : "twk 5/17/2019 18:46",
 		"highRuntimeIcon" : "TP 5/27/2019 00:53",
 		"open:" : "LH 5/17/2019 14:16",
-		"openReportFor:" : "twk 6/16/2019 10:52" },
+		"openReportFor:" : "LH 6/28/2019 17:11" },
 	"instance" : {
 		"aboutToStyle:" : "twk 6/16/2019 13:42",
 		"boundsOfLowerWindowHalf" : "A 6/8/2019 18:43",
