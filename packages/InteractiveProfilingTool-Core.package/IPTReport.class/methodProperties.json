@@ -4,7 +4,8 @@
 		"emptyIcon" : "twk 6/16/2019 13:53",
 		"highRuntimeIcon" : "TP 5/27/2019 00:53",
 		"open:" : "LH 5/17/2019 14:16",
-		"openReportFor:" : "A 6/20/2019 13:43" },
+		"openReportFor:" : "TP 6/28/2019 14:55",
+		"withRoot:withUserCallsRoots:" : "TP 6/28/2019 14:55" },
 	"instance" : {
 		"aboutToStyle:" : "twk 6/16/2019 13:42",
 		"boundsOfLowerWindowHalf" : "A 6/19/2019 15:04",
@@ -34,8 +35,6 @@
 		"getSourceCodeFromMessage:" : "LH 6/17/2019 19:24",
 		"handleKey:from:event:" : "twk 6/16/2019 14:06",
 		"hasChildrenWithRelevantPerformanceImpact:" : "twk 6/16/2019 10:56",
-		"initializeWithRootNode:" : "A 6/19/2019 14:56",
-		"initializeWithUserCallsRootsNode:" : "A 6/19/2019 14:54",
 		"isStyleable" : "A 6/8/2019 18:40",
 		"label:" : "twk 6/16/2019 10:44",
 		"mainTreeListMenu:" : "twk 6/16/2019 14:10",
