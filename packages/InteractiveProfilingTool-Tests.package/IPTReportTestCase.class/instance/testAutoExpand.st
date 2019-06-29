@@ -6,7 +6,7 @@ testAutoExpand
 	reportForTree := IPTReport new
 		roots: {wrappedTally};
 		setInitialSelection.
-	window := reportForTree buildWith: MorphicToolBuilder new.
+	window := ToolBuilder build: reportForTree.
 	tree := window submorphNamed: #resultsTree.
 	
 	nodeItems := tree items asOrderedCollection.
