@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"constructTreeOfWrappedMessageTallys:withTotalTime:" : "A 6/18/2019 17:48" },
+		"constructTreeOfWrappedMessageTallys:withTotalTime:" : "TP 6/30/2019 16:19" },
 	"instance" : {
 		"calculateRelativeTime" : "twk 6/16/2019 14:18",
 		"callRelevancePercentage" : "twk 6/16/2019 11:38",
@@ -23,5 +23,4 @@
 		"receivers" : "twk 5/24/2019 11:53",
 		"receivers:" : "twk 6/3/2019 13:18",
 		"totalTimeOfOverallTree" : "twk 5/24/2019 12:05",
-		"totalTimeOfOverallTree:" : "twk 6/3/2019 13:18",
-		"wrapReceivers" : "twk 6/16/2019 14:21" } }
+		"totalTimeOfOverallTree:" : "twk 6/3/2019 13:18" } }
