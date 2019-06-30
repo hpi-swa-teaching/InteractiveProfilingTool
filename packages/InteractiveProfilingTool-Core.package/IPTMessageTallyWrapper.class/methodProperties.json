@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"constructTreeOfWrappedMessageTallys:" : "TP 6/30/2019 16:35",
 		"constructTreeOfWrappedMessageTallys:withTotalTime:" : "TP 6/30/2019 16:19" },
 	"instance" : {
 		"calculateRelativeTime" : "twk 6/16/2019 14:18",
