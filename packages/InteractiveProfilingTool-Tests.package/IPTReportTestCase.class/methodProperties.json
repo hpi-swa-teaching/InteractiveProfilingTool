@@ -19,6 +19,7 @@
 		"testBuildWith" : "LH 6/17/2019 16:19",
 		"testChangeSourceCode" : "A 6/17/2019 14:06",
 		"testCheckExists" : "LH 6/17/2019 16:19",
+		"testClassExists" : "NP 7/3/2019 09:02",
 		"testDisplayWithoutUserCalls" : "LH 6/17/2019 16:19",
 		"testGetChildrenWithRelevantPerformanceImpactIfNodeDoesNotHaveRelevantChildren" : "twk 6/16/2019 13:23",
 		"testGetChildrenWithRelevantPerformanceImpactIfNodeHasRelevantChildren" : "twk 6/16/2019 13:28",
