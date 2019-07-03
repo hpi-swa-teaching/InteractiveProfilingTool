@@ -3,10 +3,10 @@ testGetSelectedClassWhenClassNotExist
 	
 	| compiledMethod tree class|
 	
-	compiledMethod := (DummyClass >> #dummyMethodToProfile).
+	compiledMethod := (Smalltalk classNamed: 'DummyClass') compiledMethodAt: #dummyMethodToProfile.
 	tree := self treeFromCompiledMethod: compiledMethod.
 		
-	DummyClass removeFromSystem.
+	(Smalltalk classNamed: 'DummyClass') removeFromSystem.
 	
 	class := tree selectedClass.
 	
