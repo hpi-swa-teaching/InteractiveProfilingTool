@@ -1,10 +1,11 @@
 information extraction
 getTimeString
-	"Example return value: '10.0 % {3 ms}'"
 
-	| absoluteTime relativeTime | 
+	| values | 
 	
-	absoluteTime := self getAbsoluteTime.
-	relativeTime := self getRelativeTime.
+	values := {
+		self getRelativeTime printShowingDecimalPlaces: 1.
+		self getAbsoluteTime printShowingDecimalPlaces: 1.
+	}.
 
-	^ self formatTimeStringWithAbsoluteTime: absoluteTime andRelativeTime: relativeTime. 
+	^ ('{1} % \{{2} ms\}') format: values

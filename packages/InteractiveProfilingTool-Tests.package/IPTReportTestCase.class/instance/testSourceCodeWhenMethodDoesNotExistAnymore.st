@@ -8,7 +8,5 @@ testSourceCodeWhenMethodDoesNotExistAnymore
 	DummyObject removeSelector: #dummyMethodToRemove.
 	sourceCode := tree selectedMessage.
 	
-	DummyObject compile: self dummyMethodToRemoveSourceCode.
-	
 	self assert: sourceCode equals: 'Method Missing'
 	

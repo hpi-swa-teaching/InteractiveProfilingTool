@@ -3,7 +3,8 @@ openReportFor: aMessageTally
 	
 	| tree root userCallsRoots |
 	
-	root := self constructWrappedTreeWithRoot: aMessageTally.
+	root := IPTMessageTallyWrapper with: aMessageTally.
+	userCallsRoot := root findRootForUserCalls.
 	
 	userCallsRoots := root findRootForUserCalls.
 	userCallsRoots := userCallsRoots

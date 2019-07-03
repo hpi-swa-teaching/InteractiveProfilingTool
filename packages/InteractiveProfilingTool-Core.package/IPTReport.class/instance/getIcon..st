@@ -1,7 +1,7 @@
 model access
 getIcon: aNode
 
-	(aNode shouldBeHighlighted)
+	aNode hasHighRuntime
 		ifTrue: [^ self class highRuntimeIcon]
 		ifFalse: [^ self class emptyIcon]
 	

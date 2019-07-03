@@ -16,7 +16,7 @@ testConstructTreeOfWrappedMessageTallysForDeepCallTree
 		tally: 100;
 		receivers: {tallyMockInnerNode}.	
 	
-	wrappedTally := IPTMessageTallyWrapper constructTreeOfWrappedMessageTallys: tallyMockRoot withTotalTime: 500.
+	wrappedTally := IPTMessageTallyWrapper with: tallyMockRoot withTotalTime: 500.
 	
 	self assert: tallyMockRoot identical: wrappedTally messageTally.
 	self assert: tallyMockInnerNode identical: wrappedTally receivers first messageTally.

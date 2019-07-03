@@ -1,5 +1,5 @@
 tests
-testCheckExists
+testClassExists
 
 	| tree tallyMock compiledMethod wrapedTallyMock |
 	

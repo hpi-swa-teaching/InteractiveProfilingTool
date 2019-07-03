@@ -1,17 +1,14 @@
 tests
 testSourceCodeWhenClassDoesNotExistAnymore
 
-	| compiledMethod tree sourceCode sourceCodeFromDeletedMethod |
+	| compiledMethod tree sourceCode |
 	
 	compiledMethod := (DummyClass >> #dummyMethodToProfile).
 	tree := self treeFromCompiledMethod: compiledMethod.
-	sourceCodeFromDeletedMethod := self dummyMethodToProfileSourceCode.
 	
 	DummyClass removeFromSystem.
 	sourceCode := tree selectedMessage.
 	
-	self buildDummyClass. 
-	
-	DummyClass compile: sourceCodeFromDeletedMethod.
+	self buildDummyClass.
 	
 	self assert: sourceCode equals: 'Class Missing'

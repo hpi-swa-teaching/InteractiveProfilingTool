@@ -1,11 +1,11 @@
 {
 	"class" : {
-		"constructTreeOfWrappedMessageTallys:withTotalTime:" : "A 6/18/2019 17:48" },
+		"with:" : "A 7/3/2019 10:36",
+		"with:withTotalTime:" : "A 7/3/2019 10:36" },
 	"instance" : {
 		"calculateRelativeTime" : "twk 6/16/2019 14:18",
 		"callRelevancePercentage" : "A 6/24/2019 16:17",
 		"findRootForUserCalls" : "A 6/18/2019 17:56",
-		"formatTimeStringWithAbsoluteTime:andRelativeTime:" : "twk 5/24/2019 12:19",
 		"getAbsoluteTime" : "twk 6/3/2019 13:16",
 		"getChildrenWithRelevantPerformanceImpact" : "twk 5/25/2019 21:08",
 		"getClass" : "twk 6/3/2019 13:21",
@@ -22,13 +22,13 @@
 		"getTenures" : "A 6/28/2019 10:21",
 		"getTimeString" : "twk 5/24/2019 12:18",
 		"hasChildrenWithRelevantPerformanceImpact" : "twk 5/24/2019 12:10",
-		"highlightingThreshold" : "twk 6/16/2019 11:08",
+		"hasHighRuntime" : "A 7/3/2019 11:09",
+		"highRuntimeThreshold" : "A 7/3/2019 11:09",
 		"isRelevantForPerformance" : "twk 5/25/2019 21:09",
 		"messageTally" : "twk 5/24/2019 11:53",
 		"messageTally:" : "twk 6/3/2019 13:16",
 		"receivers" : "twk 5/24/2019 11:53",
 		"receivers:" : "twk 6/3/2019 13:18",
-		"shouldBeHighlighted" : "twk 6/16/2019 10:43",
 		"totalTimeOfOverallTree" : "twk 5/24/2019 12:05",
 		"totalTimeOfOverallTree:" : "twk 6/3/2019 13:18",
-		"wrapReceivers" : "twk 6/16/2019 14:21" } }
+		"wrapReceivers" : "A 7/3/2019 10:35" } }

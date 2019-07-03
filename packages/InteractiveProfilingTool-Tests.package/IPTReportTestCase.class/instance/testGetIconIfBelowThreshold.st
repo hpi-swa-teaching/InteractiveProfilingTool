@@ -1,7 +1,10 @@
 tests
 testGetIconIfBelowThreshold
 
-	| model |
+	| model expected actual |
 	
 	model := IPTReportMock new.
-	self assert: nil equals: (model getIcon: wrappedTallyWithLowRuntime)
+	expected := model class emptyIcon.
+	actual := model getIcon: wrappedTallyWithLowRuntime.
+	
+	self assert: expected equals: actual
