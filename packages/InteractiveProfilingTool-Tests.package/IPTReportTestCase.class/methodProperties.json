@@ -24,7 +24,7 @@
 		"testGetChildrenWithRelevantPerformanceImpactIfNodeDoesNotHaveRelevantChildren" : "twk 6/16/2019 13:23",
 		"testGetChildrenWithRelevantPerformanceImpactIfNodeHasRelevantChildren" : "twk 6/16/2019 13:28",
 		"testGetIconIfAboveThreshold" : "LH 6/17/2019 16:19",
-		"testGetIconIfBelowThreshold" : "LH 6/17/2019 16:19",
+		"testGetIconIfBelowThreshold" : "NP 7/3/2019 09:06",
 		"testGetIconIfEqualsThreshold" : "LH 6/17/2019 16:19",
 		"testGetSelectedClassWhenClassExist" : "LH 6/17/2019 16:19",
 		"testGetSelectedClassWhenClassNotExist" : "A 6/17/2019 14:23",
