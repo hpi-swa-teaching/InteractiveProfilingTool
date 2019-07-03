@@ -1,0 +1,15 @@
+{
+	"category" : "InteractiveProfilingTool-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"model",
+		"builder" ],
+	"name" : "IPTToggleTestCase",
+	"pools" : [
+		 ],
+	"super" : "IPTTestCase",
+	"type" : "normal" }

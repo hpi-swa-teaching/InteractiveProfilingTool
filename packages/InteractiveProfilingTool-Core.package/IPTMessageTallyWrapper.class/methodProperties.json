@@ -1,0 +1,28 @@
+{
+	"class" : {
+		"with:" : "A 7/3/2019 10:36",
+		"with:withTotalTime:" : "A 7/3/2019 10:36" },
+	"instance" : {
+		"calculateRelativeTime" : "twk 6/16/2019 14:18",
+		"callRelevancePercentage" : "twk 6/16/2019 11:38",
+		"findRootForUserCalls" : "A 6/18/2019 17:56",
+		"getAbsoluteTime" : "twk 6/3/2019 13:16",
+		"getChildrenWithRelevantPerformanceImpact" : "twk 5/25/2019 21:08",
+		"getClass" : "twk 6/3/2019 13:21",
+		"getClassName" : "twk 6/3/2019 13:23",
+		"getLabel" : "twk 6/3/2019 13:24",
+		"getRelativeTime" : "A 7/3/2019 11:21",
+		"getSelector" : "twk 6/3/2019 13:23",
+		"getSelectorName" : "twk 6/3/2019 13:24",
+		"getTimeString" : "A 7/3/2019 11:02",
+		"hasChildrenWithRelevantPerformanceImpact" : "twk 5/24/2019 12:10",
+		"hasHighRuntime" : "A 7/3/2019 11:09",
+		"highRuntimeThreshold" : "A 7/3/2019 11:09",
+		"isRelevantForPerformance" : "twk 5/25/2019 21:09",
+		"messageTally" : "twk 5/24/2019 11:53",
+		"messageTally:" : "twk 6/3/2019 13:16",
+		"receivers" : "twk 5/24/2019 11:53",
+		"receivers:" : "twk 6/3/2019 13:18",
+		"totalTimeOfOverallTree" : "twk 5/24/2019 12:05",
+		"totalTimeOfOverallTree:" : "twk 6/3/2019 13:18",
+		"wrapReceivers" : "A 7/3/2019 10:35" } }

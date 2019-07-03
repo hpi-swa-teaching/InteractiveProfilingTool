@@ -1,0 +1,16 @@
+{
+	"category" : "InteractiveProfilingTool-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"wrappedTallyMock",
+		"wrappedTallyMockWithLowRuntime",
+		"tallyMock" ],
+	"name" : "IPTMessageTallyWrapperTestCase",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

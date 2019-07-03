@@ -1,4 +1,0 @@
-dummies
-dummyMethodToBeChanged
-	
-	^ 1

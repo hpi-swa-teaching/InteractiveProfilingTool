@@ -1,4 +1,0 @@
-constants
-highlightingThreshold
-	
-	^ 50

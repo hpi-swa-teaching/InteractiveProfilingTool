@@ -1,0 +1,4 @@
+information extraction
+hasChildrenWithRelevantPerformanceImpact
+
+	^ self getChildrenWithRelevantPerformanceImpact isEmpty not

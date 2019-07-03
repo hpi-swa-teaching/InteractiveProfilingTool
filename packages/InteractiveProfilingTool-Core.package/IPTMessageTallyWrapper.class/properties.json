@@ -1,0 +1,16 @@
+{
+	"category" : "InteractiveProfilingTool-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "A 6/25/2019 19:12",
+	"instvars" : [
+		"messageTally",
+		"receivers",
+		"totalTimeOfOverallTree" ],
+	"name" : "IPTMessageTallyWrapper",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
