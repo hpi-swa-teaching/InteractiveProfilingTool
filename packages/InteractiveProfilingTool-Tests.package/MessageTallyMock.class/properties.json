@@ -1,0 +1,14 @@
+{
+	"category" : "InteractiveProfilingTool-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MessageTallyMock",
+	"pools" : [
+		 ],
+	"super" : "MessageTally",
+	"type" : "normal" }

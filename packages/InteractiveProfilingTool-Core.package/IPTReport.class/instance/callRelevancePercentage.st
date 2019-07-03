@@ -1,0 +1,4 @@
+constants
+callRelevancePercentage
+
+	^ 1

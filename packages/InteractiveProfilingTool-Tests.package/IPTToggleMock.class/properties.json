@@ -1,0 +1,14 @@
+{
+	"category" : "InteractiveProfilingTool-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TP 5/12/2019 14:55",
+	"instvars" : [
+		 ],
+	"name" : "IPTToggleMock",
+	"pools" : [
+		 ],
+	"super" : "IPTToggle",
+	"type" : "normal" }

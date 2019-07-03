@@ -1,0 +1,14 @@
+{
+	"category" : "InteractiveProfilingTool-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TP 5/10/2019 01:45",
+	"instvars" : [
+		"isCurrentlyProfiling" ],
+	"name" : "IPTToggle",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "A 6/18/2019 18:25",
+		"testCalculateRelativeTime" : "twk 6/16/2019 12:12",
+		"testConstructTreeOfWrappedMessageTallysForDeepCallTree" : "twk 6/16/2019 12:39",
+		"testConstructTreeOfWrappedMessageTallysForSingleMessageTally" : "twk 6/16/2019 12:39",
+		"testConstructTreeOfWrappedMessageTallysForWideCallTree" : "twk 6/16/2019 12:40",
+		"testConstructTreeOfWrappedMessageTallysWithoutTotalTime" : "TP 6/30/2019 16:36",
+		"testFindRootWithoutUserCalls" : "A 6/18/2019 18:23",
+		"testGetAbsoluteTime" : "twk 6/16/2019 11:48",
+		"testGetChildrenWithRelevantOverallPerformanceImpact" : "twk 6/16/2019 12:10",
+		"testGetClass" : "twk 6/16/2019 11:55",
+		"testGetClassName" : "twk 6/16/2019 12:13",
+		"testGetLabel" : "twk 6/16/2019 11:59",
+		"testGetRelativeTime" : "NP 7/3/2019 09:21",
+		"testGetSelector" : "twk 6/16/2019 11:56",
+		"testGetSelectorName" : "twk 6/16/2019 12:14",
+		"testGetTimeString" : "twk 6/16/2019 11:57",
+		"testHasChildrenWithRelevantOverallPerformanceImpact" : "twk 6/16/2019 12:06",
+		"testIsRelevantForOverallPerformance" : "twk 6/16/2019 12:03",
+		"testShouldBeHighlighted" : "twk 6/16/2019 12:15" } }
