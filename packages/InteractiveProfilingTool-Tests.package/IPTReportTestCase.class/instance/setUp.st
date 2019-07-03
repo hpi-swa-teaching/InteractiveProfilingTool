@@ -21,6 +21,7 @@ setUp
 	tallyObjectNoCalls := IPTReportTestCase constructMessageTallyFrom: [].
 	
 	self buildDummyClass. 
+	self buildDummyObject.
 	
 	self compileDummyMethods
 	

@@ -1,4 +1,0 @@
-dummies
-dummyMethod
-	
-	^ 42
