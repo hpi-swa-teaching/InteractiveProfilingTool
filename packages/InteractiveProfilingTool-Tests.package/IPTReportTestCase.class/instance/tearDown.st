@@ -1,6 +1,6 @@
 running
 tearDown 
 
-	DummyClass removeFromSystem.
-	DummyObject removeFromSystem.
+	(Smalltalk classNamed: 'DummyClass') removeFromSystem.
+	(Smalltalk classNamed: 'DummyObject') removeFromSystem.
 	

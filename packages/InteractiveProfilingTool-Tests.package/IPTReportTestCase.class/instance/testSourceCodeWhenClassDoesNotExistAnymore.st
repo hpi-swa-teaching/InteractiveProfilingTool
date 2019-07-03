@@ -3,10 +3,10 @@ testSourceCodeWhenClassDoesNotExistAnymore
 
 	| compiledMethod tree sourceCode |
 	
-	compiledMethod := (DummyClass >> #dummyMethodToProfile).
+	compiledMethod := (Smalltalk classNamed: 'DummyClass') compiledMethodAt:  #dummyMethodToProfile.
 	tree := self treeFromCompiledMethod: compiledMethod.
 	
-	DummyClass removeFromSystem.
+	(Smalltalk classNamed: 'DummyClass') removeFromSystem.
 	sourceCode := tree selectedMessage.
 	
 	self buildDummyClass.
