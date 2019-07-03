@@ -24,6 +24,3 @@ setUp
 	self buildDummyObject.
 	
 	self compileDummyMethods
-	
-
-	
