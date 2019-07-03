@@ -3,7 +3,7 @@ testBuildWith
 
 	| tree window |
 	
-	tree := IPTReportMock new roots: {wrappedTally}.
+	tree := IPTReportMock new userCallsRoots: {wrappedTally}.
 	window := tree buildWith: MorphicToolBuilder new.
 	
 	self assert: (window isKindOf: PluggableSystemWindow).
