@@ -1,10 +1,10 @@
 tree construction
-constructTreeOfWrappedMessageTallys: aRootMessageTally withTotalTime: aTotalTimeValue
+with: aRootMessageTally withTotalTime: aTotalTimeValue
 	
 	| wrappedReceivers |
 		
 	wrappedReceivers := aRootMessageTally receivers collect: [ :node | 
-		self constructTreeOfWrappedMessageTallys: node withTotalTime: aTotalTimeValue ].
+		self with: node withTotalTime: aTotalTimeValue ].
 	
 	^ IPTMessageTallyWrapper new 
 		messageTally: aRootMessageTally;

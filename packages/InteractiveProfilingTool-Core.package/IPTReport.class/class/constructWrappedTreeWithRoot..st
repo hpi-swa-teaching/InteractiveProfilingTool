@@ -5,7 +5,7 @@ constructWrappedTreeWithRoot: aMessageTally
 	
 	totalTime := aMessageTally tally.
 	root := IPTMessageTallyWrapper
-		constructTreeOfWrappedMessageTallys: aMessageTally
+		with: aMessageTally
 		withTotalTime: totalTime.
 		
 	^ root

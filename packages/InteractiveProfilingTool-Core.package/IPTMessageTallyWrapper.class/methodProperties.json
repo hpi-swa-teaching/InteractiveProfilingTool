@@ -1,7 +1,7 @@
 {
 	"class" : {
-		"constructTreeOfWrappedMessageTallys:" : "TP 6/30/2019 16:35",
-		"constructTreeOfWrappedMessageTallys:withTotalTime:" : "TP 6/30/2019 16:19" },
+		"with:" : "A 7/3/2019 10:36",
+		"with:withTotalTime:" : "A 7/3/2019 10:36" },
 	"instance" : {
 		"calculateRelativeTime" : "twk 6/16/2019 14:18",
 		"callRelevancePercentage" : "twk 6/16/2019 11:38",
@@ -26,4 +26,4 @@
 		"shouldBeHighlighted" : "twk 6/16/2019 10:43",
 		"totalTimeOfOverallTree" : "twk 5/24/2019 12:05",
 		"totalTimeOfOverallTree:" : "twk 6/3/2019 13:18",
-		"wrapReceivers" : "twk 6/16/2019 14:21" } }
+		"wrapReceivers" : "A 7/3/2019 10:35" } }
