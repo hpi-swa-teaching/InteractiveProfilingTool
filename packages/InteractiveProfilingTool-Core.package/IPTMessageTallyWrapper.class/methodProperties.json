@@ -3,7 +3,6 @@
 		"constructTreeOfWrappedMessageTallys:" : "TP 6/30/2019 16:35",
 		"constructTreeOfWrappedMessageTallys:withTotalTime:" : "TP 6/30/2019 16:19" },
 	"instance" : {
-		"calculateRelativeTime" : "twk 6/16/2019 14:18",
 		"callRelevancePercentage" : "twk 6/16/2019 11:38",
 		"findRootForUserCalls" : "A 6/18/2019 17:56",
 		"formatTimeStringWithAbsoluteTime:andRelativeTime:" : "twk 5/24/2019 12:19",
@@ -12,7 +11,7 @@
 		"getClass" : "twk 6/3/2019 13:21",
 		"getClassName" : "twk 6/3/2019 13:23",
 		"getLabel" : "twk 6/3/2019 13:24",
-		"getRelativeTime" : "twk 6/16/2019 14:19",
+		"getRelativeTime" : "NP 7/3/2019 09:19",
 		"getSelector" : "twk 6/3/2019 13:23",
 		"getSelectorName" : "twk 6/3/2019 13:24",
 		"getTimeString" : "twk 5/24/2019 12:18",
