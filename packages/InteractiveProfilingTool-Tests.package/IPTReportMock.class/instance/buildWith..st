@@ -1,6 +1,7 @@
-toolbuilder
+as yet unclassified
 buildWith: aBuilder
-
+	"overrides the original implementation since selection does not work in this mock"
+	
 	| windowSpec window |
 	
 	windowSpec := self buildWindowWith: aBuilder specs: {
@@ -8,6 +9,5 @@ buildWith: aBuilder
 		(self boundsOfLowerWindowHalf) -> [self buildCodePaneWith: aBuilder].
 		(self boundsOfStatsButton) -> [self buildStatsButtonWith: aBuilder]}.
 	
-	window := aBuilder build: windowSpec.
-	self expandAllNodesForTreeIn: window.
+	window := aBuilder build: windowSpec..
 	^ window
