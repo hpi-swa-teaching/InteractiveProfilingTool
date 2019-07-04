@@ -4,6 +4,6 @@ expandAllNodesForTreeIn: window
 	| tree |
 	
 	tree := window submorphNamed: #resultsTree.
-	tree items isEmpty ifFalse: [
+	tree items ifNotEmpty: [
 		tree selectedMorph: tree items first.
-		tree expandAll.].
+		tree expandAll]
