@@ -8,7 +8,8 @@ setUp
 		
 	wrappedTally := MessageTallyWrapperMock new 
 		messageTally: tallyMock;
-		totalTimeOfOverallTree: 100.
+		totalTimeOfOverallTree: 100;
+		receivers: {}.
 		
 	wrappedTallyWithLowRuntime := MessageTallyWrapperMock new 
 		messageTally: tallyMock;
