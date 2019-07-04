@@ -1,4 +1,4 @@
 constants
 boundsOfUpperWindowHalf
 
-    ^ 0@0 corner: 1@0.3
+    ^ 0@0.05 corner: 1@0.4

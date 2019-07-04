@@ -3,7 +3,7 @@ buildTreeWith: aBuilder
 
 	^ aBuilder pluggableTreeSpec new
 					model: self; 
-					roots: #roots;
+					roots: #userCallsRoots;
 					getChildren: #getChildrenWithRelevantPerformanceImpact:;
 					hasChildren: #hasChildrenWithRelevantPerformanceImpact:;
 					icon: #getIcon:;
@@ -12,5 +12,4 @@ buildTreeWith: aBuilder
 					getSelected: #currentSelection;
 					setSelected: #currentSelection:;
 					keyPress: #handleKey:from:event:;
-					name: #resultsTree;
 					yourself

@@ -1,4 +1,0 @@
-profiling
-showReportFor: aProfilingResult
-
-	IPTTreeModelMock openReportFor: aProfilingResult
