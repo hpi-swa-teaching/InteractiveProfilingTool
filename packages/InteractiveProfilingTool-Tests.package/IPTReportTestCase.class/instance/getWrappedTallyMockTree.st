@@ -23,6 +23,6 @@ getWrappedTallyMockTree
 		tally: 100;
 		receivers: {tallyMockInnerNode}.	
 	
-	wrappedTallyTree := IPTMessageTallyWrapper constructTreeOfWrappedMessageTallys: tallyMockRoot withTotalTime: 500.
+	wrappedTallyTree := IPTMessageTallyWrapper with: tallyMockRoot withTotalTime: 500.
 	
 	^ wrappedTallyTree
