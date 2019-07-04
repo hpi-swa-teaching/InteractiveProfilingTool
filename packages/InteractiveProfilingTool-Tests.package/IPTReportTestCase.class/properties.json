@@ -10,7 +10,8 @@
 		"wrappedTally",
 		"tallyMock",
 		"wrappedTallyWithLowRuntime",
-		"wrappedTallyWithHalfRuntime" ],
+		"wrappedTallyWithHalfRuntime",
+		"wrappedTallyTree" ],
 	"name" : "IPTReportTestCase",
 	"pools" : [
 		 ],
