@@ -2,7 +2,8 @@ toolbuilder
 buildTreeWith: aBuilder
 
 	^ aBuilder pluggableTreeSpec new
-					model: self; 
+					model: self;
+					nodeClass: IPTTreeItemWrapper;
 					roots: #userCallsRoots;
 					getChildren: #getChildrenWithRelevantPerformanceImpact:;
 					hasChildren: #hasChildrenWithRelevantPerformanceImpact:;

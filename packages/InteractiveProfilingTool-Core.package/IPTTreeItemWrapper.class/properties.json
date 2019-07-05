@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"root",
-		"userCallsRoots",
-		"currentSelection",
-		"selectorFilter" ],
-	"name" : "IPTReport",
+		 ],
+	"name" : "IPTTreeItemWrapper",
 	"pools" : [
 		 ],
-	"super" : "CodeHolder",
+	"super" : "ListItemWrapper",
 	"type" : "normal" }
