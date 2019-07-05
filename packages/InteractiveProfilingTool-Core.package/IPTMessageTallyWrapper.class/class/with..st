@@ -1,4 +1,7 @@
 tree construction
-with: aRootMessageTally
-	
-	^ self with: aRootMessageTally withTotalTime: aRootMessageTally tally.
+with: aMessageTally
+
+	^ self
+		with: aMessageTally
+		withTotalTime: (aMessageTally time)
+		andTotalTallyCount: (aMessageTally tally)

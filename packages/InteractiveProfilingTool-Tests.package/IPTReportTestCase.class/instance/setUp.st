@@ -8,20 +8,23 @@ setUp
 		
 	wrappedTally := MessageTallyWrapperMock new 
 		messageTally: tallyMock;
+		totalTallyCountOfOverallTree: 100;
 		totalTimeOfOverallTree: 100;
 		receivers: {}.
 		
 	wrappedTallyWithLowRuntime := MessageTallyWrapperMock new 
 		messageTally: tallyMock;
+		totalTallyCountOfOverallTree: 700000;
 		totalTimeOfOverallTree: 700000.
 	
 	wrappedTallyWithHalfRuntime := MessageTallyWrapperMock new 
 		messageTally: tallyMock;
+		totalTallyCountOfOverallTree: 140;
 		totalTimeOfOverallTree: 140.
 
 	tallyObjectNoCalls := IPTReportTestCase constructMessageTallyFrom: [].
 	
-	self buildDummyClass. 
-	self buildDummyObject.
-	
-	self compileDummyMethods
+	self 
+		buildDummyClass; 
+		buildDummyObject;	
+		compileDummyMethods
