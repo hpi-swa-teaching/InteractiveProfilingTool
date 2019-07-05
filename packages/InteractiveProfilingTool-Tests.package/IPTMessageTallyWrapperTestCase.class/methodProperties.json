@@ -11,6 +11,7 @@
 		"testConstructWrappedTreeWithRoot" : "twk 7/5/2019 12:10",
 		"testFindRootWithoutUserCalls" : "LH 7/5/2019 13:45",
 		"testGetAbsoluteTime" : "twk 6/16/2019 11:48",
+		"testGetAbsoluteTimeWithNonDefaultPollingInterval" : "A 7/5/2019 15:26",
 		"testGetChildrenWithRelevantOverallPerformanceImpact" : "twk 6/16/2019 12:10",
 		"testGetClass" : "twk 6/16/2019 11:55",
 		"testGetClassName" : "twk 6/16/2019 12:13",
