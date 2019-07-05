@@ -1,4 +1,0 @@
-model access
-getChildrenWithRelevantPerformanceImpact: aNode
-
-	^ aNode getChildrenWithRelevantPerformanceImpact
