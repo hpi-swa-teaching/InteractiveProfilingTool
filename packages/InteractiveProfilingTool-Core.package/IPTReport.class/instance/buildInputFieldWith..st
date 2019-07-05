@@ -5,4 +5,5 @@ buildInputFieldWith: aBuilder
 		model: self;
 		editText: #selectorFilter:;
 		indicateUnacceptedChanges: false;
+		askBeforeDiscardingEdits: false;
 		yourself
