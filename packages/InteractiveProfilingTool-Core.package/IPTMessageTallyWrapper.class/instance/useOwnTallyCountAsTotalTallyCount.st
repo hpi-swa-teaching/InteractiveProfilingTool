@@ -1,4 +1,0 @@
-helpers
-useOwnTallyCountAsTotalTallyCount
-
-	self totalTallyCountOfOverallTree: self messageTally tally

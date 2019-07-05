@@ -1,4 +1,4 @@
 accessing
-totalTallyCountOfOverallTree: anObject
+totalTallyCountOfOverallTree: anInteger
 
-	totalTallyCountOfOverallTree := anObject asFloat.
+	totalTallyCountOfOverallTree := anInteger.

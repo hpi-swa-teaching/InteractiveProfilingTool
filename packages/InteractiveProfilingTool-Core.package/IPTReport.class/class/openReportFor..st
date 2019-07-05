@@ -1,9 +1,14 @@
 display profiling results
 openReportFor: aMessageTally
 	
-	| tree rootNode |
+	| tree rootNode userCallsRoots |
 	
 	rootNode := IPTMessageTallyWrapper with: aMessageTally.
-	tree := self with: rootNode.
+	userCallsRoots := rootNode findRootsForUserCalls.
 	
-	self open: tree
+	tree := self new
+		root: rootNode;
+		userCallsRoots: userCallsRoots;
+		yourself.
+	
+	 ^ self open: tree

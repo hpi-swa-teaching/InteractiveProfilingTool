@@ -1,4 +1,4 @@
 information extraction
 getAbsoluteTime
 	
-	^  self getOwnTallyCount / self totalTallyCountOfOverallTree * self totalTimeOfOverallTree
+	^  self getRelativeTime / 100 * self totalTimeOfOverallTree
