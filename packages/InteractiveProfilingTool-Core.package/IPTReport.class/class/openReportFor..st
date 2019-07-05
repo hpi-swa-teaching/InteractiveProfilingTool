@@ -1,17 +1,11 @@
 display profiling results
 openReportFor: aMessageTally
 	
-	| totalTime tree rootMessageTallyForUserCalls rootNode |
+	| tree rootNode userCallsRoots |
 	
-	rootMessageTallyForUserCalls := self findRootForUserCalls: aMessageTally.
-	totalTime := self calculateTotalTimeForUserCallsWithRoot: aMessageTally andUserRoot: rootMessageTallyForUserCalls.
+	userCallsRoots := self findRootForUserCalls: aMessageTally.
+	rootNode := IPTMessageTallyWrapper withRoot: aMessageTally andUserCallsRoot: userCallsRoots.
 	
-	rootNode := rootMessageTallyForUserCalls
-		ifNotNil: [self constructWrappedTreeWithRoot: rootMessageTallyForUserCalls andTotalTime: totalTime]
-		ifNil: [nil].
-
-	tree := self new
-		initializeWithRootNode: rootNode;
-		setInitialSelection.
-			
+	tree := self withRoot: rootNode withUserCallsRoots: userCallsRoots.
+	
 	self open: tree

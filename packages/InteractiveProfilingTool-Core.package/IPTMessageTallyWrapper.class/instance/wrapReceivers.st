@@ -4,7 +4,7 @@ wrapReceivers
 	| wrappedReceivers |
 	
 	wrappedReceivers := self messageTally receivers collect: [:node | 
-		IPTMessageTallyWrapper constructTreeOfWrappedMessageTallys: node
+		IPTMessageTallyWrapper with: node
 			withTotalTime: self totalTimeOfOverallTree 
 			andTotalTallyCount: self totalTallyCountOfOverallTree].
 

@@ -16,7 +16,7 @@ testConstructTreeOfWrappedMessageTallysForWideCallTree
 		tally: 100;
 		receivers: {tallyMockLeftLeaf. tallyMockRightLeaf}.	
 	
-	wrappedTally := IPTMessageTallyWrapper constructTreeOfWrappedMessageTallys: tallyMockRoot withTotalTime: 500 andTotalTallyCount: 500.
+	wrappedTally := IPTMessageTallyWrapper with: tallyMockRoot withTotalTime: 500 andTotalTallyCount: 500.
 	
 	self assert: tallyMockRoot identical: wrappedTally messageTally.
 	self assert: tallyMockLeftLeaf identical: wrappedTally receivers first messageTally.

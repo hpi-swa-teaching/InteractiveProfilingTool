@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "A 6/24/2019 18:18",
-		"testConstructTreeOfWrappedMessageTallysForDeepCallTree" : "LH 6/28/2019 17:23",
-		"testConstructTreeOfWrappedMessageTallysForEmptyTree" : "LH 6/28/2019 17:24",
-		"testConstructTreeOfWrappedMessageTallysForSingleMessageTally" : "LH 6/28/2019 17:24",
-		"testConstructTreeOfWrappedMessageTallysForWideCallTree" : "LH 6/28/2019 17:25",
-		"testConstructTreeOfWrappedMessageTallysWithoutTotalTime" : "A 7/3/2019 10:37",
+		"setUp" : "LH 7/5/2019 09:56",
+		"testConstructTreeOfWrappedMessageTallysForDeepCallTree" : "LH 7/5/2019 10:07",
+		"testConstructTreeOfWrappedMessageTallysForEmptyTree" : "LH 7/5/2019 10:07",
+		"testConstructTreeOfWrappedMessageTallysForSingleMessageTally" : "LH 7/5/2019 10:08",
+		"testConstructTreeOfWrappedMessageTallysForWideCallTree" : "LH 7/5/2019 10:08",
+		"testConstructTreeOfWrappedMessageTallysWithoutTotalTime" : "LH 7/5/2019 10:36",
 		"testFindRootWithoutUserCalls" : "A 6/18/2019 18:23",
 		"testGetAbsoluteTime" : "twk 6/16/2019 11:48",
 		"testGetChildrenWithRelevantOverallPerformanceImpact" : "twk 6/16/2019 12:10",

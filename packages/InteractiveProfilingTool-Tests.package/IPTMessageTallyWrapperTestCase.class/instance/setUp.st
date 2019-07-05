@@ -13,10 +13,12 @@ setUp
 	wrappedTallyMock := MessageTallyWrapperMock new
 		messageTally: tallyMock;
 		totalTimeOfOverallTree: 200;
+		totalTallyCountOfOverallTree: 200;
 		receivers: {}.
 		
 	wrappedTallyMockWithLowRuntime := MessageTallyWrapperMock new
 		messageTally: tallyMock;
 		totalTimeOfOverallTree: 100000;
+		totalTallyCountOfOverallTree: 100000;
 		receivers: {}
 		

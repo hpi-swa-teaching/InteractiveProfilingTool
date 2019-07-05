@@ -1,8 +1,8 @@
 tests
 testConstructTreeOfWrappedMessageTallysWithoutTotalTime
 
-	| wrapper |
+	| wrappedTally |
 	
-	wrapper := IPTMessageTallyWrapper with: tallyMock.
+	wrappedTally := IPTMessageTallyWrapper with: tallyMock.
 	
-	self assert: 100 equals: wrapper totalTimeOfOverallTree
+	self assert: 666 equals: wrappedTally totalTimeOfOverallTree

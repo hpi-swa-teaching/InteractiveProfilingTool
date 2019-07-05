@@ -1,8 +1,7 @@
 {
 	"class" : {
-		"constructTreeOfWrappedMessageTallys:withTotalTime:andTotalTallyCount:" : "LH 6/28/2019 16:24",
-		"with:" : "A 7/3/2019 10:36",
-		"with:withTotalTime:" : "A 7/3/2019 10:36" },
+		"with:withTotalTime:andTotalTallyCount:" : "LH 7/5/2019 10:11",
+		"withRoot:andUserCallsRoot:" : "LH 7/5/2019 10:57" },
 	"instance" : {
 		"callRelevancePercentage" : "A 6/24/2019 16:17",
 		"findRootForUserCalls" : "A 6/18/2019 17:56",
@@ -16,12 +15,12 @@
 		"getLeaves" : "TP 6/22/2019 12:38",
 		"getMemoryStats" : "A 6/28/2019 14:10",
 		"getOwnTallyCount" : "LH 6/28/2019 16:28",
-		"getRelativeTime" : "LH 6/28/2019 16:51",
+		"getRelativeTime" : "LH 7/5/2019 10:00",
 		"getRootOverflows" : "A 6/25/2019 19:39",
 		"getSelector" : "twk 6/3/2019 13:23",
 		"getSelectorName" : "twk 6/3/2019 13:24",
 		"getTenures" : "A 6/28/2019 10:21",
-		"getTimeString" : "twk 5/24/2019 12:18",
+		"getTimeString" : "LH 7/5/2019 10:38",
 		"hasChildrenWithRelevantPerformanceImpact" : "twk 5/24/2019 12:10",
 		"hasHighRuntime" : "A 7/3/2019 11:09",
 		"highRuntimeThreshold" : "A 7/3/2019 11:09",
@@ -34,4 +33,4 @@
 		"totalTallyCountOfOverallTree:" : "LH 6/28/2019 16:52",
 		"totalTimeOfOverallTree" : "twk 5/24/2019 12:05",
 		"totalTimeOfOverallTree:" : "twk 6/3/2019 13:18",
-		"wrapReceivers" : "LH 6/28/2019 16:31" } }
+		"wrapReceivers" : "LH 7/5/2019 10:07" } }

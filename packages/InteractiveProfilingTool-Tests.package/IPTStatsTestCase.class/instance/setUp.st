@@ -15,6 +15,7 @@ setUp
 	wrapperMock := MessageTallyWrapperMock new
 		messageTally: tallyMock;
 		totalTimeOfOverallTree: 200;
+		totalTallyCountOfOverallTree: 200;
 		receivers: {}.
 		
 	nestedWrapperMock := wrapperMock clone;
