@@ -6,6 +6,6 @@ matchesFilter
 	selectorFilter := self reportModel selectorFilter.
 	selectorName := self item getSelectorName. 
 	
-	^ selectorFilter isEmpty
+	^ selectorFilter isEmptyOrNil
 		ifTrue: [ true ] 
 		ifFalse: [ selectorName includesSubstring: selectorFilter ]  

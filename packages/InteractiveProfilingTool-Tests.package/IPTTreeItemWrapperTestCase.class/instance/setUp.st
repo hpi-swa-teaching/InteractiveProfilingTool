@@ -8,15 +8,11 @@ setUp
 		
 	wrappedTally := MessageTallyWrapperMock new 
 		messageTally: tallyMock.
-			
-	wrappedTallyWithHighRuntime := MessageTallyWrapperMock new 
-		messageTally: tallyMock;
-		totalTimeOfOverallTree: 100.
-
-	wrappedTallyWithLowRuntime := MessageTallyWrapperMock new 
-		messageTally: tallyMock;
-		totalTimeOfOverallTree: 700000.
+		
+	model :=  IPTReportMock new .
 	
-	wrappedTallyWithHalfRuntime := MessageTallyWrapperMock new 
-		messageTally: tallyMock;
-		totalTimeOfOverallTree: 140.
+	treeMorph := PluggableTreeMorph new model: model.
+	
+	treeItem := IPTTreeItemWrapper 
+		with: wrappedTally 
+		model: treeMorph.

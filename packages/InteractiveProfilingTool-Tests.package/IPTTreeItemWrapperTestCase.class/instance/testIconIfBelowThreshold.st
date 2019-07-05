@@ -1,9 +1,9 @@
 as yet unclassified
-testGetIconIfBelowThreshold
+testIconIfBelowThreshold
 
 	| treeitem expected actual |
 	
-	treeitem := IPTTreeItemWrapper with: wrappedTallyWithLowRuntime.
+	treeitem := IPTTreeItemWrapper with: (wrappedTally totalTimeOfOverallTree: 7000000).
 	expected := treeitem class emptyIcon.
 	actual := treeitem icon.
 	

@@ -10,7 +10,10 @@
 		"wrappedTallyWithHalfRuntime",
 		"tallyMock",
 		"wrappedTallyWithHighRuntime",
-		"wrappedTally" ],
+		"wrappedTally",
+		"model",
+		"treeMorph",
+		"treeItem" ],
 	"name" : "IPTTreeItemWrapperTestCase",
 	"pools" : [
 		 ],
