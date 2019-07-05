@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "A 7/5/2019 12:02",
+		"testEmptySelectorFilterMatch" : "A 7/5/2019 12:17",
+		"testGetIconIfAboveThreshold" : "A 7/5/2019 11:44",
+		"testGetIconIfBelowThreshold" : "A 7/5/2019 11:42",
+		"testGetIconIfEqualsThreshold" : "A 7/5/2019 11:43",
+		"testNoRelevantContentsExist" : "A 7/5/2019 11:55",
+		"testNoSelectorFilterMatch" : "A 7/5/2019 12:17",
+		"testPreferredColorIfNoSelectorFilterMatch" : "A 7/5/2019 12:20",
+		"testPreferredColorIfSelectorFilterMatch" : "A 7/5/2019 12:20",
+		"testRelevantContents" : "A 7/5/2019 11:55",
+		"testRelevantContentsExist" : "A 7/5/2019 11:56",
+		"testSelectorFilterMatch" : "A 7/5/2019 12:16" } }
