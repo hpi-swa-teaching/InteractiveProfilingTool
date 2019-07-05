@@ -1,0 +1,4 @@
+*InteractiveProfilingTool-Core
+gcStats
+
+	^ gcStats

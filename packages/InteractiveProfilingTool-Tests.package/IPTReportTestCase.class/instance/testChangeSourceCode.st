@@ -1,10 +1,11 @@
 tests
 testChangeSourceCode
 
-	"incompatible with Squeak 5.0
+	"incompatible with Squeak 5.0"
+	
 	|sourceCode tree newSourceCode pluggableTextMorph compiledMethod oldSourceCode messageTallyWrapper messageTally|
 
-	compiledMethod := (DummyObject >> #dummyMethodToBeChanged).
+	"compiledMethod := (DummyObject >> #dummyMethodToBeChanged).
 	newSourceCode := self dummyMethodToBeChangedNewSourceCode.
 	oldSourceCode := self dummyMethodToBeChangedOldSourceCode.
 	pluggableTextMorph := PluggableTextMorph new. 

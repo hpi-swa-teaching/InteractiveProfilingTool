@@ -1,4 +1,4 @@
 constants
 boundsOfLowerWindowHalf
 
-    ^ 0@0.3 corner: 1@1
+    ^ 0@0.4 corner: 1@1

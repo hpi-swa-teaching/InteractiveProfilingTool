@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"openStatsWithRoot:withUserCallsRoots:" : "A 6/28/2019 10:22" },
+	"instance" : {
+		"boundsOfTextWindow" : "A 6/28/2019 10:31",
+		"buildWith:" : "A 6/18/2019 21:48",
+		"dimensions" : "A 6/28/2019 10:34",
+		"formatGarbageCollectionGeneration:withStats:" : "A 6/28/2019 10:29",
+		"formatGarbageCollectionStats" : "A 6/25/2019 19:54",
+		"formatLeaves" : "A 6/24/2019 18:00",
+		"formatMemoryStats" : "TP 6/24/2019 12:54",
+		"formatRootOverflows" : "A 6/25/2019 19:53",
+		"formatStats:withHeading:" : "TP 6/22/2019 12:10",
+		"formatTenures" : "A 6/25/2019 19:53",
+		"getFormattedStats" : "A 6/25/2019 19:14",
+		"getTextSpecWith:" : "TP 6/21/2019 15:11",
+		"getWindowSpecWith:" : "A 6/28/2019 10:34",
+		"root" : "A 6/18/2019 21:10",
+		"root:" : "A 6/18/2019 21:10",
+		"userCallsRoots" : "TP 6/22/2019 12:33",
+		"userCallsRoots:" : "TP 6/22/2019 12:33" } }

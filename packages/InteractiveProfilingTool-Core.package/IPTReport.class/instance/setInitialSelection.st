@@ -1,5 +1,5 @@
 initialization
 setInitialSelection
 	
-	self roots isEmpty 
-		ifFalse: [self currentSelection: self roots first]
+	self userCallsRoots isEmpty 
+		ifFalse: [self currentSelection: self userCallsRoots first]

@@ -3,12 +3,10 @@ testSourceCodeWhenMethodDoesNotExistAnymore
 	
 	| compiledMethod tree sourceCode |
 	
-	compiledMethod := (DummyObject >> #dummyMethodToRemove).
+	compiledMethod := (Smalltalk classNamed: 'DummyObject') compiledMethodAt: #dummyMethodToRemove.
 	tree := self treeFromCompiledMethod: compiledMethod.
-	DummyObject removeSelector: #dummyMethodToRemove.
+	(Smalltalk classNamed: 'DummyObject') removeSelector: #dummyMethodToRemove.
 	sourceCode := tree selectedMessage.
 	
-	DummyObject compile: self dummyMethodToRemoveSourceCode.
-	
-	self assert: sourceCode equals: 'Missing'
+	self assert: sourceCode equals: 'Method Missing'
 	
