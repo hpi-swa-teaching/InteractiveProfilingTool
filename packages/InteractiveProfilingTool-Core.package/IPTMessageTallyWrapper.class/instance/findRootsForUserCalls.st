@@ -1,5 +1,5 @@
 information extraction
-findRootForUserCalls
+findRootsForUserCalls
 
 	"Exclude the calls made by the profiler from the profiling results. 
 	Use breadth first search to find the first function call made by the user."
@@ -13,8 +13,8 @@ findRootForUserCalls
 		frontier do: [:item |
 			item receivers do: [:node | 
 				(node getSelectorName =  'ensure:')
-					ifTrue: [^ node].
+					ifTrue: [^ {node}].
 				next add: node]].
 		frontier := next].
 	
-	^ nil
+	^ {}

@@ -1,11 +1,10 @@
 {
 	"class" : {
-		"calculateTotalTimeForUserCallsWithRoot:andUserRoot:" : "LH 6/28/2019 17:33",
 		"emptyIcon" : "twk 6/16/2019 13:53",
 		"highRuntimeIcon" : "TP 5/27/2019 00:53",
 		"open:" : "LH 5/17/2019 14:16",
 		"openReportFor:" : "twk 7/5/2019 12:04",
-		"with:" : "twk 7/5/2019 12:01" },
+		"with:" : "LH 7/5/2019 13:53" },
 	"instance" : {
 		"aboutToStyle:" : "twk 6/16/2019 13:42",
 		"boundsOfLowerWindowHalf" : "A 6/19/2019 15:04",

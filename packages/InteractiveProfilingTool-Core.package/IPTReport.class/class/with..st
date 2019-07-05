@@ -1,15 +1,13 @@
 display profiling results
 with: aMessageTallyWrapper
 	
-	| userCallsRoot userCallsRoots |
+	| userCallsRoots |
 	
-	userCallsRoot := aMessageTallyWrapper findRootForUserCalls.
-	userCallsRoot 
-		ifNil: [userCallsRoots := {}]
-		ifNotNil: [
-			userCallsRoot totalTallyCountOfOverallTree: userCallsRoot messageTally tally.
-			userCallsRoot setReceiversTotalTallyCountToOwnTotalTallyCount.
-			userCallsRoots := {userCallsRoot}].
+	userCallsRoots := aMessageTallyWrapper findRootsForUserCalls.
+	userCallsRoots ifNotEmpty: [
+		userCallsRoots first
+			useOwnTallyCountAsTotalTallyCount;
+			setReceiversTotalTallyCountToOwnTotalTallyCount].
 	
 	^ self new
 		root: aMessageTallyWrapper;
