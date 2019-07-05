@@ -7,6 +7,6 @@ buildWith: aBuilder
 		(self boundsOfUpperWindowHalf) -> [self buildTreeWith:  aBuilder].
 		(self boundsOfLowerWindowHalf) -> [self buildCodePaneWith: aBuilder].
 		(self boundsOfStatsButton) -> [self buildStatsButtonWith: aBuilder].
-		(self boundsOfFilterButton) -> [self buildFilterButtonWith: aBuilder]}.
+		(self boundsOfInputFieldButton) -> [self buildInputFieldWith: aBuilder]}.
 	
 	^ aBuilder build: windowSpec. 
