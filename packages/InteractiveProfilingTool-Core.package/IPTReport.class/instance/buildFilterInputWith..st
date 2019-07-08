@@ -4,7 +4,7 @@ buildFilterInputWith: aBuilder
 	^ aBuilder pluggableInputFieldSpec new
 		model: self;
 		editText: #selectorFilter:;
-		help: 'Filter by selector ...';
+		help: 'Filter by class or method name ...';
 		indicateUnacceptedChanges: false;
 		askBeforeDiscardingEdits: false;
 		yourself

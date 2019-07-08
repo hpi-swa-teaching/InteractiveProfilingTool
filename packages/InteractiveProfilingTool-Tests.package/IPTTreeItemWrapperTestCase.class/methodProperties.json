@@ -7,9 +7,11 @@
 		"testIconIfAboveThreshold" : "A 7/5/2019 16:27",
 		"testIconIfBelowThreshold" : "A 7/5/2019 16:27",
 		"testIconIfEqualsThreshold" : "A 7/5/2019 16:28",
+		"testMatchesFilterWithClassMatch" : "TP 7/8/2019 19:53",
 		"testMatchesFilterWithEmptyFilter" : "A 7/5/2019 16:29",
+		"testMatchesFilterWithFullyQualifiedMatch" : "TP 7/8/2019 19:52",
+		"testMatchesFilterWithMethodMatch" : "TP 7/8/2019 19:54",
 		"testMatchesFilterWithUndefinedFilter" : "A 7/5/2019 16:29",
 		"testMatchesFilterWithoutMatch" : "A 7/5/2019 16:30",
 		"testPreferredColorWithMatch" : "A 7/5/2019 15:52",
-		"testPreferredColorWithoutMatch" : "A 7/5/2019 16:30",
-		"testSelectorFilterMatch" : "A 7/5/2019 16:31" } }
+		"testPreferredColorWithoutMatch" : "A 7/5/2019 16:30" } }

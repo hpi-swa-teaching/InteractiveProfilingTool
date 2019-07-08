@@ -1,5 +1,5 @@
 as yet unclassified
-testSelectorFilterMatch
+testMatchesFilterWithMethodMatch
 	
 	model selectorFilter: 'ifTrue:'.
 	

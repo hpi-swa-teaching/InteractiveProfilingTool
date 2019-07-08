@@ -1,11 +1,11 @@
 as yet unclassified
 matchesFilter
 
-	| selectorFilter selectorName |
+	| selectorFilter label |
 	
 	selectorFilter := self reportModel selectorFilter.
-	selectorName := self item getSelectorName. 
+	label := '{1} >> {2}' format: { self item getClassName. self item getSelectorName }.
 	
 	^ selectorFilter isEmptyOrNil
 		ifTrue: [ true ] 
-		ifFalse: [ selectorName includesSubstring: selectorFilter ]  
+		ifFalse: [ label includesSubstring: selectorFilter ]
