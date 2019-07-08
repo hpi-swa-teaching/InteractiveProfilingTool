@@ -1,7 +1,8 @@
 tests
 testBuildWindowWith
 
-	| pluggableWindowSpecActual |
+	| spec |
 	
-	pluggableWindowSpecActual := IPTReportMock new buildWindowWith: ToolBuilder new.
-	self ensure: pluggableWindowSpecActual isValidSpec: 'PluggableWindowSpec'
+	spec := model buildWindowWith: builder.
+	
+	self ensure: spec isValidSpec: 'PluggableWindowSpec'.

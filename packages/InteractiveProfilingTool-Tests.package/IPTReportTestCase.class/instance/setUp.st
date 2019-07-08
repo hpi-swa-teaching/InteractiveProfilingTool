@@ -1,6 +1,9 @@
 running
 setUp
 
+	model := IPTReportMock new userCallsRoots: {}.
+	builder := ToolBuilder new.
+
 	tallyMock := MessageTallyMock new 
 		method: Boolean >> #ifTrue:;
 		tally: 70;
