@@ -1,12 +1,15 @@
 toolbuilder
 buildWith: aBuilder
 
-	| windowSpec |
+	| windowSpec treePanelSpec codePanelSpec |
 	
-	windowSpec := self buildWindowWith: aBuilder specs: {
-		(self boundsOfUpperWindowHalf) -> [self buildTreeWith:  aBuilder].
-		(self boundsOfLowerWindowHalf) -> [self buildCodePaneWith: aBuilder].
-		(self boundsOfStatsButton) -> [self buildStatsButtonWith: aBuilder].
-		(self boundsOfInputFieldButton) -> [self buildInputFieldWith: aBuilder]}.
+	treePanelSpec := self buildTreePanelWith: aBuilder.
+	treePanelSpec frame: self treePanelFrame.
+
+	codePanelSpec := self buildCodePaneWith: aBuilder.
+	codePanelSpec frame: self codePanelFrame.
 	
-	^ aBuilder build: windowSpec. 
+	windowSpec := self buildWindowWith: aBuilder.
+	windowSpec children: { treePanelSpec. codePanelSpec }.
+		
+	^ aBuilder build: windowSpec
