@@ -1,4 +1,9 @@
 toolbuilder
 buildWith: aBuilder
 
-	^ aBuilder build: (self buildWindowWith: aBuilder)
+	| window |
+  
+	window := aBuilder build: (self buildWindowWith: aBuilder).
+	self expandAllNodesForTreeIn: window.
+  
+  ^ window

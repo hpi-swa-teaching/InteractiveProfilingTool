@@ -1,0 +1,14 @@
+{
+	"category" : "InteractiveProfilingTool-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "IPTTreeModelMock",
+	"pools" : [
+		 ],
+	"super" : "AnObsoleteIPTTreeModel",
+	"type" : "normal" }

@@ -1,7 +1,7 @@
 tests
 testFindRootWithoutUserCalls
 	
-	| userCallsRoot |
+	| userCallsRoots |
 	
-	userCallsRoot := wrappedTallyMock findRootForUserCalls.
-	self assert: nil equals: userCallsRoot
+	userCallsRoots := wrappedTallyMock findRootsForUserCalls.
+	self assert: {} equals: userCallsRoots

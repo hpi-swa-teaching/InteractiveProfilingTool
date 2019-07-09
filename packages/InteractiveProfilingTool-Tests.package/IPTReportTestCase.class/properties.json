@@ -13,6 +13,7 @@
 		"wrappedTallyWithHalfRuntime",
 		"model",
 		"builder" ],
+		"wrappedTallyTree" ],
 	"name" : "IPTReportTestCase",
 	"pools" : [
 		 ],
