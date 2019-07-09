@@ -16,3 +16,4 @@ testEqualsWithDifferentReturnValues
 		yourself.
 		
 	self assert: expectation1 = expectation2.
+	self assert: expectation2 hash == expectation2 hash

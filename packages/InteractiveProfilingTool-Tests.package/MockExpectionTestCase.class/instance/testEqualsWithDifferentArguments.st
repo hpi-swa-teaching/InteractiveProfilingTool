@@ -16,3 +16,4 @@ testEqualsWithDifferentArguments
 		yourself.
 		
 	self deny: expectation1 = expectation2.
+	self deny: expectation1 hash == expectation2 hash

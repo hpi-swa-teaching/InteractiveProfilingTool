@@ -12,3 +12,4 @@ testEqualsWithoutArguments
 		yourself.
 		
 	self assert: expectation1 = expectation2.
+	self assert: expectation1 hash == expectation2 hash
