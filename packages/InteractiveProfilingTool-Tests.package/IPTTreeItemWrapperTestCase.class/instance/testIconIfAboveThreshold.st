@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testIconIfAboveThreshold
 	
 	| treeItem expected actual |

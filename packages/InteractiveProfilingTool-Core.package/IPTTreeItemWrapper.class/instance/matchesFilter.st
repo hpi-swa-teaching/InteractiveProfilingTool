@@ -1,4 +1,4 @@
-as yet unclassified
+filtering
 matchesFilter
 
 	| selectorFilter label |

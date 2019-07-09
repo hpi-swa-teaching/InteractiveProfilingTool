@@ -1,6 +1,6 @@
-as yet unclassified
+tests
 testContents
 	
 	wrappedTally receivers: {(wrappedTally totalTimeOfOverallTree: 100)}.
 	
-	self assert: (treeItem contents allSatisfy: [ :item | item class == IPTTreeItemWrapper ])
+	self assert: (treeItem contents at: 1) class == IPTTreeItemWrapper

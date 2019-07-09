@@ -3,10 +3,9 @@
 		 },
 	"instance" : {
 		"setUp" : "A 7/5/2019 16:29",
-		"testContents" : "A 7/5/2019 16:34",
+		"testContents" : "TP 7/9/2019 11:34",
 		"testIconIfAboveThreshold" : "A 7/5/2019 16:27",
 		"testIconIfBelowThreshold" : "A 7/5/2019 16:27",
-		"testIconIfEqualsThreshold" : "A 7/5/2019 16:28",
 		"testMatchesFilterWithClassMatch" : "TP 7/8/2019 19:53",
 		"testMatchesFilterWithEmptyFilter" : "A 7/5/2019 16:29",
 		"testMatchesFilterWithFullyQualifiedMatch" : "TP 7/8/2019 19:52",

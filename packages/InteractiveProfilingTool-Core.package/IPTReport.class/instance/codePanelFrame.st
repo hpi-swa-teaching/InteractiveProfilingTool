@@ -7,6 +7,3 @@ codePanelFrame
 		rightFraction: 1;
 		bottomFraction: 1;
 		yourself
-
-	
-	

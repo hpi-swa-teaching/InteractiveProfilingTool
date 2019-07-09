@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testMatchesFilterWithFullyQualifiedMatch
 	
 	model selectorFilter: 'Boolean >> ifTrue:'.

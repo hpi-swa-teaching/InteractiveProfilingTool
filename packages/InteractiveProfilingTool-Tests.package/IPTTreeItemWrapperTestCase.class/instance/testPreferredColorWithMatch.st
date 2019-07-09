@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testPreferredColorWithMatch
 	
 	model selectorFilter: 'ifTrue'.

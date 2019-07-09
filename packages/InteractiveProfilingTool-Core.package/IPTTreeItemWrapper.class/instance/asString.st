@@ -1,4 +1,4 @@
-as yet unclassified
+display
 asString
 
 	^ self item getLabel

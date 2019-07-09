@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testMatchesFilterWithMethodMatch
 	
 	model selectorFilter: 'ifTrue:'.

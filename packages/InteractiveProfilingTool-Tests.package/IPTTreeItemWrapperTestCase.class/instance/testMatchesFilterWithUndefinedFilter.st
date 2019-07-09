@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testMatchesFilterWithUndefinedFilter	
 	
 	self assert: treeItem matchesFilter 
