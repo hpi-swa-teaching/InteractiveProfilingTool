@@ -1,0 +1,16 @@
+{
+	"category" : "InteractiveProfilingTool-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selector",
+		"returnValue",
+		"arguments" ],
+	"name" : "MockExpectation",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
