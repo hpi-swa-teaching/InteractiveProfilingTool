@@ -3,7 +3,7 @@ testIconIfAboveThreshold
 	
 	| treeItem expected actual |
 	
-	treeItem := IPTTreeItemWrapper with: (wrappedTally totalTimeOfOverallTree: 100).
+	treeItem := IPTTreeItemWrapper with: (wrappedTally totalTallyCountOfOverallTree: 100).
 	expected := treeItem class highRuntimeIcon bits.
 	actual := treeItem icon bits.
 	

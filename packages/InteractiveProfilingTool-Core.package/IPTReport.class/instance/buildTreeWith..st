@@ -2,6 +2,7 @@ toolbuilder
 buildTreeWith: aBuilder
 
 	^ aBuilder pluggableTreeSpec new
+		name: #resultsTree;
 		model: self;
 		nodeClass: IPTTreeItemWrapper;
 		roots: #userCallsRoots;
