@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testEquals" : "TP 7/9/2019 15:52",
+		"testEqualsWithDifferentArguments" : "TP 7/9/2019 15:52",
+		"testEqualsWithDifferentReturnValues" : "TP 7/9/2019 15:52",
+		"testEqualsWithDifferentSelectors" : "TP 7/9/2019 15:52",
+		"testEqualsWithoutArguments" : "TP 7/9/2019 15:52",
+		"testMatchesArgumentsWithGivenArguments" : "TP 7/9/2019 00:32",
+		"testMatchesArgumentsWithoutGivenArguments" : "TP 7/9/2019 00:33",
+		"testMatchesSelector" : "TP 7/9/2019 00:35" } }
