@@ -1,0 +1,14 @@
+{
+	"category" : "InteractiveProfilingTool-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"expectations" ],
+	"name" : "Mock",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
