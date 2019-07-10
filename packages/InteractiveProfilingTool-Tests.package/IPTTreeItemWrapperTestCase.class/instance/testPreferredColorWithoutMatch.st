@@ -1,7 +1,7 @@
 tests
 testPreferredColorWithoutMatch
 	
-	model selectorFilter: 'ifFalse'.
+	reportModel expect: #selectorFilter toReturn: 'ifFalse:'.
 	
-	self assert: Color gray equals: treeItem preferredColor  
+	self assert: Color gray equals: treeItemWrapper preferredColor  
 	

@@ -1,11 +1,12 @@
 tests
 testIconIfAboveThreshold
 	
-	| treeItem expected actual |
+	| expected actual |
 	
-	treeItem := IPTTreeItemWrapper with: (wrappedTally totalTallyCountOfOverallTree: 100).
-	expected := treeItem class highRuntimeIcon bits.
-	actual := treeItem icon bits.
+	wrappedTally expect: #hasHighRuntime toReturn: true.
+	
+	expected := IPTTreeItemWrapper highRuntimeIcon bits.
+	actual := treeItemWrapper icon bits.
 	
 	self assert: expected equals: actual
 	

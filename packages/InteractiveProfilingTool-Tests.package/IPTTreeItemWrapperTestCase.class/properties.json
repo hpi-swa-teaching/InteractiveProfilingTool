@@ -6,14 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"wrappedTallyWithLowRuntime",
-		"wrappedTallyWithHalfRuntime",
-		"tallyMock",
-		"wrappedTallyWithHighRuntime",
-		"wrappedTally",
-		"model",
 		"treeMorph",
-		"treeItem" ],
+		"reportModel",
+		"wrappedTally",
+		"treeItemWrapper" ],
 	"name" : "IPTTreeItemWrapperTestCase",
 	"pools" : [
 		 ],

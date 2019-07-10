@@ -1,7 +1,7 @@
 tests
 testMatchesFilterWithFullyQualifiedMatch
 	
-	model selectorFilter: 'Boolean >> ifTrue:'.
+	reportModel expect: #selectorFilter toReturn: 'Boolean >> ifTrue:'.
 	
-	self assert: treeItem matchesFilter
+	self assert: treeItemWrapper matchesFilter
 	

@@ -1,18 +1,12 @@
 running
 setUp
 
-	tallyMock := MessageTallyMock new 
-		method: Boolean >> #ifTrue:;
-		tally: 70;
-		receivers: {}.
-		
-	wrappedTally := MessageTallyWrapperMock new 
-		messageTally: tallyMock.
-		
-	model :=  IPTReportMock new .
+	reportModel := Mock new.
+	treeMorph := Mock expect: #model toReturn: reportModel.
 	
-	treeMorph := PluggableTreeMorph new model: model.
+	wrappedTally := Mock new
+		expect: #getClassName toReturn: 'Boolean';
+		expect: #getSelectorName toReturn: 'ifTrue:';
+		yourself.
 	
-	treeItem := IPTTreeItemWrapper 
-		with: wrappedTally 
-		model: treeMorph.
+	treeItemWrapper := IPTTreeItemWrapper with: wrappedTally model: treeMorph.

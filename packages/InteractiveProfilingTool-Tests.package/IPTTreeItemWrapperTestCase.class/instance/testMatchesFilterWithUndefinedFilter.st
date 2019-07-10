@@ -1,5 +1,7 @@
 tests
 testMatchesFilterWithUndefinedFilter	
 	
-	self assert: treeItem matchesFilter 
+	reportModel expect: #selectorFilter toReturn: nil.
+	
+	self assert: treeItemWrapper matchesFilter
 	

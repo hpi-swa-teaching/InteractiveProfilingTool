@@ -1,7 +1,7 @@
 tests
 testMatchesFilterWithoutMatch
 	
-	model selectorFilter: 'ifFalse:'.
+	reportModel expect: #selectorFilter toReturn: 'ifFalse:'.
 	
-	self deny: treeItem matchesFilter
+	self deny: treeItemWrapper matchesFilter
 	

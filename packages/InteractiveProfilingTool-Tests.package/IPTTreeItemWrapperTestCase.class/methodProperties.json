@@ -2,15 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "A 7/5/2019 16:29",
-		"testContents" : "TP 7/9/2019 12:32",
-		"testIconIfAboveThreshold" : "TP 7/9/2019 12:32",
-		"testIconIfBelowThreshold" : "TP 7/9/2019 12:32",
-		"testMatchesFilterWithClassMatch" : "TP 7/8/2019 19:53",
-		"testMatchesFilterWithEmptyFilter" : "A 7/5/2019 16:29",
-		"testMatchesFilterWithFullyQualifiedMatch" : "TP 7/8/2019 19:52",
-		"testMatchesFilterWithMethodMatch" : "TP 7/8/2019 19:54",
-		"testMatchesFilterWithUndefinedFilter" : "A 7/5/2019 16:29",
-		"testMatchesFilterWithoutMatch" : "A 7/5/2019 16:30",
-		"testPreferredColorWithMatch" : "A 7/5/2019 15:52",
-		"testPreferredColorWithoutMatch" : "A 7/5/2019 16:30" } }
+		"setUp" : "TP 7/10/2019 15:51",
+		"testContents" : "TP 7/10/2019 15:51",
+		"testIconIfAboveThreshold" : "TP 7/10/2019 15:52",
+		"testIconIfBelowThreshold" : "TP 7/10/2019 15:52",
+		"testMatchesFilterWithClassMatch" : "TP 7/10/2019 15:53",
+		"testMatchesFilterWithEmptyFilter" : "TP 7/10/2019 15:53",
+		"testMatchesFilterWithFullyQualifiedMatch" : "TP 7/10/2019 15:54",
+		"testMatchesFilterWithMethodMatch" : "TP 7/10/2019 15:54",
+		"testMatchesFilterWithUndefinedFilter" : "TP 7/10/2019 15:55",
+		"testMatchesFilterWithoutMatch" : "TP 7/10/2019 15:55",
+		"testPreferredColorWithMatch" : "TP 7/10/2019 15:55",
+		"testPreferredColorWithoutMatch" : "TP 7/10/2019 15:55" } }

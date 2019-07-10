@@ -1,7 +1,7 @@
 tests
 testMatchesFilterWithMethodMatch
 	
-	model selectorFilter: 'ifTrue:'.
+	reportModel expect: #selectorFilter toReturn: 'ifTrue:'.
 	
-	self assert: treeItem matchesFilter
+	self assert: treeItemWrapper matchesFilter
 	
