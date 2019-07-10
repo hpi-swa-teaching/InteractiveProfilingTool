@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"setUp" : "TP 7/10/2019 15:51",
+		"testAsString" : "TP 7/10/2019 16:01",
 		"testContents" : "TP 7/10/2019 15:51",
 		"testIconIfAboveThreshold" : "TP 7/10/2019 15:52",
 		"testIconIfBelowThreshold" : "TP 7/10/2019 15:52",
