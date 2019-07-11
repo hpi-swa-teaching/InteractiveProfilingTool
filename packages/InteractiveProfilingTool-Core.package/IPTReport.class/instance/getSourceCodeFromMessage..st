@@ -9,7 +9,7 @@ getSourceCodeFromMessage: aNode
 	class := aNode getClass.
 	selector := aNode getSelector.
 
-	source := (self checkIfSelectorIsTypeDoIt: selector inClass: class) 
+	source := (aNode selectorIsDoIt) 
 		ifTrue: [self defaultSourceCodeForDoITSelector]
 		ifFalse: [class sourceMethodAt: selector ifAbsent:[self methodMissingErrorMessage]].
 	
