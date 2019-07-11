@@ -5,5 +5,9 @@ expandAllNodesForTreeIn: window
 	
 	tree := window submorphNamed: #resultsTree.
 	tree items ifNotEmpty: [
-		tree selectedMorph: tree items first.
-		tree expandAll]
+		tree 
+			selectedMorph: tree items first;
+			expandAll.
+		self 
+			currentSelection: self userCallsRoot;
+			changed: #userCallsRoot]
