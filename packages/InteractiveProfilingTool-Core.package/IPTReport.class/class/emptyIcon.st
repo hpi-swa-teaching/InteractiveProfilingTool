@@ -1,4 +1,0 @@
-icons
-emptyIcon
-
-	^ nil

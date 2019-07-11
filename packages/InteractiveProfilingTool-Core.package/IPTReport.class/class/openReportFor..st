@@ -1,4 +1,4 @@
-display profiling results
+user interface
 openReportFor: aMessageTally
 	
 	| tree rootNode userCallsRoot |
