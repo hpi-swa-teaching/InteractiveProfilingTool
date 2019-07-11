@@ -6,7 +6,7 @@ formatStats: aCollection withHeading: aString
 	heading := Text fromString: aString.
 	heading allBold.
 	
-	body := aCollection collect: [ :line | Text fromString: line ].
+	body := aCollection collect: [:line | Text fromString: line].
 	body := body joinSeparatedBy: (String cr).
 
 	formattedStats := Text new
