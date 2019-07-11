@@ -9,7 +9,7 @@
 		"testConstructTreeOfWrappedMessageTallysForWideCallTree" : "LH 7/5/2019 10:08",
 		"testConstructTreeOfWrappedMessageTallysWithoutTotalTime" : "LH 7/5/2019 10:36",
 		"testConstructWrappedTreeWithRoot" : "twk 7/5/2019 12:10",
-		"testFindRootWithoutUserCalls" : "LH 7/5/2019 13:45",
+		"testFindRootWithoutUserCalls" : "twk 7/11/2019 12:01",
 		"testGetAbsoluteTime" : "twk 6/16/2019 11:48",
 		"testGetAbsoluteTimeWithNonDefaultPollingInterval" : "A 7/5/2019 15:26",
 		"testGetChildrenWithRelevantOverallPerformanceImpact" : "twk 6/16/2019 12:10",

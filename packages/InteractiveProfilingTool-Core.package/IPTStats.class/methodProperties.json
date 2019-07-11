@@ -1,13 +1,13 @@
 {
 	"class" : {
-		"openStatsWithRoot:withUserCallsRoots:" : "A 6/28/2019 10:22" },
+		"openStatsWithRoot:withUserCallsRoot:" : "twk 7/11/2019 11:56" },
 	"instance" : {
 		"boundsOfTextWindow" : "A 6/28/2019 10:31",
 		"buildWith:" : "A 6/18/2019 21:48",
 		"dimensions" : "A 6/28/2019 10:34",
 		"formatGarbageCollectionGeneration:withStats:" : "A 6/28/2019 10:29",
 		"formatGarbageCollectionStats" : "A 6/25/2019 19:54",
-		"formatLeaves" : "A 6/24/2019 18:00",
+		"formatLeaves" : "twk 7/11/2019 11:59",
 		"formatMemoryStats" : "TP 6/24/2019 12:54",
 		"formatRootOverflows" : "A 6/25/2019 19:53",
 		"formatStats:withHeading:" : "TP 6/22/2019 12:10",
@@ -17,5 +17,5 @@
 		"getWindowSpecWith:" : "A 6/28/2019 10:34",
 		"root" : "A 6/18/2019 21:10",
 		"root:" : "A 6/18/2019 21:10",
-		"userCallsRoots" : "TP 6/22/2019 12:33",
-		"userCallsRoots:" : "TP 6/22/2019 12:33" } }
+		"userCallsRoot" : "twk 7/11/2019 11:58",
+		"userCallsRoot:" : "twk 7/11/2019 11:58" } }

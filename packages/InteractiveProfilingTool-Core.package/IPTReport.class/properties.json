@@ -7,9 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"root",
-		"userCallsRoots",
 		"currentSelection",
-		"selectorFilter" ],
+		"selectorFilter",
+		"userCallsRoot" ],
 	"name" : "IPTReport",
 	"pools" : [
 		 ],
