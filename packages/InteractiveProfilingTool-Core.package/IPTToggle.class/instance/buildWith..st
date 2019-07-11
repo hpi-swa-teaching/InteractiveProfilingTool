@@ -5,6 +5,6 @@ buildWith: aBuilder
 
 	windowSpec := self getWindowSpecWith: aBuilder.
 	buttonSpec := self getButtonSpecWith: aBuilder.
-	windowSpec children: { buttonSpec }.
+	windowSpec children: {buttonSpec}.
 
 	^ aBuilder build: windowSpec 
