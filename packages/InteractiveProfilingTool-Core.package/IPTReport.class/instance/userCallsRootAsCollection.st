@@ -1,7 +1,6 @@
-model access
+helpers
 userCallsRootAsCollection
 	
-	self userCallsRoot 
-		ifNil: [^ {}].
+	self userCallsRoot ifNil: [^ {}].
 	
 	^ {self userCallsRoot}

@@ -1,17 +1,17 @@
 code browser
-getSourceCodeFromMessage: aNode
+getSourceCodeFromMessage: aMessageTallyWrapper
 
 	| source class selector|
 	
-	(self classExists: aNode)
-		ifFalse: [^ self classMissingErrorMessage].
+	(aMessageTallyWrapper classExists)
+		ifFalse: [^ self classMissingMessage].
 	
-	class := aNode getClass.
-	selector := aNode getSelector.
+	class := aMessageTallyWrapper getClass.
+	selector := aMessageTallyWrapper getSelector.
 
-	source := (aNode selectorIsDoIt) 
+	source := (aMessageTallyWrapper selectorIsDoIt) 
 		ifTrue: [self defaultSourceCodeForDoITSelector]
-		ifFalse: [class sourceMethodAt: selector ifAbsent:[self methodMissingErrorMessage]].
+		ifFalse: [class sourceMethodAt: selector ifAbsent:[self methodMissingMessage]].
 	
 	^ source string
 	

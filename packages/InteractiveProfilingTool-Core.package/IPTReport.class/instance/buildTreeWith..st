@@ -9,5 +9,4 @@ buildTreeWith: aBuilder
 		menu: #genericMenu:;
 		getSelected: #currentSelection;
 		setSelected: #currentSelection:;
-		keyPress: #handleKey:from:event:;
-		yourself
+		keyPress: #handleKey:from:event:

@@ -1,4 +1,4 @@
 code browser
-getCategoryFromSelector: aSelector inClass: aClass
+getCategoryForMethod: aSelector inClass: aClass
 
 	^ aClass organization categoryOfElement: aSelector

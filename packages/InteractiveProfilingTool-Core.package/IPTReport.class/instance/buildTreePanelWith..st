@@ -10,4 +10,4 @@ buildTreePanelWith: aBuilder
 	treeSpec frame: self treeFrame.
 	
 	^ aBuilder pluggablePanelSpec new
-		children: { filterPanelSpec. treeSpec }
+		children: {filterPanelSpec. treeSpec}
