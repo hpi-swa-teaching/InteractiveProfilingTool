@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "TP 7/10/2019 15:51",
+		"testAsString" : "TP 7/10/2019 16:01",
+		"testContents" : "TP 7/10/2019 15:51",
+		"testIconIfAboveThreshold" : "TP 7/10/2019 15:52",
+		"testIconIfBelowThreshold" : "TP 7/10/2019 15:52",
+		"testMatchesFilterWithClassMatch" : "TP 7/10/2019 15:53",
+		"testMatchesFilterWithEmptyFilter" : "TP 7/10/2019 15:53",
+		"testMatchesFilterWithFullyQualifiedMatch" : "TP 7/10/2019 15:54",
+		"testMatchesFilterWithMethodMatch" : "TP 7/10/2019 15:54",
+		"testMatchesFilterWithUndefinedFilter" : "TP 7/10/2019 15:55",
+		"testMatchesFilterWithoutMatch" : "TP 7/10/2019 15:55",
+		"testPreferredColorWithMatch" : "TP 7/10/2019 15:55",
+		"testPreferredColorWithoutMatch" : "TP 7/10/2019 15:55" } }

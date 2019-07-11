@@ -1,0 +1,4 @@
+accessing
+selectorFilter
+	
+	^ selectorFilter ifNil: ['']

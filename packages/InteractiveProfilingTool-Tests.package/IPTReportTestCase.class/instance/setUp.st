@@ -1,6 +1,9 @@
 running
 setUp
 
+	model := IPTReportMock new userCallsRoots: {}.
+	builder := ToolBuilder new.
+
 	tallyMock := MessageTallyMock new 
 		method: Boolean >> #ifTrue:;
 		tally: 70;
@@ -8,19 +11,7 @@ setUp
 		
 	wrappedTally := MessageTallyWrapperMock new 
 		messageTally: tallyMock;
-		totalTallyCountOfOverallTree: 100;
-		totalTimeOfOverallTree: 100;
-		receivers: {}.
-		
-	wrappedTallyWithLowRuntime := MessageTallyWrapperMock new 
-		messageTally: tallyMock;
-		totalTallyCountOfOverallTree: 700000;
-		totalTimeOfOverallTree: 700000.
-	
-	wrappedTallyWithHalfRuntime := MessageTallyWrapperMock new 
-		messageTally: tallyMock;
-		totalTallyCountOfOverallTree: 140;
-		totalTimeOfOverallTree: 140.
+		totalTimeOfOverallTree: 100.
 
 	tallyObjectNoCalls := IPTReportTestCase constructMessageTallyFrom: [].
 	

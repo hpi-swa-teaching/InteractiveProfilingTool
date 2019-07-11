@@ -1,9 +1,8 @@
 tests
 testBuildTreeWith
 	
-	| treeMock pluggableTreeSpecActual |
+	| spec |
+
+	spec := model buildTreeWith: builder.
 	
-	treeMock := IPTReportMock new userCallsRoots: {}.
-	pluggableTreeSpecActual := treeMock  buildTreeWith: ToolBuilder new.
-	
-	self ensure: pluggableTreeSpecActual isValidSpec: 'PluggableTreeSpec'
+	self ensure: spec isValidSpec: 'PluggableTreeSpec'

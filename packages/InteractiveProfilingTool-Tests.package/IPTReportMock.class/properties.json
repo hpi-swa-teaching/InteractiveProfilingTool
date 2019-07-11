@@ -1,12 +1,12 @@
 {
 	"category" : "InteractiveProfilingTool-Tests",
 	"classinstvars" : [
-		 ],
+		"model" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"model" ],
 	"name" : "IPTReportMock",
 	"pools" : [
 		 ],
