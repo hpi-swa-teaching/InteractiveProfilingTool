@@ -27,8 +27,8 @@
 		"testBuildTreeWith" : "TP 7/8/2019 18:35",
 		"testBuildWindowWith" : "TP 7/8/2019 18:10",
 		"testBuildWindowWithChildren" : "TP 7/8/2019 18:34",
-		"testChangeSourceCode" : "A 6/17/2019 14:06",
-		"testClassExists" : "twk 7/11/2019 12:54",
+		"testChangeSourceCode" : "LH 7/11/2019 17:37",
+		"testClassExists" : "LH 7/11/2019 17:43",
 		"testDisplayWithoutUserCalls" : "LH 6/17/2019 16:19",
 		"testGetSelectedClassWhenClassExist" : "LH 6/17/2019 16:19",
 		"testGetSelectedClassWhenClassNotExist" : "A 7/3/2019 13:28",
@@ -36,5 +36,4 @@
 		"testSourceCodeWhenClassDoesNotExistAnymore" : "A 7/3/2019 13:25",
 		"testSourceCodeWhenCurrentSelectionIsNil" : "LH 6/17/2019 16:19",
 		"testSourceCodeWhenMethodDoesNotExistAnymore" : "A 7/3/2019 13:26",
-		"treeFromCompiledMethod:" : "LH 6/17/2019 16:19",
-		"wrappedTallyMockTree" : "LH 6/28/2019 15:27" } }
+		"treeFromCompiledMethod:" : "LH 6/17/2019 16:19" } }

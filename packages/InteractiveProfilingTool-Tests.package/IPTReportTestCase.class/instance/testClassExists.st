@@ -1,10 +1,10 @@
 tests
 testClassExists
 
-	| tallyMock compiledMethod wrapedTallyMock |
+	| tallyMock compiledMethod wrappedTallyMock |
 	
 	compiledMethod := (Smalltalk classNamed: 'DummyObject') compiledMethodAt: #dummyMethod.
 	tallyMock := MessageTallyMock new method: compiledMethod.	
-	wrapedTallyMock := MessageTallyWrapperMock new messageTally: tallyMock.
+	wrappedTallyMock := MessageTallyWrapperMock new messageTally: tallyMock.
 	
-	self assert: wrapedTallyMock classExists
+	self assert: wrappedTallyMock classExists
