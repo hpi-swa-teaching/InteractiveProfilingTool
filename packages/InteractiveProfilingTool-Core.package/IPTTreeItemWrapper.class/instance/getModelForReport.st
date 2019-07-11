@@ -1,4 +1,4 @@
-accessing
+helpers
 getModelForReport
 
 	^ self model model

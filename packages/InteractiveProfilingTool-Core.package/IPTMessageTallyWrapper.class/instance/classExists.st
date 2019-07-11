@@ -1,4 +1,4 @@
-as yet unclassified
+messageTally access
 classExists
 	
 	self getClass ifNil: [^ false].

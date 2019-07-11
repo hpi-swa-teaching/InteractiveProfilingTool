@@ -12,7 +12,6 @@
 		"testFindRootWithoutUserCalls" : "twk 7/11/2019 12:01",
 		"testGetAbsoluteTime" : "twk 6/16/2019 11:48",
 		"testGetAbsoluteTimeWithNonDefaultPollingInterval" : "A 7/5/2019 15:26",
-		"testGetChildrenWithRelevantOverallPerformanceImpact" : "twk 6/16/2019 12:10",
 		"testGetClass" : "twk 6/16/2019 11:55",
 		"testGetClassName" : "twk 6/16/2019 12:13",
 		"testGetFullGarbageCollectionStats" : "A 6/25/2019 20:13",
@@ -23,12 +22,13 @@
 		"testGetMemoryStatsOld" : "A 6/18/2019 20:13",
 		"testGetMemoryStatsUsed" : "A 6/18/2019 20:14",
 		"testGetMemoryStatsYoung" : "A 6/18/2019 20:14",
+		"testGetReceiversWithRelevantRuntime" : "twk 7/11/2019 15:29",
 		"testGetRelativeTime" : "twk 6/16/2019 11:50",
 		"testGetRootOverflows" : "A 6/25/2019 19:42",
 		"testGetSelector" : "twk 6/16/2019 11:56",
 		"testGetSelectorName" : "twk 6/16/2019 12:14",
 		"testGetTenures" : "A 6/25/2019 19:42",
 		"testGetTimeString" : "LH 6/28/2019 17:26",
-		"testHasChildrenWithRelevantOverallPerformanceImpact" : "twk 6/16/2019 12:06",
 		"testHasHighRuntime" : "A 7/3/2019 11:11",
-		"testIsRelevantForOverallPerformance" : "twk 6/16/2019 12:03" } }
+		"testHasReceiversWithRelevantRuntime" : "twk 7/11/2019 15:41",
+		"testIsRelevantForRuntime" : "twk 7/11/2019 15:27" } }

@@ -1,4 +1,4 @@
-information extraction
+messageTally access
 hasHighRuntime
 
 	^ self getRelativeTime >= self highRuntimeThreshold

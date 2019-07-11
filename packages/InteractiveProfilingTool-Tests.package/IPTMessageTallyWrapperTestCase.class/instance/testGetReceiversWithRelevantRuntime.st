@@ -1,10 +1,10 @@
 tests
-testHasChildrenWithRelevantOverallPerformanceImpact
+testGetReceiversWithRelevantRuntime
 
 	| wrappedTallyMockWithRelevantChild wrappedTallyMockWithoutRelevantChild |
 	
 	wrappedTallyMockWithRelevantChild := wrappedTallyMockWithLowRuntime receivers: {wrappedTallyMock}.
 	wrappedTallyMockWithoutRelevantChild := wrappedTallyMock receivers: {wrappedTallyMockWithLowRuntime}.
 	
-	self assert: wrappedTallyMockWithRelevantChild hasChildrenWithRelevantPerformanceImpact.
-	self deny: wrappedTallyMockWithoutRelevantChild hasChildrenWithRelevantPerformanceImpact
+	self assert: {wrappedTallyMock} equals: wrappedTallyMockWithRelevantChild getReceiversWithRelevantRuntime.
+	self assert: {} equals: wrappedTallyMockWithoutRelevantChild getReceiversWithRelevantRuntime
