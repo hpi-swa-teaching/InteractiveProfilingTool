@@ -1,7 +1,5 @@
 # InteractiveProfilingTool [![Build Status](https://travis-ci.org/hpi-swa-teaching/InteractiveProfilingTool.svg?branch=master)](https://travis-ci.org/hpi-swa-teaching/InteractiveProfilingTool) ![Squeak Version](https://img.shields.io/badge/squeak-%3E5.0-informational.svg)
 
-# InteractiveProfilingTool [![Build Status](https://travis-ci.org/hpi-swa-teaching/InteractiveProfilingTool.svg?branch=master)](https://travis-ci.org/hpi-swa-teaching/InteractiveProfilingTool)
-
 This piece of software was created for the Softwaretechnik module at Hasso Plattner Institut.  
 Special attention was dedicated towards the employment of agile methods to shape the process of development.
 
