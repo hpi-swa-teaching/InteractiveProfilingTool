@@ -1,0 +1,17 @@
+{
+	"category" : "InteractiveProfilingTool-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"treeMorph",
+		"reportModel",
+		"wrappedTally",
+		"treeItemWrapper" ],
+	"name" : "IPTTreeItemWrapperTestCase",
+	"pools" : [
+		 ],
+	"super" : "IPTTestCase",
+	"type" : "normal" }

@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"isRegisteredToWorldMenu" : "LH 5/16/2019 13:19",
+		"isRegisteredToWorldMenu" : "LH 6/17/2019 16:34",
 		"testPostLoad" : "LH 5/16/2019 13:11",
-		"testRegisterInWorldMenu" : "LH 5/16/2019 13:07",
+		"testRegisterInWorldMenu" : "LH 6/17/2019 16:27",
 		"unregisterFromWorlMenu" : "LH 5/16/2019 13:02" } }

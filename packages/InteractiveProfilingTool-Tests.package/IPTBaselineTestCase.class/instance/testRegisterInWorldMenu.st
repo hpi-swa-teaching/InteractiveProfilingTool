@@ -6,7 +6,7 @@ testRegisterInWorldMenu
 	isRegisteredToWorldMenu := self isRegisteredToWorldMenu. 
 	self unregisterFromWorlMenu.
 	
-	IPTModel registerInWorldMenu.
+	IPTToggle registerInWorldMenu.
 	self assert: self isRegisteredToWorldMenu.
 	
 	isRegisteredToWorldMenu ifFalse: [

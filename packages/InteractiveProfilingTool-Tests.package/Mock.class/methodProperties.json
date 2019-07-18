@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"expect:toReturn:" : "TP 7/8/2019 22:41",
+		"expect:withArgument:toReturn:" : "TP 7/9/2019 10:57",
+		"expect:withArguments:toReturn:" : "TP 7/8/2019 22:41" },
+	"instance" : {
+		"doesNotUnderstand:" : "TP 7/9/2019 00:00",
+		"expect:toReturn:" : "TP 7/8/2019 22:41",
+		"expect:withArgument:toReturn:" : "TP 7/9/2019 10:55",
+		"expect:withArguments:toReturn:" : "TP 7/9/2019 00:58",
+		"expectations" : "TP 7/8/2019 22:14",
+		"expectations:" : "TP 7/8/2019 22:14",
+		"initialize" : "TP 7/9/2019 00:50" } }

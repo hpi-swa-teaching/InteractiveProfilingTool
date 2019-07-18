@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "LH 6/17/2019 16:18",
+		"testButtonLabelWhenNotProfiling" : "TP 5/4/2019 00:29",
+		"testButtonLabelWhenProfiling" : "LH 5/4/2019 23:08",
+		"testButtonSpec" : "TP 5/12/2019 14:47",
+		"testStartProfiling" : "twk 5/12/2019 14:36",
+		"testStopProfiling" : "LH 5/4/2019 23:09",
+		"testToggleProfilingWhenNotProfiling" : "LH 5/10/2019 20:36",
+		"testToggleProfilingWhenProfiling" : "TP 5/12/2019 14:52",
+		"testWindowSpec" : "TP 5/12/2019 14:47",
+		"testWindowTitle" : "LH 5/21/2019 15:13" } }
