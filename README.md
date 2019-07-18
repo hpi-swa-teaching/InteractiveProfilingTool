@@ -1,4 +1,4 @@
-# InteractiveProfilingTool [![Build Status](https://travis-ci.org/hpi-swa-teaching/InteractiveProfilingTool.svg?branch=master)](https://travis-ci.org/hpi-swa-teaching/InteractiveProfilingTool) ![Squeak Version](https://img.shields.io/badge/squeak-%3E5.0-informational.svg)
+# InteractiveProfilingTool [![Build Status](https://travis-ci.org/hpi-swa-teaching/InteractiveProfilingTool.svg?branch=master)](https://travis-ci.org/hpi-swa-teaching/InteractiveProfilingTool) ![Squeak Version](https://img.shields.io/badge/squeak-%3E5.0-informational.svg) [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/InteractiveProfilingTool/badge.svg?branch=master)](https://coveralls.io/github/hpi-swa-teaching/InteractiveProfilingTool?branch=master)
 
 This is a graphical Profiling-Tool for use in the Squeak-Smalltalk Environment.
 
@@ -45,3 +45,17 @@ tally := MessageTally new.
 tally spyEvery: (MessageTally defaultPollPeriod) on: ["put your code here"].
 IPTReport openReportFor: tally
 ```
+
+3. Using the `GC Stats` you can access the pictured stats for the profiled period:
+
+![GS Stats](./img/GS_Stats_Screenshot.png)
+Since there is no comprehensive, central documentation for the Squeak Garbage Collector, this may be a useful primer for you:
+
+>The Squeak garbage collector follows the Mark-Sweep-Compact GC pattern. Memory is divided into two regions, the young and the old space. The young space contains short-lived objects, the old space contains long-lived objects (tenures).
+There are two different garbage collection methods: Full GC and Incremental GC. An incremental GC collects garbage from the young space only, while a full GC runs in both regions.
+
+If you are looking for more information on this, [this](https://clementbera.wordpress.com/2017/03/12/tuning-the-pharo-garbage-collector/) article on garbage collection in Pharo (another Smalltalk environment, similar to Squeak) that seems to be applicable to Squeak as well may be of interest.
+
+## Further Work & Questions
+
+If you want to work on this (or have to in a future SWT lesson :wink:) and have any questions, feel free to open Issues and/or @ us here on GitHub.
