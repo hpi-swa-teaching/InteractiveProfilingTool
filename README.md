@@ -48,7 +48,7 @@ IPTReport openReportFor: tally
 
 3. Using the `GC Stats` you can access the pictured stats for the profiled period:
 
-![GS Stats](./img/GS_Stats_Screenshot.png)
+![GS Stats](./img/GC_Stats_Screenshot.png)
 Since there is no comprehensive, central documentation for the Squeak Garbage Collector, this may be a useful primer for you:
 
 >The Squeak garbage collector follows the Mark-Sweep-Compact GC pattern. Memory is divided into two regions, the young and the old space. The young space contains short-lived objects, the old space contains long-lived objects (tenures).
