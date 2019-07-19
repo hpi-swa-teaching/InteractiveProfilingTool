@@ -55,7 +55,7 @@ Since there is no comprehensive, central documentation for the Squeak Garbage Co
 >The Squeak garbage collector follows the Mark-Sweep-Compact GC pattern. Memory is divided into two regions, the young and the old space. The young space contains short-lived objects, the old space contains long-lived objects (tenures).
 There are two different garbage collection methods: Full GC and Incremental GC. An incremental GC collects garbage from the young space only, while a full GC runs in both regions.
 
-If you are looking for more information on garbage collection in Squeak, [this](https://clementbera.wordpress.com/2017/03/12/tuning-the-pharo-garbage-collector/) article on garbage collection in Pharo (another Smalltalk environment, similar to Squeak) that seems to be applicable to Squeak as well may be of interest.
+If you are looking for more information on garbage collection in Squeak, [this wiki entry](https://wiki.squeak.org/squeak/1469)  on garbage collection in Squeak may be a good starting point.
 
 ## Further Work & Questions
 
