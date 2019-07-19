@@ -27,7 +27,7 @@ Metacello new
 ## Usage
 
 ### Profiling World
-1. Open the Profiler via the World Menu under Apps -> Interactive Profiler
+1. Open the Profiler via the World Menu under `Apps -> Interactive Profiler`
 2. Toggle profiling
 
 ![Toggling the Profiler](./img/Profiler_Toggle_Screenshot.png)
@@ -37,16 +37,16 @@ Metacello new
 
 ## Remarks
 
-1. A relevance threshold is employed to hide method calls with an insignificant runtime.  The value is hardcoded in such a way that method calls with less than 1% relative runtime are excluded from the result tree. If you want to change the threshhold, you can do so in `IPTMessageTallyWrapper >> callRelevancePercentage`.
+1. A relevance threshold is employed to hide method calls with an insignificant runtime.  The value is hardcoded in such a way that method calls with less than 1% relative runtime are excluded from the result tree. If you want to change the threshhold, you can do so by changing the return value of `IPTMessageTallyWrapper >> callRelevancePercentage`.
 
-2. Moreover, the spy-on functionality that allows profiling of individual methods is not yet implemented. If you know what you are doing, you can make a hacky solution like:
+2. Moreover, the spy-on functionality that allows profiling of individual methods is not yet fully implemented. If you know what you are doing, you can make a hacky solution like:
 ```smalltalk
 tally := MessageTally new.
 tally spyEvery: (MessageTally defaultPollPeriod) on: ["put your code here"].
 IPTReport openReportFor: tally
 ```
 
-3. Using the `GC Stats` you can access the pictured stats for the profiled period:
+3. Using the `GC Stats` you can view garbage collection stats for the profiled period:
 
 ![GS Stats](./img/GC_Stats_Screenshot.png)
 
@@ -55,7 +55,7 @@ Since there is no comprehensive, central documentation for the Squeak Garbage Co
 >The Squeak garbage collector follows the Mark-Sweep-Compact GC pattern. Memory is divided into two regions, the young and the old space. The young space contains short-lived objects, the old space contains long-lived objects (tenures).
 There are two different garbage collection methods: Full GC and Incremental GC. An incremental GC collects garbage from the young space only, while a full GC runs in both regions.
 
-If you are looking for more information on this, [this](https://clementbera.wordpress.com/2017/03/12/tuning-the-pharo-garbage-collector/) article on garbage collection in Pharo (another Smalltalk environment, similar to Squeak) that seems to be applicable to Squeak as well may be of interest.
+If you are looking for more information on garbage collection in Squeak, [this](https://clementbera.wordpress.com/2017/03/12/tuning-the-pharo-garbage-collector/) article on garbage collection in Pharo (another Smalltalk environment, similar to Squeak) that seems to be applicable to Squeak as well may be of interest.
 
 ## Further Work & Questions
 
