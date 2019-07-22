@@ -2,15 +2,18 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "LH 7/5/2019 10:34",
+		"setUp" : "TP 7/22/2019 20:09",
+		"setupGarbageCollectionTestData" : "TP 7/22/2019 20:04",
+		"setupLeavesTestData" : "TP 7/22/2019 20:08",
+		"setupMemoryTestData" : "TP 7/22/2019 20:05",
 		"testFormatGarbageCollectionGeneration" : "A 6/25/2019 18:49",
 		"testFormatGarbageCollectionGenerationWithZero" : "A 6/25/2019 19:03",
-		"testFormatGarbageCollectionStats" : "A 6/25/2019 19:17",
-		"testFormatLeaves" : "TP 6/24/2019 12:53",
-		"testFormatMemoryStats" : "TP 6/22/2019 14:12",
+		"testFormatGarbageCollectionStats" : "TP 7/22/2019 20:06",
+		"testFormatLeaves" : "TP 7/22/2019 20:08",
+		"testFormatMemoryStats" : "TP 7/22/2019 20:10",
 		"testFormatStatsBoldHeadings" : "TP 6/24/2019 11:28",
 		"testFormatStatsLineBreaks" : "TP 6/22/2019 14:52",
-		"testGetFormattedStats" : "TP 6/24/2019 12:53",
-		"testGetFormattedStatsBoldHeadings" : "TP 6/24/2019 11:52",
-		"testRootOverflows" : "A 6/25/2019 19:48",
-		"testTenures" : "A 6/25/2019 19:48" } }
+		"testGetFormattedStats" : "TP 7/22/2019 20:09",
+		"testGetFormattedStatsBoldHeadings" : "TP 7/22/2019 20:09",
+		"testRootOverflows" : "TP 7/22/2019 19:52",
+		"testTenures" : "TP 7/22/2019 19:52" } }
