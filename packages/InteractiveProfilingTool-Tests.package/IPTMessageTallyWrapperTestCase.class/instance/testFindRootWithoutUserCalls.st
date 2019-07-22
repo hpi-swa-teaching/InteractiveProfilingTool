@@ -1,7 +1,13 @@
 tests
 testFindRootWithoutUserCalls
 	
-	| userCallsRoots |
+	| messageTally wrapper |
 	
-	userCallsRoots := wrappedTallyMock findRootsForUserCalls.
-	self assert: {} equals: userCallsRoots
+	messageTally := Mock expect: #receivers toReturn: {}.
+	
+	wrapper := IPTMessageTallyWrapper
+		with: messageTally
+		withTotalTime: nil
+		andTotalTallyCount: nil.
+	
+	self assert: {} equals: wrapper findRootsForUserCalls.

@@ -1,5 +1,5 @@
 tests
-testGetRelativeTime
+testHasHighRuntimeEqualsThreshold
 
 	| messageTally wrapper |
 	
@@ -12,4 +12,4 @@ testGetRelativeTime
 		withTotalTime: 300
 		andTotalTallyCount: 300.
 
-	self assert: 50 equals: wrapper getRelativeTime
+	self assert: wrapper hasHighRuntime

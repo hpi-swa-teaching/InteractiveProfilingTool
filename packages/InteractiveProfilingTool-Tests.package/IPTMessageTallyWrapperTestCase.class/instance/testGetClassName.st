@@ -1,4 +1,15 @@
 tests
 testGetClassName
 
-	self assert: 'Boolean' equals: wrappedTallyMock getClassName
+	| messageTally wrapper |
+	
+	messageTally := Mock new
+		expect: #method toReturn: (Boolean >> #ifTrue:);
+		expect: #receivers toReturn: {}.
+		
+	wrapper := IPTMessageTallyWrapper
+		with: messageTally
+		withTotalTime: nil
+		andTotalTallyCount: nil.
+
+	self assert: 'Boolean' equals: wrapper getClassName

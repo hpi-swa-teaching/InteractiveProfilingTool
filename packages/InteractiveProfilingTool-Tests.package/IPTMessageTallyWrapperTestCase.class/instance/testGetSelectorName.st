@@ -1,4 +1,15 @@
 tests
 testGetSelectorName
 
-	self assert: 'ifTrue:' equals: wrappedTallyMock getSelectorName
+	| messageTally wrapper |
+	
+	messageTally := Mock new
+		expect: #method toReturn: (Boolean >> #ifTrue:);
+		expect: #receivers toReturn: {}.
+		
+	wrapper := IPTMessageTallyWrapper
+		with: messageTally
+		withTotalTime: nil
+		andTotalTallyCount: nil.
+
+	self assert: 'ifTrue:' equals: wrapper getSelectorName

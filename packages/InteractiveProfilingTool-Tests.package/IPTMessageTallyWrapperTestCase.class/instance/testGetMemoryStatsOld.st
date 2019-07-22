@@ -1,9 +1,14 @@
 tests
 testGetMemoryStatsOld
 
-	| expected actual |
+	| wrapper expected actual |
 	
-	expected := wrappedTallyMock getMemoryStats at: #old.
+	wrapper := IPTMessageTallyWrapper
+		with: messageTallyWithGarbageCollectionStats
+		withTotalTime: nil
+		andTotalTallyCount: nil.
+	
+	expected := wrapper getMemoryStats at: #old.
 	actual := 100000.
 
 	self assert: expected equals: actual

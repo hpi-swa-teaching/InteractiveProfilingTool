@@ -1,10 +1,10 @@
 tests
-testGetRelativeTime
+testHasHighRuntimeBelowThreshold
 
 	| messageTally wrapper |
 	
 	messageTally := Mock new
-		expect: #tally toReturn: 150;
+		expect: #tally toReturn: 100;
 		expect: #receivers toReturn: {}.
 	
 	wrapper := IPTMessageTallyWrapper
@@ -12,4 +12,4 @@ testGetRelativeTime
 		withTotalTime: 300
 		andTotalTallyCount: 300.
 
-	self assert: 50 equals: wrapper getRelativeTime
+	self deny: wrapper hasHighRuntime
