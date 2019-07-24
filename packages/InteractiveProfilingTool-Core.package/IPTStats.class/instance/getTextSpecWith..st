@@ -6,5 +6,4 @@ getTextSpecWith: aBuilder
 			getText: #getFormattedStats;
 			readOnly: true;
 			indicateUnacceptedChanges: false;
-			color: #windowColorToUse;
-			yourself
+			color: #windowColorToUse

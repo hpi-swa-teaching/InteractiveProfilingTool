@@ -4,8 +4,8 @@ testAutoExpand
 	
 	wrappedTally := self getWrappedTallyMockTree.
 	reportForTree := IPTReport new
-		userCallsRoots: {wrappedTally};
-		setInitialSelection.
+		userCallsRoot: wrappedTally;
+		currentSelection: wrappedTally.
 	window := ToolBuilder build: reportForTree.
 	tree := window submorphNamed: #resultsTree.
 	

@@ -4,7 +4,7 @@ selectedClass
 	self currentSelection 
 		ifNil: [^ nil].
 
-	(self classExists: self currentSelection)
+	(self currentSelection classExists)
 		ifFalse: [^ nil].
 		
 	^ self currentSelection getClass

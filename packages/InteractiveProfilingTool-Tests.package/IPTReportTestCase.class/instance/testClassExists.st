@@ -1,11 +1,10 @@
 tests
 testClassExists
 
-	| tree tallyMock compiledMethod wrapedTallyMock |
+	| tallyMock compiledMethod wrappedTallyMock |
 	
-	tree := IPTReportMock new.
 	compiledMethod := (Smalltalk classNamed: 'DummyObject') compiledMethodAt: #dummyMethod.
 	tallyMock := MessageTallyMock new method: compiledMethod.	
-	wrapedTallyMock := MessageTallyWrapperMock new messageTally: tallyMock.
+	wrappedTallyMock := MessageTallyWrapperMock new messageTally: tallyMock.
 	
-	self assert: (tree classExists: wrapedTallyMock)
+	self assert: wrappedTallyMock classExists

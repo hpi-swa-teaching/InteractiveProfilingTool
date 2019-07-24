@@ -5,8 +5,8 @@ with: aRootMessageTally withTotalTime: aTotalTimeValue andTotalTallyCount: aTota
 	
 	aRootMessageTally ifNil: [^ nil ].
 	
-	wrappedReceivers := aRootMessageTally receivers collect: [ :node | 
-		self with: node withTotalTime: aTotalTimeValue andTotalTallyCount: aTotalTallyCount ].
+	wrappedReceivers := aRootMessageTally receivers collect: [:receiver | 
+		self with: receiver withTotalTime: aTotalTimeValue andTotalTallyCount: aTotalTallyCount ].
 	
 	^ IPTMessageTallyWrapper new 
 		messageTally: aRootMessageTally;

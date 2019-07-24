@@ -1,4 +1,4 @@
-information extraction
+messageTally access
 getRelativeTime  
   
 	"Catch this case to avoid ZeroDivide Errors later on."	

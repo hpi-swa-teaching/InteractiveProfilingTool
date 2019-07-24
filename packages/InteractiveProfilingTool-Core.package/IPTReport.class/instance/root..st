@@ -1,4 +1,4 @@
 accessing
-root: aWrappedTally
+root: aMessageTallyWrapper
 
-	root := aWrappedTally
+	root := aMessageTallyWrapper

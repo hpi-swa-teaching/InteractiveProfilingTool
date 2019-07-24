@@ -2,4 +2,4 @@ accessing
 selectorFilter: aString
 	
 	selectorFilter := aString.
-	self changed: #userCallsRoots
+	self changed: #userCallsRootAsCollection

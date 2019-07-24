@@ -1,4 +1,4 @@
 accessing
-totalTallyCountOfOverallTree: anInteger
+totalTallyCountOfOverallTree: aNumber
 
-	totalTallyCountOfOverallTree := anInteger.
+	totalTallyCountOfOverallTree := aNumber

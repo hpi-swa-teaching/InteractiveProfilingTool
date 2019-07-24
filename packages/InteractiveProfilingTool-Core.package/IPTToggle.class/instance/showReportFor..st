@@ -1,5 +1,4 @@
-toolbuilder
-showReportFor: aProfilingResult
+profiling
+showReportFor: aMessageTally
 
-	"class method?"
-	IPTReport openReportFor: aProfilingResult
+	IPTReport openReportFor: aMessageTally

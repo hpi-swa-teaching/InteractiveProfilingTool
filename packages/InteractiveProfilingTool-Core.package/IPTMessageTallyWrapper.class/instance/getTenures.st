@@ -1,7 +1,6 @@
-information extraction
+gc stats access
 getTenures
 	
-	self messageTally gcStats 
-		ifNil: [^ nil].
+	self getGcStats ifNil: [^ nil].
 	
-	^ self messageTally gcStats at: 11
+	^ self getGcStats  at: 11

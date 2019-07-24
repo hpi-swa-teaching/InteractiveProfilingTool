@@ -10,6 +10,6 @@ buildWindowWith: aBuilder
 	codePanelSpec frame: self codePanelFrame.
 	
 	windowSpec := super buildWindowWith: aBuilder.
-	windowSpec children: { treePanelSpec. codePanelSpec }.
+	windowSpec children: {treePanelSpec. codePanelSpec}.
 	
 	^ windowSpec

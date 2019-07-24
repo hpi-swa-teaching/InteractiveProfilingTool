@@ -1,4 +1,4 @@
 formatting
 formatRootOverflows
 
-	^ 'Root Overflows: {1}' format: { self root getRootOverflows }
+	^ 'Root Overflows: ', self root getRootOverflows
