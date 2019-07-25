@@ -1,4 +1,4 @@
-# InteractiveProfilingTool [![Build Status](https://travis-ci.org/hpi-swa-teaching/InteractiveProfilingTool.svg?branch=master)](https://travis-ci.org/hpi-swa-teaching/InteractiveProfilingTool) ![Squeak Version](https://img.shields.io/badge/squeak-%3E5.0-informational.svg) [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/InteractiveProfilingTool/badge.svg?branch=master)](https://coveralls.io/github/hpi-swa-teaching/InteractiveProfilingTool?branch=master)
+# InteractiveProfilingTool [![Build Status](https://travis-ci.org/hpi-swa-teaching/InteractiveProfilingTool.svg?branch=master)](https://travis-ci.org/hpi-swa-teaching/InteractiveProfilingTool) ![Squeak Version](https://img.shields.io/badge/squeak-%3E5.0-informational.svg)
 
 This is a graphical Profiling-Tool for use in the Squeak-Smalltalk Environment.
 
