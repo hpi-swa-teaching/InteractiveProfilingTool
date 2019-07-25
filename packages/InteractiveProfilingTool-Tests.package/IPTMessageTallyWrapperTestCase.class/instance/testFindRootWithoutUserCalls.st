@@ -10,4 +10,4 @@ testFindRootWithoutUserCalls
 		withTotalTime: nil
 		andTotalTallyCount: nil.
 	
-	self assert: nil equals: wrapper findRootsForUserCalls.
+	self assert: nil equals: wrapper findRootForUserCalls.

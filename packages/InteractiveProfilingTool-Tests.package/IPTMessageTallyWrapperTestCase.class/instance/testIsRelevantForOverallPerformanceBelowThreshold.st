@@ -12,4 +12,4 @@ testIsRelevantForOverallPerformanceBelowThreshold
 		withTotalTime: 100
 		andTotalTallyCount: 100.
 
-	self deny: wrapper isRelevantForPerformance
+	self deny: wrapper isRelevantForRuntime

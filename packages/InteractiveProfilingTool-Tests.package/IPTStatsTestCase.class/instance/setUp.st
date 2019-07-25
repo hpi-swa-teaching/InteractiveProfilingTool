@@ -5,4 +5,4 @@ setUp
 
 	model := IPTStats new
 		root: Mock new;
-		userCallsRoots: {Mock new}
+		userCallsRoot: Mock new

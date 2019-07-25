@@ -12,4 +12,4 @@ testIsRelevantForOverallPerformanceAboveThreshold
 		withTotalTime: 100
 		andTotalTallyCount: 100.
 
-	self assert: wrapper isRelevantForPerformance
+	self assert: wrapper isRelevantForRuntime

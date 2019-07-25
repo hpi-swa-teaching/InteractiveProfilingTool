@@ -15,7 +15,7 @@ testGetChildrenWithRelevantPerformanceImpact
 		relevantReceiver. irrelevantReceiver}.
 		
 	wrapper := IPTMessageTallyWrapper
-		with: rootNode
+		with: root
 		withTotalTime: 100
 		andTotalTallyCount: 100.
 	
