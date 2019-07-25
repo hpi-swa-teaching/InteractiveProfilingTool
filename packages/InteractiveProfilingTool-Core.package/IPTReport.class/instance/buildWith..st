@@ -6,4 +6,4 @@ buildWith: aBuilder
 	window := aBuilder build: (self buildWindowWith: aBuilder).
 	self expandAllNodesForTreeIn: window.
   
-  ^ window
+	^ window

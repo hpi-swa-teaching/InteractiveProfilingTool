@@ -9,5 +9,4 @@ testRegisterInWorldMenu
 	IPTToggle registerInWorldMenu.
 	self assert: self isRegisteredToWorldMenu.
 	
-	isRegisteredToWorldMenu ifFalse: [
-			self unregisterFromWorlMenu]
+	isRegisteredToWorldMenu ifFalse: [self unregisterFromWorlMenu]

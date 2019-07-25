@@ -1,7 +1,7 @@
 running
 setUp
 
-	model := IPTReportMock new userCallsRoots: {}.
+	model := IPTReportMock new.
 	builder := ToolBuilder new.
 
 	tallyMock := MessageTallyMock new 

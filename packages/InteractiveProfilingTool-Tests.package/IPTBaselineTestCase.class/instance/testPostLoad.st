@@ -9,5 +9,4 @@ testPostLoad
 	BaselineOfInteractiveProfilingTool new postLoad.
 	self assert: self isRegisteredToWorldMenu.
 	
-	isRegisteredToWorldMenu ifFalse: [
-			self unregisterFromWorlMenu] 
+	isRegisteredToWorldMenu ifFalse: [self unregisterFromWorlMenu] 

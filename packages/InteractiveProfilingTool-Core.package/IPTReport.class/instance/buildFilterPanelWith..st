@@ -10,4 +10,4 @@ buildFilterPanelWith: aBuilder
 	filterInputSpec frame: self filterInputFrame.
 	
 	^ aBuilder pluggablePanelSpec new
-		children: { statsButtonSpec. filterInputSpec }
+		children: {statsButtonSpec. filterInputSpec}

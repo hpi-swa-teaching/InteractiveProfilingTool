@@ -4,7 +4,7 @@ testBrowseMethodCall
 	| browser tree |
 	
 	tree := IPTReportMock new 
-		userCallsRoots: {wrappedTally};
+		userCallsRoot: wrappedTally;
 		currentSelection: wrappedTally.
 		
 	browser := tree browseMethodCall.

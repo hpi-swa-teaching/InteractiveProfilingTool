@@ -1,0 +1,4 @@
+constants
+classMissingMessage
+	
+	^ 'Class Missing'

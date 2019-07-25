@@ -1,8 +1,9 @@
 accessing
-currentSelection: aNode
+currentSelection: aMessageTallyWrapper
 
-	currentSelection := aNode.
+	currentSelection := aMessageTallyWrapper.
 	
-	self changed: #currentSelection.
-	self changed: #style.
-	self contentsChanged
+	self 
+		changed: #currentSelection;
+		changed: #style;
+		contentsChanged

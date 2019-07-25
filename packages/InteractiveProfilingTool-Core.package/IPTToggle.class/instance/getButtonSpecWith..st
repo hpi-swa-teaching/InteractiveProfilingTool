@@ -3,7 +3,7 @@ getButtonSpecWith: aBuilder
 	
 	| frame |
 
-	frame := LayoutFrame new 
+	frame := LayoutFrame new
 		topFraction: 0;
 		leftFraction: 0;
 		bottomFraction: 1;

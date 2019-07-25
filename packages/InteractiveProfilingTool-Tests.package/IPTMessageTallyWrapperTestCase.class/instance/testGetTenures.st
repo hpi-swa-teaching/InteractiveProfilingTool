@@ -12,7 +12,3 @@ testGetTenures
 	expected := 555.
 
 	self assert: expected equals: actual
-
-
-		
-	

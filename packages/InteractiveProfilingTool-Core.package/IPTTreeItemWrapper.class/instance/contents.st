@@ -1,5 +1,5 @@
-accessing
+display
 contents
 
-	^ self item getChildrenWithRelevantPerformanceImpact
-		collect: [ :child | IPTTreeItemWrapper with: child model: self model ].
+	^ self item getReceiversWithRelevantRuntime
+		collect: [:receiver | IPTTreeItemWrapper with: receiver model: self model]

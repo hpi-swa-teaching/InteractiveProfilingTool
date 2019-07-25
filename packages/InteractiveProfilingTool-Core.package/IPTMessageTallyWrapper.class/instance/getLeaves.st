@@ -1,13 +1,13 @@
-information extraction
+messageTally access
 getLeaves 
 	
 	| leaves |
 	
 	leaves := OrderedCollection new.
 
-	self getChildrenWithRelevantPerformanceImpact do: [ :child |
-		child hasChildrenWithRelevantPerformanceImpact
-			ifFalse: [ leaves add: child ]
-			ifTrue: [ leaves addAll: (child getLeaves) ]].
+	self getReceiversWithRelevantRuntime do: [:receiver |
+		receiver hasReceiversWithRelevantRuntime
+			ifFalse: [leaves add: receiver]
+			ifTrue: [leaves addAll: (receiver getLeaves)]].
 	
 	^ leaves
