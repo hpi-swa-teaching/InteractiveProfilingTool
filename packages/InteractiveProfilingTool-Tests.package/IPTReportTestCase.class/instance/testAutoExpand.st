@@ -1,15 +1,37 @@
 tests
 testAutoExpand
-	| window tree nodeItems reportForTree |
 	
-	wrappedTally := self getWrappedTallyMockTree.
-	reportForTree := IPTReport new
-		userCallsRoot: wrappedTally;
-		currentSelection: wrappedTally.
-	window := ToolBuilder build: reportForTree.
+	| rootNode innerNode leafNode messageTallyWrapper window tree treeItems |
+	
+	rootNode := Mock new
+		expect: #method toReturn: (Boolean >> #isBoolean);
+		expect: #tally toReturn: 1000;
+		expect: #time toReturn: 1000.
+		
+	innerNode := Mock new
+		expect: #method toReturn: (Boolean >> #isBoolean);
+		expect: #tally toReturn: 1000.
+		
+	leafNode := Mock new
+		expect: #method toReturn: (Boolean >> #isBoolean);
+		expect: #tally toReturn: 1000.
+		
+	rootNode expect: #receivers toReturn: {innerNode}.
+	innerNode expect: #receivers toReturn: {leafNode}.
+	leafNode expect: #receivers toReturn: {}.
+	
+	messageTallyWrapper := IPTMessageTallyWrapper with: rootNode.
+
+	model
+		userCallsRoot: messageTallyWrapper;
+		currentSelection: messageTallyWrapper.
+		
+	window := model class open: model.
 	tree := window submorphNamed: #resultsTree.
+	treeItems := tree items asOrderedCollection.
 	
-	nodeItems := tree items asOrderedCollection.
-	nodeItems removeLast. "last Node is leaf and therefore cannot be expanded"
+	self assert: treeItems first isExpanded.
+	self assert: treeItems second isExpanded.
 	
-	self assert: (nodeItems allSatisfy: [ :item | item isExpanded ])
+	"The last item is a leaf node and thus cannot be exapend"
+	self deny: treeItems third isExpanded.

@@ -1,10 +1,12 @@
-running
+helpers
 buildDummyClass
 
 	 ClassBuilder new 
 			superclass: Object 
-			subclass: #DummyClass 
+			subclass: #Dummy 
 			instanceVariableNames: '' 
 			classVariableNames: '' 
 			poolDictionaries: '' 
-			category: 'InteractiveProfilingTool-Tests'.
+			category: 'InteractiveProfilingTool-Test'.
+			
+		self dummyClass compile: self dummyMethodSourceCode
