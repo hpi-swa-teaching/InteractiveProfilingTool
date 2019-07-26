@@ -2,7 +2,7 @@
 
 This is a graphical Profiling-Tool for use in the Squeak-Smalltalk Environment.
 
-![Screenshot of a Profiling Result](./img/Profiler_Screenshot.png)
+<img src="img/Profiler_Screenshot.png" width="500" alt="Screenshot of a profiling report" />
 
 ## Features
 
@@ -29,8 +29,8 @@ Metacello new
 ### Profiling World
 1. Open the Profiler via the World Menu under `Apps -> Interactive Profiler`
 2. Toggle profiling
-
-![Toggling the Profiler](./img/Profiler_Toggle_Screenshot.png)
+   
+   <img src="img/Profiler_Toggle_Screenshot.png" width="250" alt="Toggling the profiler" />
 
 3. A report window as shown above opens  
 4. Profit :money_with_wings:
@@ -48,7 +48,7 @@ IPTReport openReportFor: tally
 
 3. Using the `GC Stats` you can view garbage collection stats for the profiled period:
 
-![GS Stats](./img/GC_Stats_Screenshot.png)
+   <img src="img/GC_Stats_Screenshot.png" width="250" alt="Screenshot of the tool’s memory stats report" />
 
 Since there is no comprehensive, central documentation for the Squeak Garbage Collector, this may be a useful primer for you:
 
