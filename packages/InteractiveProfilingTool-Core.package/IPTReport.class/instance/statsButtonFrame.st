@@ -5,5 +5,4 @@ statsButtonFrame
 		leftFraction: 0;
 		topFraction: 0;
 		rightFraction: 0 offset: 100;
-		bottomFraction: 1;
-		yourself
+		bottomFraction: 1

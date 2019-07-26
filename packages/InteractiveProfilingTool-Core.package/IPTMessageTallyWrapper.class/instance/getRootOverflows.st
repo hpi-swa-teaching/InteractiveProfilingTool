@@ -1,6 +1,6 @@
-information extraction
+gc stats access
 getRootOverflows
 	
-	self messageTally gcStats ifNil: [^ nil].
-	
-	^ self messageTally gcStats at: 22
+	self getGcStats ifNil: [^ nil].
+
+	^ self getGcStats at: 22

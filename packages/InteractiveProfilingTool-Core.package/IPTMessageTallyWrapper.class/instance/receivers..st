@@ -1,4 +1,4 @@
 accessing
-receivers: aCollection
+receivers: aCollectionOfMessageTallyWrappers
 
-	receivers := aCollection
+	receivers := aCollectionOfMessageTallyWrappers

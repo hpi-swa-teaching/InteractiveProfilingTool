@@ -1,4 +1,4 @@
-toolbuilder
+constants
 windowTitle
 	
 	^ 'Interactive Profiler'

@@ -3,5 +3,5 @@ with: aMessageTally
 
 	^ self
 		with: aMessageTally
-		withTotalTime: (aMessageTally time)
-		andTotalTallyCount: (aMessageTally tally)
+		withTotalTime: aMessageTally time
+		andTotalTallyCount: aMessageTally tally

@@ -19,10 +19,10 @@ setUp
 		receivers: {}.
 		
 	nestedWrapperMock := wrapperMock clone;
-		receivers: { wrapperMock clone }.
+		receivers: {wrapperMock clone}.
 
 	model := IPTStats new
 		root: nestedWrapperMock;
-		userCallsRoots: { nestedWrapperMock }.
+		userCallsRoot: nestedWrapperMock.
 		
 	builder := ToolBuilder new

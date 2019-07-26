@@ -8,8 +8,8 @@
 	"instvars" : [
 		"messageTally",
 		"receivers",
-		"totalTimeOfOverallTree",
-		"totalTallyCountOfOverallTree" ],
+		"totalTallyCountOfOverallTree",
+		"totalTimeOfOverallTree" ],
 	"name" : "IPTMessageTallyWrapper",
 	"pools" : [
 		 ],

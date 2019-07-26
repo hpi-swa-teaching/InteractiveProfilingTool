@@ -1,0 +1,4 @@
+messageTally access
+hasReceiversWithRelevantRuntime
+
+	^ self getReceiversWithRelevantRuntime isEmpty not

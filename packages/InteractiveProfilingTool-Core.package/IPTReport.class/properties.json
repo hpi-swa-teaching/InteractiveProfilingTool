@@ -6,10 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"root",
-		"userCallsRoots",
 		"currentSelection",
-		"selectorFilter" ],
+		"root",
+		"selectorFilter",
+		"userCallsRoot" ],
 	"name" : "IPTReport",
 	"pools" : [
 		 ],

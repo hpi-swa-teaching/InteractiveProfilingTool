@@ -6,7 +6,4 @@ browseMethodCall
 	class := self currentSelection getClass.
 	selector := self currentSelection getSelectorName.
 	
-	^ ToolSet browse: class selector: selector.
-	
-
-	
+	^ ToolSet browse: class selector: selector

@@ -1,4 +1,4 @@
-toolbuilder
+constants
 statsButtonLabel
 
 	^ 'GC Stats'

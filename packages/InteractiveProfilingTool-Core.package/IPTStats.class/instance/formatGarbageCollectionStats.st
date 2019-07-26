@@ -10,6 +10,6 @@ formatGarbageCollectionStats
 		self formatGarbageCollectionGeneration: 'Full' withStats: statsFull.
 		self formatGarbageCollectionGeneration: 'Incremental' withStats: statsIncremental.
 		self formatTenures.
-		self formatRootOverflows }.
+		self formatRootOverflows}.
 		
 	 ^ self formatStats: lines withHeading: 'Garbage Collector'

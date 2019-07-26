@@ -1,4 +1,4 @@
-information extraction
+messageTally access
 getClass
 
 	^ self messageTally method methodClass

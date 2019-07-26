@@ -1,0 +1,4 @@
+constants
+methodMissingMessage
+	
+	^ 'Method Missing'

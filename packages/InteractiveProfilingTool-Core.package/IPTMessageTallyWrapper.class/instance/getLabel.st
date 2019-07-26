@@ -1,4 +1,4 @@
-information extraction
+messageTally access
 getLabel
 
 	| selector class timeString |
