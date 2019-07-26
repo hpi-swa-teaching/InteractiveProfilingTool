@@ -1,14 +1,23 @@
 tests
 testGetLeaves
 
-	| mock leaves expected |
+	| rootNode innerNode leafNode wrapper |
 	
-	mock := MessageTallyWrapperMock new
-		receivers: { wrappedTallyMock };
-		totalTimeOfOverallTree: 100.
+	leafNode := Mock new
+		expect: #tally toReturn: 100;
+		expect: #receivers toReturn: {}.
+		
+	innerNode := Mock new
+		expect: #tally toReturn: 100;
+		expect: #receivers toReturn: {leafNode}.
+		
+	rootNode := Mock expect: #receivers toReturn: {innerNode}.
 	
-	leaves := mock getLeaves.
-	expected := OrderedCollection with: wrappedTallyMock.
+	wrapper := IPTMessageTallyWrapper
+		with: rootNode
+		withTotalTime: 100
+		andTotalTallyCount: 100.
 	
-	self assert: expected equals: leaves
+	self assert: 1 equals: wrapper getLeaves size.
+	self assert: leafNode equals: wrapper getLeaves first messageTally
 	

@@ -2,20 +2,4 @@ running
 setUp
 
 	model := IPTReportMock new.
-	builder := ToolBuilder new.
-
-	tallyMock := MessageTallyMock new 
-		method: Boolean >> #ifTrue:;
-		tally: 70;
-		receivers: {}.
-		
-	wrappedTally := MessageTallyWrapperMock new 
-		messageTally: tallyMock;
-		totalTimeOfOverallTree: 100.
-
-	tallyObjectNoCalls := IPTReportTestCase constructMessageTallyFrom: [].
-	
-	self 
-		buildDummyClass; 
-		buildDummyObject;	
-		compileDummyMethods
+	builder := ToolBuilder new

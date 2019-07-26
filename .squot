@@ -1,5 +1,5 @@
 OrderedDictionary {
-	'packages\/InteractiveProfilingTool-Core.package' : #SquotCypressCodeSerializer,
 	'packages\/InteractiveProfilingTool-Tests.package' : #SquotCypressCodeSerializer,
+	'packages\/InteractiveProfilingTool-Core.package' : #SquotCypressCodeSerializer,
 	'packages\/BaselineOfInteractiveProfilingTool.package' : #SquotCypressCodeSerializer
 }

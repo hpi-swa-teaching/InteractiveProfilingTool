@@ -1,13 +1,15 @@
 tests
 testBrowseMethodCall
 	
-	| browser tree |
+	| messageTallyWrapper browser |
 	
-	tree := IPTReportMock new 
-		userCallsRoot: wrappedTally;
-		currentSelection: wrappedTally.
+	messageTallyWrapper := Mock new
+		expect: #getClass toReturn: Boolean;
+		expect: #getSelectorName toReturn: 'ifTrue:'.
 		
-	browser := tree browseMethodCall.
+	model currentSelection: messageTallyWrapper.
+	browser := model browseMethodCall.
+	browser dependents first delete.
 	
-	[self assert: (browser isKindOf: Browser)]
-		ensure: [browser dependents first delete]
+	self assert: #ifTrue: equals: (browser selectedMessageName).
+	self assert: #Boolean equals: (browser selectedClassName).

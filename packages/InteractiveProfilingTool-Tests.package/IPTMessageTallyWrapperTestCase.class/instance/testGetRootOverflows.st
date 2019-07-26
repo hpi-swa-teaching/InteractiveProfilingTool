@@ -1,13 +1,14 @@
 tests
 testGetRootOverflows
 
-	| expected actual |
+	| wrapper expected actual |
 	
-	actual := wrappedTallyMock getRootOverflows.
+	wrapper := IPTMessageTallyWrapper
+		with: messageTallyWithGarbageCollectionStats
+		withTotalTime: nil
+		andTotalTallyCount: nil.
+	
+	actual := wrapper getRootOverflows.
 	expected := 666.
 
 	self assert: expected equals: actual
-
-
-		
-	

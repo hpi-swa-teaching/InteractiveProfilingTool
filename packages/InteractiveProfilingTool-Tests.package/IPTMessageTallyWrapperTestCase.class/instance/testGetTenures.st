@@ -1,13 +1,14 @@
 tests
 testGetTenures
 
-	| expected actual |
+	| wrapper expected actual |
 	
-	actual := wrappedTallyMock getTenures.
+	wrapper := IPTMessageTallyWrapper
+		with: messageTallyWithGarbageCollectionStats
+		withTotalTime: nil
+		andTotalTallyCount: nil.
+	
+	actual := wrapper getTenures.
 	expected := 555.
 
 	self assert: expected equals: actual
-
-
-		
-	

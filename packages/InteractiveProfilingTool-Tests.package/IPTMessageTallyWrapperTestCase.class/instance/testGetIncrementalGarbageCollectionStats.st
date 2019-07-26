@@ -1,9 +1,15 @@
 tests
 testGetIncrementalGarbageCollectionStats
 
-	| expected actual |
+	| wrapper expected actual |
 	
-	actual := wrappedTallyMock getIncrementalGarbageCollectionStats.
+	wrapper := IPTMessageTallyWrapper
+		with: messageTallyWithGarbageCollectionStats
+		withTotalTime: 200
+		andTotalTallyCount: 200.
+	
+	actual := wrapper getIncrementalGarbageCollectionStats.
+	
 	expected := Dictionary newFrom: {
 		#count -> 333.
 		#time -> 444.

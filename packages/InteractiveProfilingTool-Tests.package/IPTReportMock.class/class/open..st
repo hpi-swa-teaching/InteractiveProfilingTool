@@ -1,4 +1,4 @@
 user interface
 open: aTree
 
-	 ToolBuilder build: aTree
+	 ^ ToolBuilder build: aTree

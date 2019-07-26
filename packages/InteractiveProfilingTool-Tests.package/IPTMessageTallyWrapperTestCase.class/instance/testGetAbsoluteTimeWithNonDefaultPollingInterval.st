@@ -1,16 +1,15 @@
 tests
 testGetAbsoluteTimeWithNonDefaultPollingInterval
 
-	| wrapper tally |
+	| messageTally wrapper |
 	
-	tally := MessageTallyMock new
-		receivers: {};
-		tally: 50;
-		yourself.
-	
-	wrapper := IPTMessageTallyWrapper
-		with: tally
-		withTotalTime: 1000
-		andTotalTallyCount: 100.
+	messageTally := Mock new
+		expect: #tally toReturn: 500;
+		expect: #receivers toReturn: {}.
 		
-	self assert: 500 equals: wrapper getAbsoluteTime
+	wrapper := IPTMessageTallyWrapper
+		with: messageTally
+		withTotalTime: 1000
+		andTotalTallyCount: 2000.
+
+	self assert: 250 equals: wrapper getAbsoluteTime
