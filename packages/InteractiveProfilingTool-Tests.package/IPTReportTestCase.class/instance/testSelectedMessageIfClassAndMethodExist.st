@@ -7,9 +7,9 @@ testSelectedMessageIfClassAndMethodExist
 		expect: #classExists toReturn: true;
 		expect: #selectorIsDoIt toReturn: false;
 		expect: #getClass toReturn: Boolean;
-		expect: #getSelector toReturn: #isBoolean.
+		expect: #getSelector toReturn: #ifTrue:.
 	
 	model currentSelection: messageTallyWrapper.
-	sourceCode := Boolean sourceMethodAt: #isBoolean.
+	sourceCode := Boolean sourceMethodAt: #ifTrue:.
 
 	self assert: sourceCode equals: model selectedMessage.

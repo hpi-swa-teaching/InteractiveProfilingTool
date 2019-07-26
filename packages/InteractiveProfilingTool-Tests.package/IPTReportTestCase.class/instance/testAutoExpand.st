@@ -4,16 +4,16 @@ testAutoExpand
 	| rootNode innerNode leafNode messageTallyWrapper window tree treeItems |
 	
 	rootNode := Mock new
-		expect: #method toReturn: (Boolean >> #isBoolean);
+		expect: #method toReturn: (Boolean >> #ifTrue:);
 		expect: #tally toReturn: 1000;
 		expect: #time toReturn: 1000.
 		
 	innerNode := Mock new
-		expect: #method toReturn: (Boolean >> #isBoolean);
+		expect: #method toReturn: (Boolean >> #ifTrue:);
 		expect: #tally toReturn: 1000.
 		
 	leafNode := Mock new
-		expect: #method toReturn: (Boolean >> #isBoolean);
+		expect: #method toReturn: (Boolean >> #ifTrue:);
 		expect: #tally toReturn: 1000.
 		
 	rootNode expect: #receivers toReturn: {innerNode}.
