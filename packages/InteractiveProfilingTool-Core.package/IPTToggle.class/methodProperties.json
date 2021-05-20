@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"onBlock:" : "ct 5/19/2021 18:58",
 		"open" : "TP 5/10/2019 01:52",
 		"registerInWorldMenu" : "LH 5/16/2019 11:47" },
 	"instance" : {
@@ -10,7 +11,9 @@
 		"isCurrentlyProfiling" : "TP 5/12/2019 14:18",
 		"isCurrentlyProfiling:" : "TP 5/12/2019 14:18",
 		"profile" : "twk 7/11/2019 12:34",
+		"profileBlock:" : "ct 5/19/2021 18:58",
 		"showReportFor:" : "twk 7/11/2019 12:35",
-		"spyOnWorld" : "twk 7/11/2019 12:41",
+		"spyOnBlock:" : "ct 5/19/2021 18:59",
+		"spyOnWorld" : "ct 5/19/2021 18:59",
 		"stopProfiling" : "TP 5/12/2019 14:19",
 		"toggleProfiling" : "twk 5/12/2019 14:36" } }
